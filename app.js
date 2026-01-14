@@ -98,14 +98,16 @@ window.addEventListener('touchstart', e => {
 }, { passive: false });
 
 window.addEventListener('touchmove', e => {
-    const currentY = e.touches[0].pageY;
-    const diff = startY - currentY;
-
-    // 카드가 맨 위에 있을 때 아래로 당기는 동작(diff < 0)이 감지되면 
-    // 브라우저 새로고침만 딱 막고, 스와이프 계산은 계속 진행합니다.
-    if (diff < 0 && window.scrollY <= 0) {
-        if (e.cancelable) e.preventDefault();
+    // 현재 터치된 요소가 카드 뒷면 내부의 내용인지 확인
+    const isScrollableBack = e.target.closest('.back');
+    
+    // 카드 뒷면 내부에서 스크롤 중일 때는 브라우저 차단을 하지 않음 (스크롤 허용)
+    if (isScrollableBack) {
+        return; 
     }
+    
+    // 그 외의 경우(앞면, 배경 등)는 새로고침/전체스크롤 방지
+    if (e.cancelable) e.preventDefault();
 }, { passive: false });
 
 window.addEventListener('touchend', e => {
