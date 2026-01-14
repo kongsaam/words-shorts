@@ -7557,6 +7557,1086 @@
       "paraphrasing": ["artistic", "visual", "beautiful"],
       "collocations": ["aesthetic value", "aesthetic appeal"],
       "tip": "실용적인 면보다는 디자인이나 아름다움의 관점에서 볼 때 씁니다."
+    },
+    {
+      "id": 841,
+      "word": "affiliate",
+      "part": "noun / verb",
+      "meaning": "계열사, 지부 / 제휴하다",
+      "paraphrasing": ["branch", "partner", "associate"],
+      "collocations": ["affiliate marketing", "local affiliate"],
+      "tip": "본사에 속한 지사나, 공식적으로 협력 관계를 맺은 업체를 뜻합니다."
+    },
+    {
+      "id": 842,
+      "word": "affordable",
+      "part": "adjective",
+      "meaning": "가격이 적당한, 감당할 수 있는",
+      "paraphrasing": ["inexpensive", "reasonable", "low-cost"],
+      "collocations": ["affordable housing", "affordable price"],
+      "tip": "품질 대비 가격이 좋아서 일반 사람들이 큰 부담 없이 살 수 있는 수준을 말합니다."
+    },
+    {
+      "id": 843,
+      "word": "aggregate",
+      "part": "noun / adjective",
+      "meaning": "합계, 총액 / 종합한",
+      "paraphrasing": ["total", "sum", "combined"],
+      "collocations": ["aggregate demand", "in the aggregate"],
+      "tip": "개별적인 것들을 모두 끌어모아 하나로 합친 전체 수치를 의미합니다."
+    },
+    {
+      "id": 844,
+      "word": "agile",
+      "part": "adjective",
+      "meaning": "민첩한, 영리한",
+      "paraphrasing": ["nimble", "quick", "flexible"],
+      "collocations": ["agile management", "agile development"],
+      "tip": "몸의 움직임뿐만 아니라, 변화하는 시장 환경에 빠르게 대처하는 기업의 방식을 묘사할 때 자주 씁니다."
+    },
+    {
+      "id": 845,
+      "word": "agitate",
+      "part": "verb",
+      "meaning": "선동하다, 흔들다; 불안하게 만들다",
+      "paraphrasing": ["disturb", "unsettle", "stir up"],
+      "collocations": ["agitate for change", "easily agitated"],
+      "tip": "사람들의 마음을 들쑤셔 시위를 부추기거나, 액체를 세게 흔드는 것을 뜻합니다."
+    },
+    {
+      "id": 846,
+      "word": "alleviate",
+      "part": "verb",
+      "meaning": "(고통 등을) 완화하다, 덜어주다",
+      "paraphrasing": ["relieve", "ease", "mitigate"],
+      "collocations": ["alleviate poverty", "alleviate traffic congestion"],
+      "tip": "나쁜 상황이나 신체적 통증을 조금 더 가볍게 만들어줄 때 씁니다."
+    },
+    {
+      "id": 847,
+      "word": "allocate",
+      "part": "verb",
+      "meaning": "할당하다, 배분하다",
+      "paraphrasing": ["assign", "distribute", "allot"],
+      "collocations": ["allocate resources", "allocate funds"],
+      "tip": "한정된 자원이나 예산을 필요한 곳에 나누어 주는 계획적인 행위입니다."
+    },
+    {
+      "id": 848,
+      "word": "alteration",
+      "part": "noun",
+      "meaning": "변경, 수정",
+      "paraphrasing": ["change", "modification", "adjustment"],
+      "collocations": ["make alterations", "minor alteration"],
+      "tip": "기존의 것을 완전히 바꾸는 것이 아니라, 부분적으로 고치는 것을 말합니다."
+    },
+    {
+      "id": 849,
+      "word": "alternative",
+      "part": "noun / adjective",
+      "meaning": "대안 / 대체의",
+      "paraphrasing": ["substitute", "option", "other"],
+      "collocations": ["alternative energy", "no other alternative"],
+      "tip": "원래 쓰던 것 대신 선택할 수 있는 다른 길이나 방법을 의미합니다."
+    },
+    {
+      "id": 850,
+      "word": "ambiguous",
+      "part": "adjective",
+      "meaning": "모호한, 다의적인",
+      "paraphrasing": ["vague", "unclear", "equivocal"],
+      "collocations": ["ambiguous reply", "ambiguous meaning"],
+      "tip": "해석이 여러 가지로 가능해서 딱 잘라 말하기 어려운 불분명한 상태입니다."
+    },
+    {
+      "id": 851,
+      "word": "amend",
+      "part": "verb",
+      "meaning": "(법률 등을) 개정하다, 고치다",
+      "paraphrasing": ["revise", "modify", "reform"],
+      "collocations": ["amend a contract", "amend the law"],
+      "tip": "공식적인 문서나 법규의 잘못된 점을 바로잡거나 내용을 추가할 때 씁니다."
+    },
+    {
+      "id": 852,
+      "word": "amenity",
+      "part": "noun",
+      "meaning": "생활 편의 시설",
+      "paraphrasing": ["facility", "service", "convenience"],
+      "collocations": ["basic amenities", "hotel amenities"],
+      "tip": "호텔의 일회용품이나 아파트 단지 내 헬스장처럼 생활을 즐겁고 편하게 해주는 시설입니다."
+    },
+    {
+      "id": 853,
+      "word": "ample",
+      "part": "adjective",
+      "meaning": "충분한, 풍부한",
+      "paraphrasing": ["sufficient", "plentiful", "abundant"],
+      "collocations": ["ample evidence", "ample opportunity"],
+      "tip": "모자람 없이 아주 넉넉해서 마음이 놓이는 정도를 뜻합니다."
+    },
+    {
+      "id": 854,
+      "word": "analogy",
+      "part": "noun",
+      "meaning": "비유, 유사점",
+      "paraphrasing": ["comparison", "parallel", "similarity"],
+      "collocations": ["draw an analogy", "by analogy"],
+      "tip": "복잡한 개념을 설명하기 위해 비슷한 상황을 예로 들어 비교하는 것입니다."
+    },
+    {
+      "id": 855,
+      "word": "anonymous",
+      "part": "adjective",
+      "meaning": "익명의",
+      "paraphrasing": ["unnamed", "unidentified", "unknown"],
+      "collocations": ["anonymous donor", "anonymous tip"],
+      "tip": "이름을 밝히지 않거나 누가 했는지 알 수 없는 상태를 말합니다."
+    },
+    {
+      "id": 856,
+      "word": "anticipate",
+      "part": "verb",
+      "meaning": "예상하다, 기대하다",
+      "paraphrasing": ["expect", "predict", "foresee"],
+      "collocations": ["anticipate problems", "eagerly anticipated"],
+      "tip": "앞으로 일어날 일을 미리 짐작하고 준비하거나 기다리는 것입니다."
+    },
+    {
+      "id": 857,
+      "word": "apparent",
+      "part": "adjective",
+      "meaning": "명백한; 외관상의",
+      "paraphrasing": ["obvious", "evident; seeming"],
+      "collocations": ["apparent reason", "for no apparent reason"],
+      "tip": "누가 봐도 분명한 사실을 뜻하거나, 속은 어떨지 몰라도 겉보기에 그러할 때 씁니다."
+    },
+    {
+      "id": 858,
+      "word": "appendix",
+      "part": "noun",
+      "meaning": "부록; 맹장",
+      "paraphrasing": ["supplement", "addendum"],
+      "collocations": ["see appendix A", "appendix surgery"],
+      "tip": "책의 맨 뒤에 추가로 붙은 참고 자료를 의미합니다."
+    },
+    {
+      "id": 859,
+      "word": "applaud",
+      "part": "verb",
+      "meaning": "박수를 보내다, 칭찬하다",
+      "paraphrasing": ["clap", "praise", "commend"],
+      "collocations": ["applaud the decision", "loudly applaud"],
+      "tip": "손뼉을 치는 것뿐만 아니라, 어떤 결정이나 행동을 높게 평가할 때도 씁니다."
+    },
+    {
+      "id": 860,
+      "word": "applicable",
+      "part": "adjective",
+      "meaning": "적용 가능한, 해당되는",
+      "paraphrasing": ["relevant", "appropriate", "suitable"],
+      "collocations": ["where applicable", "applicable laws"],
+      "tip": "특정 상황이나 사람에게 실제로 쓰일 수 있거나 관계가 있는 상태입니다."
+    },
+    {
+      "id": 861,
+      "word": "appraisal",
+      "part": "noun",
+      "meaning": "평가, 감정",
+      "paraphrasing": ["assessment", "evaluation", "valuation"],
+      "collocations": ["performance appraisal", "property appraisal"],
+      "tip": "직원의 업무 성과를 평가하거나 부동산의 가치를 매길 때 사용하는 단어입니다."
+    },
+    {
+      "id": 862,
+      "word": "appreciate",
+      "part": "verb",
+      "meaning": "고마워하다; 가치를 인정하다; ( 가치가) 오르다",
+      "paraphrasing": ["be grateful; value", "prize; increase"],
+      "collocations": ["greatly appreciate", "currency appreciates"],
+      "tip": "감사하다는 뜻 외에 예술품의 가치를 알아보거나, 자산 가치가 상승할 때도 씁니다."
+    },
+    {
+      "id": 863,
+      "word": "apprehensive",
+      "part": "adjective",
+      "meaning": "걱정되는, 불안한",
+      "paraphrasing": ["anxious", "fearful", "concerned"],
+      "collocations": ["apprehensive about the future", "feel apprehensive"],
+      "tip": "앞으로 일어날 일에 대해 조마조마하고 확신이 없는 상태를 묘사합니다."
+    },
+    {
+      "id": 864,
+      "word": "apprentice",
+      "part": "noun",
+      "meaning": "견습생, 도제",
+      "paraphrasing": ["trainee", "intern", "learner"],
+      "collocations": ["apprentice chef", "serve an apprenticeship"],
+      "tip": "기술을 배우기 위해 전문가 밑에서 일하는 초보자를 말합니다."
+    },
+    {
+      "id": 865,
+      "word": "approach",
+      "part": "noun / verb",
+      "meaning": "접근 방식 / 다가가다",
+      "paraphrasing": ["method", "strategy; near", "come close"],
+      "collocations": ["new approach", "approach a deadline"],
+      "tip": "물리적으로 가까워지는 것과 문제를 해결하는 '방법론'을 모두 뜻합니다."
+    },
+    {
+      "id": 866,
+      "word": "appropriate",
+      "part": "adjective",
+      "meaning": "적절한, 알맞은",
+      "paraphrasing": ["suitable", "proper", "fitting"],
+      "collocations": ["appropriate behavior", "at the appropriate time"],
+      "tip": "상황이나 목적에 딱 들어맞는 예의 바르고 올바른 상태를 의미합니다."
+    },
+    {
+      "id": 867,
+      "word": "approximate",
+      "part": "adjective / verb",
+      "meaning": "대략적인 / 가깝다, 비슷하다",
+      "paraphrasing": ["rough", "estimated; resemble"],
+      "collocations": ["approximate cost", "approximate number"],
+      "tip": "정확하지는 않지만 실제 수치에 아주 가까운 값을 말할 때 씁니다."
+    },
+    {
+      "id": 868,
+      "word": "aptitude",
+      "part": "noun",
+      "meaning": "소질, 적성",
+      "paraphrasing": ["talent", "gift", "ability"],
+      "collocations": ["aptitude test", "natural aptitude"],
+      "tip": "특정한 일을 남들보다 더 잘할 수 있는 타고난 능력을 뜻합니다."
+    },
+    {
+      "id": 869,
+      "word": "arbitrary",
+      "part": "adjective",
+      "meaning": "임의적인, 제멋대로인",
+      "paraphrasing": ["random", "chance", "capricious"],
+      "collocations": ["arbitrary decision", "arbitrary rule"],
+      "tip": "합리적인 근거 없이 개인의 기분이나 우연에 따라 정해진 상태를 말합니다."
+    },
+    {
+      "id": 870,
+      "word": "architect",
+      "part": "noun",
+      "meaning": "건축가; 설계자",
+      "paraphrasing": ["designer", "planner", "creator"],
+      "collocations": ["landscape architect", "chief architect"],
+      "tip": "건물을 짓는 사람뿐 아니라 시스템이나 큰 계획을 설계한 사람도 뜻합니다."
+    },
+    {
+      "id": 871,
+      "word": "arduous",
+      "part": "adjective",
+      "meaning": "몹시 힘든, 고된",
+      "paraphrasing": ["difficult", "laborious", "strenuous"],
+      "collocations": ["arduous journey", "arduous task"],
+      "tip": "많은 노력과 에너지가 필요해서 아주 지치게 만드는 일을 묘사합니다."
+    },
+    {
+      "id": 872,
+      "word": "arid",
+      "part": "adjective",
+      "meaning": "매우 건조한; 무미건조한",
+      "paraphrasing": ["dry", "parched; dull"],
+      "collocations": ["arid climate", "arid region"],
+      "tip": "비가 오지 않아 땅이 메마른 상태나, 내용이 너무 재미없는 경우에 씁니다."
+    },
+    {
+      "id": 873,
+      "word": "arise",
+      "part": "verb",
+      "meaning": "발생하다, 생기다",
+      "paraphrasing": ["occur", "happen", "emerge"],
+      "collocations": ["problems arise", "if the need arises"],
+      "tip": "예상치 못한 상황이나 질문 등이 갑자기 나타날 때 주로 쓰는 자동사입니다."
+    },
+    {
+      "id": 874,
+      "word": "aroma",
+      "part": "noun",
+      "meaning": "향기, 풍미",
+      "paraphrasing": ["scent", "fragrance", "smell"],
+      "collocations": ["coffee aroma", "pleasant aroma"],
+      "tip": "음식이나 꽃 등에서 나는 기분 좋고 은은한 냄새를 뜻합니다."
+    },
+    {
+      "id": 875,
+      "word": "arouse",
+      "part": "verb",
+      "meaning": "자극하다, 유발하다",
+      "paraphrasing": ["stimulate", "provoke", "awaken"],
+      "collocations": ["arouse suspicion", "arouse interest"],
+      "tip": "잠들어 있던 감정이나 의심, 관심 등을 일깨워 불러일으키는 행위입니다."
+    },
+    {
+      "id": 876,
+      "word": "array",
+      "part": "noun",
+      "meaning": "집합체, 모음; 배열",
+      "paraphrasing": ["range", "selection", "collection"],
+      "collocations": ["wide array of", "vast array"],
+      "tip": "여러 가지 다양한 것들이 보기 좋게 진열되어 있거나 모여 있는 상태입니다."
+    },
+    {
+      "id": 877,
+      "word": "articulate",
+      "part": "adjective / verb",
+      "meaning": "말을 잘하는 / 분명히 표현하다",
+      "paraphrasing": ["eloquent", "fluent; express", "state"],
+      "collocations": ["articulate speaker", "articulate a vision"],
+      "tip": "생각을 조리 있고 명확하게 전달하는 능력에 대해 말할 때 씁니다."
+    },
+    {
+      "id": 878,
+      "word": "artifact",
+      "part": "noun",
+      "meaning": "인공물, 유물",
+      "paraphrasing": ["relic", "antique", "object"],
+      "collocations": ["ancient artifacts", "historical artifact"],
+      "tip": "과거 사람들이 손으로 만들어 남긴 역사적 가치가 있는 물건입니다."
+    },
+    {
+      "id": 879,
+      "word": "aspiration",
+      "part": "noun",
+      "meaning": "포부, 열망",
+      "paraphrasing": ["ambition", "desire", "goal"],
+      "collocations": ["career aspirations", "lofty aspirations"],
+      "tip": "미래에 큰 성공을 거두고 싶어 하는 높은 수준의 바람을 뜻합니다."
+    },
+    {
+      "id": 880,
+      "word": "assault",
+      "part": "noun / verb",
+      "meaning": "폭행, 공격 / 공격하다",
+      "paraphrasing": ["attack", "onslaught", "strike"],
+      "collocations": ["physical assault", "verbal assault"],
+      "tip": "신체적인 가해뿐 아니라 말로 하는 공격(언어폭력)에도 사용됩니다."
+    },
+    {
+      "id": 881,
+      "word": "assemble",
+      "part": "verb",
+      "meaning": "조립하다; 모이다",
+      "paraphrasing": ["construct", "put together; gather"],
+      "collocations": ["assemble a team", "easy to assemble"],
+      "tip": "부품을 맞춰서 물건을 만드는 것과, 특정한 목적을 위해 사람들이 모이는 것 모두에 씁니다."
+    },
+    {
+      "id": 882,
+      "word": "assert",
+      "part": "verb",
+      "meaning": "주장하다, 단언하다",
+      "paraphrasing": ["claim", "declare", "maintain"],
+      "collocations": ["assert authority", "assert one's rights"],
+      "tip": "사실이라고 강하게 믿는 바를 자신 있게 내세울 때 사용하는 동사입니다."
+    },
+    {
+      "id": 883,
+      "word": "assess",
+      "part": "verb",
+      "meaning": "평가하다, 산정하다",
+      "paraphrasing": ["evaluate", "judge", "estimate"],
+      "collocations": ["assess the damage", "assess the situation"],
+      "tip": "상황의 가치, 양, 성격 등을 신중하게 따져보고 판단을 내리는 것입니다."
+    },
+    {
+      "id": 884,
+      "word": "asset",
+      "part": "noun",
+      "meaning": "자산, 재산; 유용한 자원",
+      "paraphrasing": ["property", "capital", "advantage"],
+      "collocations": ["valuable asset", "frozen assets"],
+      "tip": "현금이나 부동산 같은 경제적 가치 외에도, 팀에 도움이 되는 '인재'를 뜻하기도 합니다."
+    },
+    {
+      "id": 885,
+      "word": "assign",
+      "part": "verb",
+      "meaning": "배정하다, 할당하다",
+      "paraphrasing": ["allocate", "appoint", "allot"],
+      "collocations": ["assign a task", "assign a seat"],
+      "tip": "특정한 임무를 맡기거나 자리를 정해주는 행위입니다."
+    },
+    {
+      "id": 886,
+      "word": "assimilate",
+      "part": "verb",
+      "meaning": "흡수하다, 동화되다",
+      "paraphrasing": ["absorb", "incorporate", "adapt"],
+      "collocations": ["assimilate information", "assimilate into culture"],
+      "tip": "지식을 완전히 내 것으로 만들거나, 새로운 사회의 일원으로 녹아드는 것을 의미합니다."
+    },
+    {
+      "id": 887,
+      "word": "assistance",
+      "part": "noun",
+      "meaning": "도움, 원조",
+      "paraphrasing": ["help", "aid", "support"],
+      "collocations": ["financial assistance", "technical assistance"],
+      "tip": "누군가 일을 더 수월하게 할 수 있도록 돕는 구체적인 지원을 뜻합니다."
+    },
+    {
+      "id": 888,
+      "word": "associate",
+      "part": "verb / noun",
+      "meaning": "연상하다, 관련시키다 / 동료",
+      "paraphrasing": ["connect", "link; colleague", "partner"],
+      "collocations": ["associate A with B", "business associate"],
+      "tip": "머릿속으로 두 사물을 연결해 생각하는 것과, 함께 일하는 사람을 뜻합니다."
+    },
+    {
+      "id": 889,
+      "word": "assorted",
+      "part": "adjective",
+      "meaning": "여러 가지의, 구색을 갖춘",
+      "paraphrasing": ["varied", "miscellaneous", "mixed"],
+      "collocations": ["assorted cookies", "assorted colors"],
+      "tip": "종류별로 골고루 섞여 있어 선택의 폭이 넓은 상태를 묘사합니다."
+    },
+    {
+      "id": 890,
+      "word": "assumption",
+      "part": "noun",
+      "meaning": "가정, 추정; (권력 등의) 인수",
+      "paraphrasing": ["supposition", "presumption; takeover"],
+      "collocations": ["make an assumption", "on the assumption that"],
+      "tip": "확실하지는 않지만 그럴 것이라고 믿는 생각이나, 책임을 떠맡는 것을 뜻합니다."
+    },
+    {
+      "id": 891,
+      "word": "assurance",
+      "part": "noun",
+      "meaning": "보장, 확신; 자신감",
+      "paraphrasing": ["guarantee", "certainty", "confidence"],
+      "collocations": ["quality assurance", "give an assurance"],
+      "tip": "상대방을 안심시키기 위해 주는 약속이나 스스로에 대한 믿음을 말합니다."
+    },
+    {
+      "id": 892,
+      "word": "astonishing",
+      "part": "adjective",
+      "meaning": "놀라운, 믿기 힘든",
+      "paraphrasing": ["amazing", "surprising", "stunning"],
+      "collocations": ["astonishing result", "astonishing speed"],
+      "tip": "너무 대단해서 입이 벌어질 정도로 경이로운 상황에 씁니다."
+    },
+    {
+      "id": 893,
+      "word": "astute",
+      "part": "adjective",
+      "meaning": "약삭빠른, 영리한",
+      "paraphrasing": ["shrewd", "clever", "sharp"],
+      "collocations": ["astute businessman", "astute observation"],
+      "tip": "상황 판단이 매우 빠르고 본인의 이득을 잘 챙기는 영리함을 뜻합니다."
+    },
+    {
+      "id": 894,
+      "word": "attachment",
+      "part": "noun",
+      "meaning": "첨부 파일; 애착",
+      "paraphrasing": ["addition", "appendix; affection"],
+      "collocations": ["email attachment", "emotional attachment"],
+      "tip": "이메일에 덧붙이는 문서뿐 아니라, 사람이나 물건에 느끼는 깊은 유대감을 말합니다."
+    },
+    {
+      "id": 895,
+      "word": "attainment",
+      "part": "noun",
+      "meaning": "달성, 성취; 학식",
+      "paraphrasing": ["achievement", "accomplishment", "fulfillment"],
+      "collocations": ["goal attainment", "educational attainment"],
+      "tip": "노력 끝에 목표한 지점에 도달하거나 무언가를 얻어낸 결과를 뜻합니다."
+    },
+    {
+      "id": 896,
+      "word": "attendance",
+      "part": "noun",
+      "meaning": "출석, 참석(자 수)",
+      "paraphrasing": ["presence", "appearance"],
+      "collocations": ["attendance record", "poor attendance"],
+      "tip": "행사에 참석하는 행위 자체나, 실제 온 사람들의 숫자를 가리킵니다."
+    },
+    {
+      "id": 897,
+      "word": "attentive",
+      "part": "adjective",
+      "meaning": "주의 깊은, 세심한",
+      "paraphrasing": ["observant", "heedful", "considerate"],
+      "collocations": ["attentive listener", "attentive service"],
+      "tip": "상대방의 말에 귀를 기울이거나 배려심 있게 챙겨주는 태도를 말합니다."
+    },
+    {
+      "id": 898,
+      "word": "attest",
+      "part": "verb",
+      "meaning": "증명하다, 입증하다",
+      "paraphrasing": ["testify", "verify", "confirm"],
+      "collocations": ["attest to the truth", "witnesses attest"],
+      "tip": "어떤 사실이 진짜임을 증언하거나 증거를 통해 보여주는 공식적인 행위입니다."
+    },
+    {
+      "id": 899,
+      "word": "attribute",
+      "part": "verb / noun",
+      "meaning": "~의 덕분으로 돌리다 / 속성, 특성",
+      "paraphrasing": ["ascribe; quality", "characteristic"],
+      "collocations": ["attribute success to luck", "positive attribute"],
+      "tip": "결과의 원인을 어디에 두는지를 말할 때(A를 B의 덕으로 돌리다) 자주 쓰입니다."
+    },
+    {
+      "id": 900,
+      "word": "auction",
+      "part": "noun / verb",
+      "meaning": "경매 / 경매로 팔다",
+      "paraphrasing": ["public sale", "competitive bidding"],
+      "collocations": ["online auction", "put up for auction"],
+      "tip": "가장 높은 가격을 부르는 사람에게 물건을 파는 방식입니다."
+    },
+    {
+      "id": 901,
+      "word": "audit",
+      "part": "noun / verb",
+      "meaning": "회계 감사, 정밀 조사 / 감사하다",
+      "paraphrasing": ["inspection", "examination", "review"],
+      "collocations": ["financial audit", "internal audit"],
+      "tip": "회계 장부나 업무 절차가 규정에 맞는지 아주 꼼꼼하게 검사하는 행위입니다."
+    },
+    {
+      "id": 902,
+      "word": "authentic",
+      "part": "adjective",
+      "meaning": "진본인, 진짜의; 믿을만한",
+      "paraphrasing": ["genuine", "real", "original"],
+      "collocations": ["authentic signature", "authentic cuisine"],
+      "tip": "가짜나 복제품이 아닌 진짜를 뜻하며, 요리가 현지의 맛 그대로일 때도 씁니다."
+    },
+    {
+      "id": 903,
+      "word": "authorize",
+      "part": "verb",
+      "meaning": "권한을 부여하다, 승인하다",
+      "paraphrasing": ["approve", "permit", "sanction"],
+      "collocations": ["authorized dealer", "unauthorized access"],
+      "tip": "공식적으로 허가하는 것을 뜻하며, 'unauthorized(무단)'는 보안 관련 지문에 자주 나옵니다."
+    },
+    {
+      "id": 904,
+      "word": "automate",
+      "part": "verb",
+      "meaning": "자동화하다",
+      "paraphrasing": ["computerize", "mechanize"],
+      "collocations": ["fully automated", "automated system"],
+      "tip": "사람이 하던 일을 기계나 컴퓨터가 스스로 하게끔 만드는 과정입니다."
+    },
+    {
+      "id": 905,
+      "word": "auxiliary",
+      "part": "adjective / noun",
+      "meaning": "보조의, 예비의 / 보조원",
+      "paraphrasing": ["supplementary", "spare", "backup"],
+      "collocations": ["auxiliary power", "auxiliary staff"],
+      "tip": "주된 기능이 멈췄을 때 사용하는 비상용 발전기나 보조 인력을 의미합니다."
+    },
+    {
+      "id": 906,
+      "word": "availability",
+      "part": "noun",
+      "meaning": "이용 가능성; 유효성",
+      "paraphrasing": ["accessibility", "readiness"],
+      "collocations": ["limited availability", "check availability"],
+      "tip": "물건이 재고가 있는지, 혹은 사람이 시간이 되는지 확인할 때 가장 많이 씁니다."
+    },
+    {
+      "id": 907,
+      "word": "average",
+      "part": "noun / adjective",
+      "meaning": "평균 / 평균의; 보통의",
+      "paraphrasing": ["mean", "midpoint; ordinary"],
+      "collocations": ["above average", "on average"],
+      "tip": "수치상의 평균뿐만 아니라 '그저 평범한 수준'을 뜻할 때도 사용합니다."
+    },
+    {
+      "id": 908,
+      "word": "avoid",
+      "part": "verb",
+      "meaning": "피하다, 방지하다",
+      "paraphrasing": ["shun", "evade", "prevent"],
+      "collocations": ["avoid delays", "avoid conflict"],
+      "tip": "나쁜 상황이 생기지 않게 미리 조심하거나 멀리하는 행위입니다."
+    },
+    {
+      "id": 909,
+      "word": "award",
+      "part": "noun / verb",
+      "meaning": "상, 수여 / (상 등을) 주다",
+      "paraphrasing": ["prize", "honor; grant"],
+      "collocations": ["award ceremony", "award a contract"],
+      "tip": "상장 외에도 정부가 기업에 '계약권을 부여하다'라고 할 때도 자주 쓰입니다."
+    },
+    {
+      "id": 910,
+      "word": "aware",
+      "part": "adjective",
+      "meaning": "알고 있는, 의식하는",
+      "paraphrasing": ["conscious", "informed", "mindful"],
+      "collocations": ["be aware of", "environmentally aware"],
+      "tip": "어떤 사실이나 상황을 인지하고 있는 상태를 말합니다."
+    },
+    {
+      "id": 911,
+      "word": "awkward",
+      "part": "adjective",
+      "meaning": "어색한, 서투른; 다루기 힘든",
+      "paraphrasing": ["clumsy", "clunky; uncomfortable"],
+      "collocations": ["awkward silence", "awkward position"],
+      "tip": "분위기가 썰렁하거나, 물건의 모양이 이상해서 들고 있기 불편할 때 씁니다."
+    },
+    {
+      "id": 912,
+      "word": "backlog",
+      "part": "noun",
+      "meaning": "밀린 일, 주문 잔고",
+      "paraphrasing": ["accumulation", "reserve", "stack"],
+      "collocations": ["work backlog", "backlog of orders"],
+      "tip": "제때 처리하지 못해 쌓여 있는 업무나 주문량을 뜻하는 실무 용어입니다."
+    },
+    {
+      "id": 913,
+      "word": "badly",
+      "part": "adverb",
+      "meaning": "몹시, 심하게; 나쁘게",
+      "paraphrasing": ["severely", "terribly", "poorly"],
+      "collocations": ["badly needed", "be badly damaged"],
+      "tip": "나쁜 뜻도 있지만 '간절히(badly needed)'라는 강조의 의미로도 많이 쓰입니다."
+    },
+    {
+      "id": 914,
+      "word": "baffle",
+      "part": "verb",
+      "meaning": "당황하게 만들다, 도저히 이해할 수 없게 하다",
+      "paraphrasing": ["puzzle", "perplex", "bewilder"],
+      "collocations": ["completely baffled", "baffling mystery"],
+      "tip": "머리를 아무리 써도 원인을 알 수 없어 멍해지는 상태를 뜻합니다."
+    },
+    {
+      "id": 915,
+      "word": "balance",
+      "part": "noun / verb",
+      "meaning": "잔고; 균형 / 균형을 잡다",
+      "paraphrasing": ["remainder; equilibrium"],
+      "collocations": ["bank balance", "work-life balance"],
+      "tip": "토익에서는 은행 계좌에 남은 돈(잔액)을 뜻하는 용어로 매우 중요합니다."
+    },
+    {
+      "id": 916,
+      "word": "ban",
+      "part": "verb / noun",
+      "meaning": "금지하다 / 금지(령)",
+      "paraphrasing": ["prohibit", "forbid", "outlaw"],
+      "collocations": ["smoking ban", "lift a ban"],
+      "tip": "법이나 규칙으로 어떤 행위를 못 하게 공식적으로 막는 것입니다."
+    },
+    {
+      "id": 917,
+      "word": "bankruptcy",
+      "part": "noun",
+      "meaning": "파산, 도산",
+      "paraphrasing": ["insolvency", "failure"],
+      "collocations": ["file for bankruptcy", "on the verge of bankruptcy"],
+      "tip": "빚을 갚을 능력이 없어 법원에 파산 신청(file for)을 하는 상황입니다."
+    },
+    {
+      "id": 918,
+      "word": "bargain",
+      "part": "noun / verb",
+      "meaning": "싸게 사는 물건; 협상 / 협상하다",
+      "paraphrasing": ["deal", "good buy; negotiate"],
+      "collocations": ["bargain price", "bargain hunter"],
+      "tip": "값싸게 잘 산 물건을 뜻하거나, 유리한 조건을 위해 흥정하는 것을 말합니다."
+    },
+    {
+      "id": 919,
+      "word": "barrier",
+      "part": "noun",
+      "meaning": "장벽, 장애물",
+      "paraphrasing": ["obstacle", "hurdle", "blockade"],
+      "collocations": ["language barrier", "trade barriers"],
+      "tip": "통행을 막는 물리적 벽뿐 아니라 소통을 방해하는 요소도 뜻합니다."
+    },
+    {
+      "id": 920,
+      "word": "basically",
+      "part": "adverb",
+      "meaning": "기본적으로, 근본적으로",
+      "paraphrasing": ["essentially", "fundamentally"],
+      "collocations": ["basically the same", "basically speaking"],
+      "tip": "복잡한 내용을 다 걷어내고 핵심만 말할 때 문장 앞에 자주 씁니다."
+    },
+    {
+      "id": 921,
+      "word": "behalf",
+      "part": "noun",
+      "meaning": "측면, 이익; 지지",
+      "paraphrasing": ["interest", "benefit", "support"],
+      "collocations": ["on behalf of", "act on someone's behalf"],
+      "tip": "주로 'on behalf of(~을 대신하여)' 구문으로 누군가의 입장을 대변할 때 씁니다."
+    },
+    {
+      "id": 922,
+      "word": "benchmark",
+      "part": "noun / verb",
+      "meaning": "기준점, 표준 / 기준을 설정하다",
+      "paraphrasing": ["standard", "criterion", "reference"],
+      "collocations": ["set a benchmark", "benchmark test"],
+      "tip": "성능이나 품질을 비교할 때 척도가 되는 가장 기본적이고 우수한 기준을 말합니다."
+    },
+    {
+      "id": 923,
+      "word": "beneficiary",
+      "part": "noun",
+      "meaning": "수혜자, 수령인",
+      "paraphrasing": ["recipient", "heir", "payee"],
+      "collocations": ["primary beneficiary", "insurance beneficiary"],
+      "tip": "보험금이나 정부 보조금, 유산 등을 받는 사람을 지칭하는 법적/공식적 단어입니다."
+    },
+    {
+      "id": 924,
+      "word": "betray",
+      "part": "verb",
+      "meaning": "배신하다; (비밀 등을) 누설하다",
+      "paraphrasing": ["deceive", "double-cross; reveal"],
+      "collocations": ["betray trust", "betray a secret"],
+      "tip": "믿음을 저버리는 것뿐 아니라, 숨기려던 감정이나 비밀이 무심코 드러날 때도 씁니다."
+    },
+    {
+      "id": 925,
+      "word": "beware",
+      "part": "verb",
+      "meaning": "조심하다, 주의하다",
+      "paraphrasing": ["be careful", "watch out", "be cautious"],
+      "collocations": ["beware of the dog", "beware of pickpockets"],
+      "tip": "위험한 대상에 대해 경고할 때 문장 맨 앞에 명령문 형태로 자주 등장합니다."
+    },
+    {
+      "id": 926,
+      "word": "bias",
+      "part": "noun / verb",
+      "meaning": "편견, 성향 / 편견을 갖게 하다",
+      "paraphrasing": ["prejudice", "partiality", "leaning"],
+      "collocations": ["unbiased opinion", "cultural bias"],
+      "tip": "공정하지 못하고 한쪽으로 치우친 생각이나 태도를 의미합니다."
+    },
+    {
+      "id": 927,
+      "word": "bid",
+      "part": "noun / verb",
+      "meaning": "입찰, 가격 제시 / 입찰하다",
+      "paraphrasing": ["tender", "offer", "proposal"],
+      "collocations": ["winning bid", "submit a bid"],
+      "tip": "경매나 공사 계약에서 자신이 내고자 하는 가격을 공식적으로 제안하는 것입니다."
+    },
+    {
+      "id": 928,
+      "word": "bilateral",
+      "part": "adjective",
+      "meaning": "쌍방의, 양국 간의",
+      "paraphrasing": ["two-sided", "mutual", "joint"],
+      "collocations": ["bilateral agreement", "bilateral trade"],
+      "tip": "여러 국가가 아닌, 딱 두 당사자 사이의 관계나 합의를 뜻합니다."
+    },
+    {
+      "id": 929,
+      "word": "biography",
+      "part": "noun",
+      "meaning": "전기, 일대기",
+      "paraphrasing": ["life story", "memoirs", "account"],
+      "collocations": ["authorized biography", "brief biography"],
+      "tip": "특정 인물의 삶을 기록한 글입니다. 본인이 직접 쓰면 'autobiography'라고 합니다."
+    },
+    {
+      "id": 930,
+      "word": "blockage",
+      "part": "noun",
+      "meaning": "폐쇄, 막힘",
+      "paraphrasing": ["obstruction", "clog", "stoppage"],
+      "collocations": ["drainage blockage", "road blockage"],
+      "tip": "파이프나 통로 등이 무언가에 걸려 흐름이 끊긴 상태를 말합니다."
+    },
+    {
+      "id": 931,
+      "word": "blueprint",
+      "part": "noun",
+      "meaning": "설계도, 청사진",
+      "paraphrasing": ["plan", "design", "layout"],
+      "collocations": ["architectural blueprint", "blueprint for success"],
+      "tip": "건축 도면뿐 아니라 미래를 위한 구체적이고 정밀한 계획을 비유할 때 씁니다."
+    },
+    {
+      "id": 932,
+      "word": "blunder",
+      "part": "noun / verb",
+      "meaning": "큰 실수 / 실수하다",
+      "paraphrasing": ["error", "mistake", "slip-up"],
+      "collocations": ["fatal blunder", "make a blunder"],
+      "tip": "부주의나 판단 착오로 인해 저지른 어처구니없고 뼈아픈 실수를 뜻합니다."
+    },
+    {
+      "id": 933,
+      "word": "boast",
+      "part": "verb",
+      "meaning": "자랑하다; (자랑거리를) 가지고 있다",
+      "paraphrasing": ["brag", "show off; possess"],
+      "collocations": ["boast about success", "boasts a view"],
+      "tip": "사람이 잘난 체하는 것 외에, 건물이 '멋진 전망을 갖추고 있다'라고 할 때도 자주 씁니다."
+    },
+    {
+      "id": 934,
+      "word": "bold",
+      "part": "adjective",
+      "meaning": "용감한, 대담한; 선이 굵은",
+      "paraphrasing": ["brave", "daring; thick"],
+      "collocations": ["bold move", "bold font"],
+      "tip": "위험을 무릅쓰고 과감하게 행동하거나, 글씨체가 굵고 진할 때 사용합니다."
+    },
+    {
+      "id": 935,
+      "word": "bond",
+      "part": "noun / verb",
+      "meaning": "채권; 유대감 / 결합하다",
+      "paraphrasing": ["debenture; connection", "tie"],
+      "collocations": ["government bond", "strong bond"],
+      "tip": "토익에서는 국가나 기업이 발행하는 '채권' 혹은 사람 사이의 '끈끈한 정'으로 나옵니다."
+    },
+    {
+      "id": 936,
+      "word": "bonus",
+      "part": "noun",
+      "meaning": "보너스, 상금; 덤",
+      "paraphrasing": ["extra payment", "incentive", "perk"],
+      "collocations": ["annual bonus", "sign-on bonus"],
+      "tip": "정해진 월급 외에 추가로 받는 돈이나 예상치 못한 혜택을 뜻합니다."
+    },
+    {
+      "id": 937,
+      "word": "bookkeeping",
+      "part": "noun",
+      "meaning": "부기, 장부 정리",
+      "paraphrasing": ["accounting", "record-keeping"],
+      "collocations": ["bookkeeping department", "accurate bookkeeping"],
+      "tip": "회사의 수입과 지출을 꼼꼼하게 장부에 기록하는 기초 회계 업무입니다."
+    },
+    {
+      "id": 938,
+      "word": "boom",
+      "part": "noun / verb",
+      "meaning": "경기 호황, 급증 / 번창하다",
+      "paraphrasing": ["growth", "expansion; flourish"],
+      "collocations": ["economic boom", "baby boom"],
+      "tip": "사업이 갑자기 매우 잘 되거나 경제가 빠르게 활성화되는 현상을 말합니다."
+    },
+    {
+      "id": 939,
+      "word": "boost",
+      "part": "verb / noun",
+      "meaning": "북돋우다, 끌어올리다 / 부양책",
+      "paraphrasing": ["increase", "enhance", "lift"],
+      "collocations": ["boost morale", "boost sales"],
+      "tip": "사기를 높여주거나 매출 수치를 위로 밀어 올릴 때 쓰는 긍정적인 단어입니다."
+    },
+    {
+      "id": 940,
+      "word": "booth",
+      "part": "noun",
+      "meaning": "부스, 매점, 칸막이 좌석",
+      "paraphrasing": ["stall", "stand", "compartment"],
+      "collocations": ["exhibition booth", "voting booth"],
+      "tip": "박람회의 전시 공간이나 식당의 칸막이 자리, 전화박스 등을 의미합니다."
+    },
+    {
+      "id": 941,
+      "word": "borrow",
+      "part": "verb",
+      "meaning": "빌리다, 차용하다",
+      "paraphrasing": ["take on loan", "adopt", "copy"],
+      "collocations": ["borrow money", "borrow a book"],
+      "tip": "물건을 빌리는 것뿐만 아니라 남의 아이디어나 방식을 '차용'할 때도 씁니다."
+    },
+    {
+      "id": 942,
+      "word": "bottleneck",
+      "part": "noun",
+      "meaning": "병목 현상, 정체 구간",
+      "paraphrasing": ["clog", "obstruction", "jam"],
+      "collocations": ["production bottleneck", "traffic bottleneck"],
+      "tip": "생산 공정이나 도로에서 흐름이 갑자기 좁아져 전체가 늦어지는 지점을 뜻합니다."
+    },
+    {
+      "id": 943,
+      "word": "bottom line",
+      "part": "noun",
+      "meaning": "최종 결산 결과; 핵심, 요점",
+      "paraphrasing": ["net profit", "ultimate result", "crucial point"],
+      "collocations": ["improve the bottom line", "the bottom line is"],
+      "tip": "회계 장부의 맨 아랫줄(순이익)을 뜻하며, 대화에서는 '결론은 이거다'라고 할 때 씁니다."
+    },
+    {
+      "id": 944,
+      "word": "boundary",
+      "part": "noun",
+      "meaning": "경계, 한계",
+      "paraphrasing": ["border", "frontier", "limit"],
+      "collocations": ["property boundary", "push the boundaries"],
+      "tip": "땅의 경계선이나, 어떤 능력이 미치는 범위를 뜻합니다."
+    },
+    {
+      "id": 945,
+      "word": "breach",
+      "part": "noun / verb",
+      "meaning": "위반, 침해 / 어기다",
+      "paraphrasing": ["violation", "infringement", "break"],
+      "collocations": ["breach of contract", "security breach"],
+      "tip": "법이나 계약, 보안 수칙 등을 지키지 않고 깨뜨리는 심각한 행위입니다."
+    },
+    {
+      "id": 946,
+      "word": "breakdown",
+      "part": "noun",
+      "meaning": "고장; 내역, 명세",
+      "paraphrasing": ["failure", "malfunction; analysis", "itemization"],
+      "collocations": ["mechanical breakdown", "cost breakdown"],
+      "tip": "기계 고장 외에도 비용을 조목조목 나눈 '상세 내역'이라는 뜻으로 토익에 많이 나옵니다."
+    },
+    {
+      "id": 947,
+      "word": "breakthrough",
+      "part": "noun",
+      "meaning": "돌파구, 비약적 발전",
+      "paraphrasing": ["advance", "discovery", "step forward"],
+      "collocations": ["scientific breakthrough", "major breakthrough"],
+      "tip": "어려운 난관을 뚫고 갑자기 이루어낸 큰 성과나 발견을 뜻합니다."
+    },
+    {
+      "id": 948,
+      "word": "brief",
+      "part": "adjective / verb",
+      "meaning": "잠시의, 짧은 / 요약 보고하다",
+      "paraphrasing": ["short", "concise; inform", "summarize"],
+      "collocations": ["brief meeting", "brief someone on"],
+      "tip": "시간이 짧은 것을 뜻하거나, 회의 전에 핵심 내용을 미리 알려주는 행위를 말합니다."
+    },
+    {
+      "id": 949,
+      "word": "brilliant",
+      "part": "adjective",
+      "meaning": "훌륭한, 명석한; 아주 밝은",
+      "paraphrasing": ["exceptional", "superb", "bright"],
+      "collocations": ["brilliant idea", "brilliant performance"],
+      "tip": "지적으로 매우 뛰어나거나 결과가 아주 찬란할 때 사용하는 극찬의 표현입니다."
+    },
+    {
+      "id": 950,
+      "word": "brokerage",
+      "part": "noun",
+      "meaning": "중개업, 수수료",
+      "paraphrasing": ["commission", "agency"],
+      "collocations": ["real estate brokerage", "brokerage firm"],
+      "tip": "주식이나 부동산 거래를 중간에서 도와주는 업체나 그 대가로 주는 돈을 뜻합니다."
+    },
+    {
+      "id": 951,
+      "word": "browse",
+      "part": "verb",
+      "meaning": "둘러보다, 훑어보다",
+      "paraphrasing": ["scan", "skim", "look through"],
+      "collocations": ["browse the internet", "just browsing"],
+      "tip": "상점에서 구체적인 목적 없이 물건을 구경하거나 인터넷 정보를 가볍게 읽는 것입니다."
+    },
+    {
+      "id": 952,
+      "word": "budget",
+      "part": "noun / verb",
+      "meaning": "예산 / 예산을 세우다",
+      "paraphrasing": ["financial plan", "allocation; plan"],
+      "collocations": ["within budget", "on a tight budget"],
+      "tip": "돈을 어떻게 쓸지 미리 정하는 계획이며, '저렴한'이라는 뜻의 형용사로도 쓰입니다."
+    },
+    {
+      "id": 953,
+      "word": "bulky",
+      "part": "adjective",
+      "meaning": "부피가 큰, 덩치가 큰",
+      "paraphrasing": ["massive", "cumbersome", "large"],
+      "collocations": ["bulky item", "bulky package"],
+      "tip": "무겁지는 않아도 부피가 너무 커서 다루거나 운반하기 불편한 경우에 씁니다."
+    },
+    {
+      "id": 954,
+      "word": "bulletin",
+      "part": "noun",
+      "meaning": "게시, 속보, 공고",
+      "paraphrasing": ["announcement", "report", "news flash"],
+      "collocations": ["bulletin board", "weather bulletin"],
+      "tip": "중요한 소식을 알리는 게시물이나 텔레비전의 뉴스 속보를 의미합니다."
+    },
+    {
+      "id": 955,
+      "word": "bureau",
+      "part": "noun",
+      "meaning": "국, 사무국; 책상",
+      "paraphrasing": ["office", "agency", "department"],
+      "collocations": ["travel bureau", "Bureau of Statistics"],
+      "tip": "정부 기관의 특정 부서나 정보를 제공하는 전문 사무실을 일컫는 말입니다."
+    },
+    {
+      "id": 956,
+      "word": "burnout",
+      "part": "noun",
+      "meaning": "번아웃, 극도의 피로",
+      "paraphrasing": ["exhaustion", "fatigue"],
+      "collocations": ["job burnout", "prevent burnout"],
+      "tip": "과도한 업무로 인해 에너지가 완전히 소진되어 의욕을 잃은 심리적 상태입니다."
+    },
+    {
+      "id": 957,
+      "word": "bypass",
+      "part": "verb / noun",
+      "meaning": "우회하다, 건너뛰다 / 우회로",
+      "paraphrasing": ["avoid", "circumvent", "detour"],
+      "collocations": ["bypass the traffic", "bypass the procedure"],
+      "tip": "정체 구간을 피해 가거나, 복잡한 절차를 거치지 않고 바로 다음 단계로 갈 때 씁니다."
+    },
+    {
+      "id": 958,
+      "word": "calculation",
+      "part": "noun",
+      "meaning": "계산, 산출; 추정",
+      "paraphrasing": ["computation", "estimation"],
+      "collocations": ["accurate calculation", "according to my calculation"],
+      "tip": "수학적인 셈뿐 아니라 어떤 상황을 미리 따져보고 판단하는 것을 포함합니다."
+    },
+    {
+      "id": 959,
+      "word": "calendar",
+      "part": "noun",
+      "meaning": "달력, 일정표",
+      "paraphrasing": ["schedule", "timetable"],
+      "collocations": ["mark the calendar", "busy calendar"],
+      "tip": "비즈니스에서는 단순한 날짜판보다 개인의 '업무 스케줄'을 의미할 때가 많습니다."
+    },
+    {
+      "id": 960,
+      "word": "caliber",
+      "part": "noun",
+      "meaning": "역량, 품질, 우수성",
+      "paraphrasing": ["quality", "ability", "standard"],
+      "collocations": ["high caliber staff", "high caliber of work"],
+      "tip": "사람의 재능이나 물건의 수준이 어느 정도로 훌륭한지를 나타내는 격식 있는 단어입니다."
     }
   ]
 }

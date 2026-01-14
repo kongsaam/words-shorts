@@ -1,9 +1,11 @@
 let words = [];
 let currentIndex = 0;
 let touchStartY = 0;
-let isDragging = false;
-let startY = 0;
 let isThrottled = false;
+
+// [저장 데이터 로드]
+let starredIds = JSON.parse(localStorage.getItem('starredWords')) || [];
+let showOnlyStarred = false;
 
 const container = document.getElementById('card-container');
 
@@ -14,57 +16,73 @@ async function loadWords() {
         words = data.vocabulary_list;
         renderCard(currentIndex);
     } catch (e) {
-        console.error("로드 실패", e);
+        console.error("데이터 로드 실패", e);
     }
 }
 
+// [현재 보여줄 단어 목록 필터링]
+function getVisibleWords() {
+    if (!showOnlyStarred) return words;
+    return words.filter(w => starredIds.includes(w.id));
+}
+
 function renderCard(index) {
-    const word = words[index];
-    if (!word) return;
+    const visibleWords = getVisibleWords();
+    const word = visibleWords[index];
 
-    const total = words.length;
-    const currentDisplay = index + 1;
-
-    // [폰트 크기 자동 조절 로직 - 강화형]
-    let fontSize = "2.8rem"; // 기본 크기
-    let letterSpacing = "normal";
-    const wordLength = word.word.length;
-
-    if (wordLength > 18) {
-        fontSize = "1.3rem"; // 매우 긴 단어
-        letterSpacing = "-1px";
-    } else if (wordLength > 13) {
-        fontSize = "1.6rem"; // 긴 단어
-        letterSpacing = "-0.5px";
-    } else if (wordLength >= 10) {
-        fontSize = "2.0rem"; // 10자 이상일 때부터 폰트 줄임 시작
-        letterSpacing = "-0.2px";
+    // 필터링 시 단어가 없는 경우
+    if (!word) {
+        container.innerHTML = `
+            <div class="card">
+                <div class="front">
+                    <p>별표된 단어가 없습니다.</p>
+                    <div class="bottom-filter" onclick="toggleFilter()">
+                        <input type="checkbox" checked> <label>별표만 보기 해제</label>
+                    </div>
+                </div>
+            </div>`;
+        return;
     }
+
+    const isStarred = starredIds.includes(word.id);
+    const total = visibleWords.length;
+
+    // 폰트 크기 조절 (10자 이상일 때 줄임)
+    let fontSize = "2.8rem";
+    if (word.word.length >= 10) fontSize = "2.0rem";
+    if (word.word.length >= 15) fontSize = "1.5rem";
 
     container.innerHTML = `
         <div class="card">
             <div class="inner-card" id="inner-card">
                 <div class="front">
-                    <span class="word-text" style="font-size: ${fontSize}; letter-spacing: ${letterSpacing};">
-                        ${word.word}
-                    </span>
-                    <div class="controls">
-                        <span class="icon" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
-                        <div class="index-display">${currentDisplay} / ${total}</div>
-                        <input type="checkbox" class="icon" title="암기 완료" onclick="event.stopPropagation()">
+                    <div class="top-controls">
+                        <span class="icon-btn" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
+                        <span class="icon-btn star-icon ${isStarred ? 'active' : ''}" 
+                              onclick="toggleStar(${word.id}, event)">★</span>
+                    </div>
+
+                    <span class="word-text" style="font-size: ${fontSize};">${word.word}</span>
+                    
+                    <div class="bottom-area">
+                        <div class="index-display">${index + 1} / ${total}</div>
+                        <div class="bottom-filter" onclick="event.stopPropagation();">
+                            <input type="checkbox" id="star-check" ${showOnlyStarred ? 'checked' : ''} onchange="toggleFilter()">
+                            <label for="star-check">별표만 보기</label>
+                        </div>
                     </div>
                 </div>
                 <div class="back">
-                    <div class="detail-item"><span class="label">PART</span>${word.part}</div>
+                    <div class="top-controls">
+                        <span style="visibility:hidden">🔊</span>
+                        <span class="icon-btn star-icon ${isStarred ? 'active' : ''}" 
+                              onclick="toggleStar(${word.id}, event)">★</span>
+                    </div>
                     <div class="detail-item"><span class="label">MEANING</span>${word.meaning}</div>
+                    <div class="detail-item"><span class="label">PART</span>${word.part}</div>
                     <div class="detail-item"><span class="label">PARAPHRASING</span>${word.paraphrasing.join(', ')}</div>
                     <div class="detail-item"><span class="label">COLLOCATIONS</span>${word.collocations.join('<br>')}</div>
                     <div class="detail-item"><span class="label">TIP</span>${word.tip}</div>
-                    <div class="controls">
-                         <span style="visibility:hidden" class="icon">🔊</span>
-                         <div class="index-display">${currentDisplay} / ${total}</div>
-                         <span style="visibility:hidden" class="icon">✔️</span>
-                    </div>
                 </div>
             </div>
         </div>
@@ -75,6 +93,38 @@ function renderCard(index) {
     });
 }
 
+// [기능: 별표 토글 및 저장]
+function toggleStar(id, event) {
+    event.stopPropagation();
+    const idx = starredIds.indexOf(id);
+    if (idx > -1) {
+        starredIds.splice(idx, 1);
+    } else {
+        starredIds.push(id);
+    }
+    localStorage.setItem('starredWords', JSON.stringify(starredIds));
+    renderCard(currentIndex);
+}
+
+// [기능: 필터 토글]
+function toggleFilter() {
+    showOnlyStarred = !showOnlyStarred;
+    currentIndex = 0; // 목록이 바뀌므로 첫 장으로 리셋
+    renderCard(currentIndex);
+}
+
+function changeCard(direction) {
+    const visibleWords = getVisibleWords();
+    if (visibleWords.length === 0) return;
+
+    if (direction === 'next') {
+        currentIndex = (currentIndex === visibleWords.length - 1) ? 0 : currentIndex + 1;
+    } else {
+        currentIndex = (currentIndex === 0) ? visibleWords.length - 1 : currentIndex - 1;
+    }
+    renderCard(currentIndex);
+}
+
 function speak(text) {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
@@ -83,67 +133,22 @@ function speak(text) {
     window.speechSynthesis.speak(utterance);
 }
 
-function changeCard(direction) {
-    if (direction === 'next' && currentIndex < words.length - 1) {
-        currentIndex++;
-    } else if (direction === 'prev' && currentIndex > 0) {
-        currentIndex--;
-    } else {
-        return;
-    }
-    renderCard(currentIndex);
-}
-
-// [모바일 터치 제어 - 클릭 방해 없는 새로고침 방지]
-window.addEventListener('touchstart', e => { 
-    touchStartY = e.touches[0].pageY; 
-}, { passive: true });
-
+// [터치 및 입력 제어]
+window.addEventListener('touchstart', e => { touchStartY = e.touches[0].pageY; }, { passive: true });
 window.addEventListener('touchmove', e => {
-    const currentY = e.touches[0].pageY;
-    const diff = touchStartY - currentY;
+    const diff = touchStartY - e.touches[0].pageY;
     if (e.target.closest('.back')) return;
-    if (diff < 0 && window.scrollY <= 0) {
-        if (e.cancelable) e.preventDefault();
-    }
+    if (diff < 0 && window.scrollY <= 0 && e.cancelable) e.preventDefault();
 }, { passive: false });
 
 window.addEventListener('touchend', e => {
     const diff = touchStartY - e.changedTouches[0].pageY;
-    if (Math.abs(diff) > 50) {
-        changeCard(diff > 0 ? 'prev' : 'next');
-    }
+    if (Math.abs(diff) > 50) changeCard(diff > 0 ? 'next' : 'prev');
 }, { passive: true });
-
-// [기타 입력 제어]
-window.addEventListener('mousedown', e => { startY = e.pageY; isDragging = true; });
-window.addEventListener('mouseup', e => {
-    if (!isDragging) return;
-    const diff = startY - e.pageY;
-    if (Math.abs(diff) > 50) changeCard(diff > 0 ? 'prev' : 'next');
-    isDragging = false;
-});
 
 window.addEventListener('keydown', e => {
-    if (e.code === 'Space' || e.key === 'ArrowDown') {
-        e.preventDefault();
-        changeCard('next');
-    } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        changeCard('prev');
-    } else if (e.key === 'Enter') {
-        const inner = document.getElementById('inner-card');
-        if (inner) inner.classList.toggle('flipped');
-    }
+    if (e.code === 'Space') { e.preventDefault(); changeCard('next'); }
+    else if (e.key === 'Enter') document.getElementById('inner-card').classList.toggle('flipped');
 });
-
-window.addEventListener('wheel', e => {
-    if (isThrottled) return;
-    if (Math.abs(e.deltaY) > 20) {
-        changeCard(e.deltaY > 0 ? 'next' : 'prev');
-        isThrottled = true;
-        setTimeout(() => { isThrottled = false; }, 400);
-    }
-}, { passive: true });
 
 loadWords();
