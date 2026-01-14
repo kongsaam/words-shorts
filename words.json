@@ -8817,6 +8817,186 @@
       "paraphrasing": ["public; polite", "courteous"],
       "collocations": ["civil rights", "civil servant"],
       "tip": "군대나 종교와 상관없는 일반 시민의 영역이나, 정중한 태도를 뜻합니다."
+    },
+    {
+      "id": 981,
+      "word": "clarify",
+      "part": "verb",
+      "meaning": "명확하게 하다, 분명히 말하다",
+      "paraphrasing": ["elucidate", "explain", "clear up"],
+      "collocations": ["clarify a position", "clarify the meaning"],
+      "tip": "오해를 없애기 위해 상황이나 의도를 더 자세하고 알기 쉽게 설명하는 것입니다."
+    },
+    {
+      "id": 982,
+      "word": "clause",
+      "part": "noun",
+      "meaning": "조항; 절",
+      "paraphrasing": ["section", "article", "provision"],
+      "collocations": ["penalty clause", "termination clause"],
+      "tip": "계약서에서 각각의 조건을 나타내는 번호 붙은 항목들을 뜻합니다."
+    },
+    {
+      "id": 983,
+      "word": "clearance",
+      "part": "noun",
+      "meaning": "승인, 허가; 정리, 재고 정리",
+      "paraphrasing": ["authorization", "permission; disposal"],
+      "collocations": ["security clearance", "clearance sale"],
+      "tip": "보안 구역 출입 허가라는 뜻과, 창고를 비우기 위한 '파격 세일'이라는 뜻이 중요합니다."
+    },
+    {
+      "id": 984,
+      "word": "clerical",
+      "part": "adjective",
+      "meaning": "사무직의; 성직자의",
+      "paraphrasing": ["administrative", "secretarial"],
+      "collocations": ["clerical error", "clerical work"],
+      "tip": "데이터 입력이나 서류 정리 같은 단순 사무 업무를 뜻하며, 'clerical error'는 '오타/기재 오류'입니다."
+    },
+    {
+      "id": 985,
+      "word": "clientele",
+      "part": "noun",
+      "meaning": "(집합적) 고객, 단골손님",
+      "paraphrasing": ["customers", "patrons", "clients"],
+      "collocations": ["loyal clientele", "target clientele"],
+      "tip": "한 명의 고객이 아니라, 특정 상점이나 전문가를 찾는 고객층 전체를 가리킵니다."
+    },
+    {
+      "id": 986,
+      "word": "clog",
+      "part": "verb / noun",
+      "meaning": "막다, 막히다 / 방해물",
+      "paraphrasing": ["block", "obstruct", "congest"],
+      "collocations": ["clogged pipe", "clog up the system"],
+      "tip": "이물질이 끼어 흐름이 멈추는 것을 뜻하며, 'bottleneck'과 비슷한 맥락에서 쓰입니다."
+    },
+    {
+      "id": 987,
+      "word": "clue",
+      "part": "noun",
+      "meaning": "단서, 실마리",
+      "paraphrasing": ["hint", "lead", "indication"],
+      "collocations": ["not have a clue", "vital clue"],
+      "tip": "수사나 문제 해결의 결정적인 힌트를 뜻합니다."
+    },
+    {
+      "id": 988,
+      "word": "cluster",
+      "part": "noun / verb",
+      "meaning": "무리, 집단 / 모이다",
+      "paraphrasing": ["group", "bunch", "collection"],
+      "collocations": ["industrial cluster", "cluster together"],
+      "tip": "비슷한 것들이 옹기종기 모여 있는 상태를 뜻하며, 정보통신이나 산업 단지를 설명할 때 씁니다."
+    },
+    {
+      "id": 989,
+      "word": "coalition",
+      "part": "noun",
+      "meaning": "연합, 제휴",
+      "paraphrasing": ["alliance", "union", "partnership"],
+      "collocations": ["form a coalition", "ruling coalition"],
+      "tip": "서로 다른 정당이나 단체가 공통의 목표를 위해 일시적으로 손을 잡는 것입니다."
+    },
+    {
+      "id": 990,
+      "word": "coincide",
+      "part": "verb",
+      "meaning": "동시에 일어나다; 일치하다",
+      "paraphrasing": ["concur", "overlap", "match"],
+      "collocations": ["coincide with", "dates coincide"],
+      "tip": "두 가지 사건이 우연히 같은 시간에 겹치거나, 의견이 딱 들어맞을 때 씁니다."
+    },
+    {
+      "id": 991,
+      "word": "collaboration",
+      "part": "noun",
+      "meaning": "협력, 공동 작업",
+      "paraphrasing": ["cooperation", "partnership", "teamwork"],
+      "collocations": ["in collaboration with", "close collaboration"],
+      "tip": "여러 사람이 힘을 합쳐 하나의 작품이나 프로젝트를 완성해가는 과정입니다."
+    },
+    {
+      "id": 992,
+      "word": "collapse",
+      "part": "verb / noun",
+      "meaning": "무너지다, 붕괴하다 / 실패, 붕괴",
+      "paraphrasing": ["break down", "fail", "crumble"],
+      "collocations": ["economic collapse", "building collapse"],
+      "tip": "건물이 무너지는 것뿐만 아니라 경제 시스템이나 협상이 완전히 깨질 때도 씁니다."
+    },
+    {
+      "id": 993,
+      "word": "colleague",
+      "part": "noun",
+      "meaning": "동료",
+      "paraphrasing": ["coworker", "associate", "partner"],
+      "collocations": ["work colleague", "esteemed colleague"],
+      "tip": "직장에서 함께 일하는 사람을 뜻하며 'associate'보다 더 보편적인 단어입니다."
+    },
+    {
+      "id": 994,
+      "word": "collective",
+      "part": "adjective",
+      "meaning": "공동의, 집단적인",
+      "paraphrasing": ["joint", "combined", "shared"],
+      "collocations": ["collective effort", "collective bargaining"],
+      "tip": "개인이 아닌 구성원 전체가 함께 책임을 지거나 힘을 모으는 상태입니다."
+    },
+    {
+      "id": 995,
+      "word": "collision",
+      "part": "noun",
+      "meaning": "충돌, 격돌",
+      "paraphrasing": ["crash", "impact", "conflict"],
+      "collocations": ["head-on collision", "avoid collision"],
+      "tip": "차량끼리 부딪히는 물리적 충돌과 의견이 세게 맞부딪히는 상황 모두에 씁니다."
+    },
+    {
+      "id": 996,
+      "word": "colloquial",
+      "part": "adjective",
+      "meaning": "구어체의, 일상적인 대화의",
+      "paraphrasing": ["informal", "conversational", "casual"],
+      "collocations": ["colloquial expression", "colloquial language"],
+      "tip": "딱딱한 문서보다는 일상생활에서 편하게 주고받는 말의 느낌을 뜻합니다."
+    },
+    {
+      "id": 997,
+      "word": "combat",
+      "part": "verb / noun",
+      "meaning": "싸우다, 방지하다 / 전투",
+      "paraphrasing": ["fight", "tackle", "oppose"],
+      "collocations": ["combat inflation", "combat crime"],
+      "tip": "전쟁에서의 싸움뿐 아니라 범죄, 질병, 인플레이션 등 나쁜 현상을 해결하려 노력할 때 씁니다."
+    },
+    {
+      "id": 998,
+      "word": "combination",
+      "part": "noun",
+      "meaning": "조합, 결합",
+      "paraphrasing": ["mixture", "blend", "amalgamation"],
+      "collocations": ["winning combination", "in combination with"],
+      "tip": "두 가지 이상의 요소가 합쳐져서 새로운 효과를 내는 상태를 말합니다."
+    },
+    {
+      "id": 999,
+      "word": "commend",
+      "part": "verb",
+      "meaning": "칭찬하다, 추천하다",
+      "paraphrasing": ["praise", "applaud", "extol"],
+      "collocations": ["highly commend", "commend someone for"],
+      "tip": "공식적으로 누군가의 성과를 높이 평가하고 칭찬할 때 쓰는 격식 있는 단어입니다."
+    },
+    {
+      "id": 1000,
+      "word": "commitment",
+      "part": "noun",
+      "meaning": "약속, 전념, 헌신",
+      "paraphrasing": ["dedication", "promise", "pledge"],
+      "collocations": ["long-term commitment", "lack of commitment"],
+      "tip": "책임감을 가지고 어떤 일에 끝까지 에너지를 쏟겠다는 의지나 약속을 뜻합니다."
     }
   ]
 }

@@ -1,9 +1,12 @@
 let words = [];
 let currentIndex = 0;
 let touchStartY = 0;
-let isDragging = false;
-let startY = 0;
 let isThrottled = false;
+
+// [데이터 관리] 별표 및 암기 완료 데이터 로드
+let starredIds = JSON.parse(localStorage.getItem('starredWords')) || [];
+let learnedIds = JSON.parse(localStorage.getItem('learnedWords')) || [];
+let showOnlyStarred = false;
 
 const container = document.getElementById('card-container');
 
@@ -14,57 +17,72 @@ async function loadWords() {
         words = data.vocabulary_list;
         renderCard(currentIndex);
     } catch (e) {
-        console.error("로드 실패", e);
+        console.error("데이터 로드 실패", e);
     }
 }
 
+// [현재 보여줄 단어 목록 필터링]
+function getVisibleWords() {
+    if (!showOnlyStarred) return words;
+    return words.filter(w => starredIds.includes(w.id));
+}
+
 function renderCard(index) {
-    const word = words[index];
-    if (!word) return;
+    const visibleWords = getVisibleWords();
+    const word = visibleWords[index];
 
-    const total = words.length;
-    const currentDisplay = index + 1;
-
-    // [폰트 크기 자동 조절 로직 - 강화형]
-    let fontSize = "2.8rem"; // 기본 크기
-    let letterSpacing = "normal";
-    const wordLength = word.word.length;
-
-    if (wordLength > 18) {
-        fontSize = "1.3rem"; // 매우 긴 단어
-        letterSpacing = "-1px";
-    } else if (wordLength > 13) {
-        fontSize = "1.6rem"; // 긴 단어
-        letterSpacing = "-0.5px";
-    } else if (wordLength >= 10) {
-        fontSize = "2.0rem"; // 10자 이상일 때부터 폰트 줄임 시작
-        letterSpacing = "-0.2px";
+    if (!word) {
+        container.innerHTML = `<div class="card"><div class="front"><p>해당되는 단어가 없습니다.</p><button onclick="toggleFilter()">필터 해제</button></div></div>`;
+        return;
     }
+
+    const isStarred = starredIds.includes(word.id);
+    const isLearned = learnedIds.includes(word.id); // 암기 여부 확인
+    const total = visibleWords.length;
+
+    // 폰트 크기 자동 조절 로직
+    let fontSize = "2.8rem";
+    if (word.word.length >= 10) fontSize = "2.0rem";
+    if (word.word.length >= 15) fontSize = "1.5rem";
 
     container.innerHTML = `
         <div class="card">
             <div class="inner-card" id="inner-card">
                 <div class="front">
-                    <span class="word-text" style="font-size: ${fontSize}; letter-spacing: ${letterSpacing};">
-                        ${word.word}
-                    </span>
-                    <div class="controls">
-                        <span class="icon" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
-                        <div class="index-display">${currentDisplay} / ${total}</div>
-                        <input type="checkbox" class="icon" title="암기 완료" onclick="event.stopPropagation()">
+                    <div class="top-controls">
+                        <span class="icon-btn" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
+                        <span class="icon-btn star-icon ${isStarred ? 'active' : ''}" 
+                              onclick="toggleStar(${word.id}, event)">★</span>
+                    </div>
+
+                    <span class="word-text" style="font-size: ${fontSize};">${word.word}</span>
+                    
+                    <div class="bottom-area">
+                        <div class="bottom-filter" onclick="event.stopPropagation();">
+                            <input type="checkbox" id="star-check" ${showOnlyStarred ? 'checked' : ''} onchange="toggleFilter()">
+                            <label for="star-check">별표만</label>
+                        </div>
+                        
+                        <div class="index-display">${index + 1} / ${total}</div>
+
+                        <div class="memo-check" onclick="event.stopPropagation();">
+                            <input type="checkbox" id="learn-check" ${isLearned ? 'checked' : ''} 
+                                   onchange="toggleLearned(${word.id})">
+                            <label for="learn-check">외움</label>
+                        </div>
                     </div>
                 </div>
                 <div class="back">
-                    <div class="detail-item"><span class="label">PART</span>${word.part}</div>
+                    <div class="top-controls">
+                        <span style="visibility:hidden">🔊</span>
+                        <span class="icon-btn star-icon ${isStarred ? 'active' : ''}" 
+                              onclick="toggleStar(${word.id}, event)">★</span>
+                    </div>
                     <div class="detail-item"><span class="label">MEANING</span>${word.meaning}</div>
+                    <div class="detail-item"><span class="label">PART</span>${word.part}</div>
                     <div class="detail-item"><span class="label">PARAPHRASING</span>${word.paraphrasing.join(', ')}</div>
                     <div class="detail-item"><span class="label">COLLOCATIONS</span>${word.collocations.join('<br>')}</div>
                     <div class="detail-item"><span class="label">TIP</span>${word.tip}</div>
-                    <div class="controls">
-                         <span style="visibility:hidden" class="icon">🔊</span>
-                         <div class="index-display">${currentDisplay} / ${total}</div>
-                         <span style="visibility:hidden" class="icon">✔️</span>
-                    </div>
                 </div>
             </div>
         </div>
@@ -75,21 +93,56 @@ function renderCard(index) {
     });
 }
 
+// [기능: 별표 토글 및 저장]
+function toggleStar(id, event) {
+    event.stopPropagation();
+    const idx = starredIds.indexOf(id);
+    if (idx > -1) {
+        starredIds.splice(idx, 1);
+    } else {
+        starredIds.push(id);
+    }
+    localStorage.setItem('starredWords', JSON.stringify(starredIds));
+    renderCard(currentIndex);
+}
+
+// [기능: 암기 완료 토글] - 기존 기능 복구 및 저장 로직 추가
+function toggleLearned(id) {
+    const idx = learnedIds.indexOf(id);
+    if (idx > -1) {
+        learnedIds.splice(idx, 1);
+    } else {
+        learnedIds.push(id);
+    }
+    localStorage.setItem('learnedWords', JSON.stringify(learnedIds));
+    // UI 업데이트가 필요하면 renderCard를 다시 호출할 수 있으나, 체크박스 자체 상태는 유지됨
+}
+
+// [기능: 필터 토글]
+function toggleFilter() {
+    showOnlyStarred = !showOnlyStarred;
+    currentIndex = 0; // 목록이 바뀌므로 첫 장으로 리셋
+    renderCard(currentIndex);
+}
+
+function changeCard(direction) {
+    const visibleWords = getVisibleWords();
+    if (visibleWords.length === 0) return;
+
+    if (direction === 'next') {
+        currentIndex = (currentIndex === visibleWords.length - 1) ? 0 : currentIndex + 1;
+    } else {
+        currentIndex = (currentIndex === 0) ? visibleWords.length - 1 : currentIndex - 1;
+    }
+    renderCard(currentIndex);
+}
+
 function speak(text) {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
     utterance.rate = 0.8;
     window.speechSynthesis.speak(utterance);
-}
-
-function changeCard(direction) {
-    if (direction === 'next') {
-        currentIndex = (currentIndex === words.length - 1) ? 0 : currentIndex + 1;
-    } else if (direction === 'prev') {
-        currentIndex = (currentIndex === 0) ? words.length - 1 : currentIndex - 1;
-    } 
-    renderCard(currentIndex);
 }
 
 // [모바일 터치 제어 - 클릭 방해 없는 새로고침 방지]
