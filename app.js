@@ -22,7 +22,14 @@ async function loadWords() {
 function renderCard(index) {
     const word = words[index];
     if (!word) return;
-
+    
+    let fontSize = "2.5rem";
+    if (word.word.length > 15) {
+        fontSize = "1.5rem";
+    } else if (word.word.length > 10) {
+        fontSize = "1.8rem";
+    }
+    
     container.innerHTML = `
         <div class="card" id="current-card">
             <div class="inner-card" id="inner-card">

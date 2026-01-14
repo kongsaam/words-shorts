@@ -38,7 +38,17 @@ body, html {
 .back { background: #1a1a1a; color: #fff; transform: rotateY(180deg); overflow-y: auto; }
 
 /* UI 요소 */
-.word-text { font-size: 2.5rem; font-weight: bold; margin-bottom: 20px; }
+.word-text {
+    font-size: 2.5rem; /* 기본 크기 */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    word-break: break-word; /* 너무 길면 단어 중간에서도 줄바꿈 */
+    overflow-wrap: break-word;
+    width: 100%;
+    line-height: 1.2;
+    transition: font-size 0.2s ease; /* 크기 변경 시 부드럽게 */
+}
 .controls { position: absolute; bottom: 30px; right: 20px; display: flex; flex-direction: column; gap: 20px; }
 .icon { font-size: 1.5rem; cursor: pointer; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
 

@@ -2159,7 +2159,1266 @@
       "paraphrasing": ["painstakingly", "thoroughly"],
       "collocations": ["meticulously planned", "meticulously maintained"],
       "tip": "빈틈없이 완벽하게 준비되거나 관리된 상태를 묘사하는 부사입니다."
+    },
+    {
+      "id": 241,
+      "word": "solicit",
+      "part": "verb",
+      "meaning": "간청하다, 요청하다",
+      "paraphrasing": ["request", "seek", "petition"],
+      "collocations": ["solicit feedback", "solicit donations"],
+      "tip": "고객의 피드백을 '구하다'라는 표현으로 파트 7 설문조사 지문에 자주 나옵니다."
+    },
+    {
+      "id": 242,
+      "word": "unanimous",
+      "part": "adjective",
+      "meaning": "만장일치의",
+      "paraphrasing": ["consistent", "solid", "united"],
+      "collocations": ["unanimous support", "unanimous decision"],
+      "tip": "이사회 투표 결과 등을 다루는 기사 지문에서 핵심 키워드로 등장합니다."
+    },
+    {
+      "id": 243,
+      "word": "preliminary",
+      "part": "adjective",
+      "meaning": "예비의, 준비의",
+      "paraphrasing": ["initial", "introductory", "prior"],
+      "collocations": ["preliminary report", "preliminary investigation"],
+      "tip": "최종 결과가 나오기 전의 '임시/초기' 단계를 의미합니다."
+    },
+    {
+      "id": 244,
+      "word": "adversely",
+      "part": "adverb",
+      "meaning": "불리하게, 부정적으로",
+      "paraphrasing": ["negatively", "unfavorably"],
+      "collocations": ["adversely affect", "be adversely influenced"],
+      "tip": "날씨나 경제 악화가 실적에 '나쁜 영향'을 줄 때 affect와 세트로 나옵니다."
+    },
+    {
+      "id": 245,
+      "word": "consecutive",
+      "part": "adjective",
+      "meaning": "연속적인",
+      "paraphrasing": ["successive", "sequential"],
+      "collocations": ["for three consecutive years", "consecutive days"],
+      "tip": "'3년 연속' 같은 표현에서 successive와 번갈아 가며 정답으로 출제됩니다."
+    },
+    {
+      "id": 246,
+      "word": "fluctuate",
+      "part": "verb",
+      "meaning": "변동하다, 오르내리다",
+      "paraphrasing": ["vary", "waver", "oscillate"],
+      "collocations": ["fluctuating prices", "fluctuate wildly"],
+      "tip": "그래프가 불안정하게 움직이는 환율이나 유가 변동 지문에서 자주 씁니다."
+    },
+    {
+      "id": 247,
+      "word": "incidental",
+      "part": "adjective",
+      "meaning": "부수적인, 우발적인",
+      "paraphrasing": ["secondary", "minor", "accompanying"],
+      "collocations": ["incidental expenses", "incidental music"],
+      "tip": "출장비 청구서에서 '기타 잡비'를 뜻하는 incidental expenses를 꼭 기억하세요."
+    },
+    {
+      "id": 248,
+      "word": "peruse",
+      "part": "verb",
+      "meaning": "정독하다, 살피다",
+      "paraphrasing": ["examine", "scrutinize", "read"],
+      "collocations": ["peruse the contract", "peruse the document"],
+      "tip": "그냥 읽는(read) 것이 아니라 꼼꼼히 검토한다는 뉘앙스의 고급 어휘입니다."
+    },
+    {
+      "id": 249,
+      "word": "remittance",
+      "part": "noun",
+      "meaning": "송금, 납부",
+      "paraphrasing": ["payment", "transfer"],
+      "collocations": ["overseas remittance", "electronic remittance"],
+      "tip": "대금을 지불하거나 해외로 돈을 보낼 때 쓰는 공식 용어입니다."
+    },
+    {
+      "id": 250,
+      "word": "stagnant",
+      "part": "adjective",
+      "meaning": "정체된, 고여 있는",
+      "paraphrasing": ["static", "still", "sluggish"],
+      "collocations": ["stagnant economy", "stagnant water"],
+      "tip": "매출이나 경제 성장이 멈추고 활기가 없는 상태를 묘사합니다."
+    },
+    {
+      "id": 251,
+      "word": "unveil",
+      "part": "verb",
+      "meaning": "공개하다, 발표하다",
+      "paraphrasing": ["reveal", "introduce", "launch"],
+      "collocations": ["unveil a new product", "unveil the plan"],
+      "tip": "신제품의 베일을 벗기듯 화려하게 첫선을 보일 때 쓰는 단어입니다."
+    },
+    {
+      "id": 252,
+      "word": "rectify",
+      "part": "verb",
+      "meaning": "바로잡다, 수정하다",
+      "paraphrasing": ["correct", "remedy", "fix"],
+      "collocations": ["rectify the error", "rectify the situation"],
+      "tip": "잘못된 상황이나 오류를 공식적으로 시정할 때 쓰입니다."
+    },
+    {
+      "id": 253,
+      "word": "expedite",
+      "part": "verb",
+      "meaning": "신속히 처리하다, 촉진시키다",
+      "paraphrasing": ["accelerate", "speed up"],
+      "collocations": ["expedite the process", "expedite shipping"],
+      "tip": "절차를 빨리 진행해 달라고 요청할 때 필수적인 비즈니스 표현입니다."
+    },
+    {
+      "id": 254,
+      "word": "delegate",
+      "part": "verb",
+      "meaning": "위임하다, 선정하다",
+      "paraphrasing": ["assign", "entrust", "transfer"],
+      "collocations": ["delegate tasks", "delegate responsibility"],
+      "tip": "관리자가 부하 직원에게 업무를 나누어 줄 때 사용됩니다."
+    },
+    {
+      "id": 255,
+      "word": "accommodate",
+      "part": "verb",
+      "meaning": "수용하다, 편의를 도모하다",
+      "paraphrasing": ["house", "lodge", "fit", "oblige"],
+      "collocations": ["accommodate a large group", "accommodate a request"],
+      "tip": "장소에 사람을 들이는 것뿐 아니라 부탁을 들어준다는 의미로도 잘 나옵니다."
+    },
+    {
+      "id": 256,
+      "word": "incur",
+      "part": "verb",
+      "meaning": "(비용을) 발생시키다, 입다",
+      "paraphrasing": ["sustain", "experience"],
+      "collocations": ["incur additional charges", "incur a late fee"],
+      "tip": "자신의 행동으로 인해 비용이나 손실을 '물게 되다'는 뜻입니다."
+    },
+    {
+      "id": 257,
+      "word": "stringency",
+      "part": "noun",
+      "meaning": "엄격함, 긴박",
+      "paraphrasing": ["strictness", "rigor"],
+      "collocations": ["financial stringency", "stringency of regulations"],
+      "tip": "자금이 매우 빡빡하거나 규제가 매우 엄격한 상태를 뜻합니다."
+    },
+    {
+      "id": 258,
+      "word": "provisional",
+      "part": "adjective",
+      "meaning": "일시적인, 잠정적인",
+      "paraphrasing": ["temporary", "tentative"],
+      "collocations": ["provisional agreement", "provisional license"],
+      "tip": "최종 확정 전의 임시 상태를 말하며 tentative와 동의어입니다."
+    },
+    {
+      "id": 259,
+      "word": "outweigh",
+      "part": "verb",
+      "meaning": "~보다 크다, ~보다 가치 있다",
+      "paraphrasing": ["surpass", "exceed", "offset"],
+      "collocations": ["benefits outweigh the costs", "outweigh the risks"],
+      "tip": "장점이 단점보다 크다는 식의 논리적 비교 지문에서 자주 등장합니다."
+    },
+    {
+      "id": 260,
+      "word": "versatile",
+      "part": "adjective",
+      "meaning": "다재다능한, 다용도의",
+      "paraphrasing": ["adaptable", "multipurpose"],
+      "collocations": ["versatile tool", "versatile employee"],
+      "tip": "사람이나 제품의 용도가 다양함을 칭찬할 때 쓰는 긍정 단어입니다."
+    },
+    {
+      "id": 261,
+      "word": "concur",
+      "part": "verb",
+      "meaning": "동의하다, 일치하다",
+      "paraphrasing": ["agree", "coincide", "accord"],
+      "collocations": ["concur with the opinion", "unanimously concur"],
+      "tip": "격식 있는 회의록에서 '의견이 일치하다'라고 할 때 agree 대신 자주 등장합니다."
+    },
+    {
+      "id": 262,
+      "word": "delinquent",
+      "part": "adjective",
+      "meaning": "(세금 등이) 연체된, 미불의",
+      "paraphrasing": ["overdue", "unpaid", "late"],
+      "collocations": ["delinquent account", "delinquent taxes"],
+      "tip": "지출/회계 지문에서 overdue와 함께 고득점을 가르는 핵심 어휘입니다."
+    },
+    {
+      "id": 263,
+      "word": "facilitate",
+      "part": "verb",
+      "meaning": "용이하게 하다, 촉진하다",
+      "paraphrasing": ["ease", "expedite", "assist"],
+      "collocations": ["facilitate communication", "facilitate a process"],
+      "tip": "절차나 대화를 원활하게 돕는다는 긍정적인 맥락에서 사용됩니다."
+    },
+    {
+      "id": 264,
+      "word": "grievance",
+      "part": "noun",
+      "meaning": "불만, 고충 사항",
+      "paraphrasing": ["complaint", "resentment", "objection"],
+      "collocations": ["file a grievance", "address grievances"],
+      "tip": "노사 관계나 인사 상담 지문에서 '공식적인 불만 접수'를 의미합니다."
+    },
+    {
+      "id": 265,
+      "word": "impending",
+      "part": "adjective",
+      "meaning": "임박한, 곧 일어날",
+      "paraphrasing": ["imminent", "approaching", "looming"],
+      "collocations": ["impending deadline", "impending merger"],
+      "tip": "중요한 마감이나 기업 합병 등이 코앞에 닥쳤을 때 씁니다."
+    },
+    {
+      "id": 266,
+      "word": "jeopardize",
+      "part": "verb",
+      "meaning": "위태롭게 하다, 위험에 빠뜨리다",
+      "paraphrasing": ["endanger", "threaten", "compromise"],
+      "collocations": ["jeopardize the deal", "jeopardize safety"],
+      "tip": "부주의한 행동이 비즈니스 계약이나 안전을 해칠 수 있다는 경고에 나옵니다."
+    },
+    {
+      "id": 267,
+      "word": "lapse",
+      "part": "noun",
+      "meaning": "실수, (시간의) 경과, (권리의) 소멸",
+      "paraphrasing": ["error", "interval", "expiration"],
+      "collocations": ["lapse of judgment", "membership lapse"],
+      "tip": "보험이나 회원권 갱신을 하지 않아 혜택이 사라지는 상황에 자주 쓰입니다."
+    },
+    {
+      "id": 268,
+      "word": "mitigate",
+      "part": "verb",
+      "meaning": "완화하다, 경감시키다",
+      "paraphrasing": ["alleviate", "reduce", "lessen"],
+      "collocations": ["mitigate risks", "mitigate the impact"],
+      "tip": "비즈니스 리스크나 피해를 최소화하려 노력할 때 사용하는 고급 동사입니다."
+    },
+    {
+      "id": 269,
+      "word": "nullify",
+      "part": "verb",
+      "meaning": "무효화하다, 취소하다",
+      "paraphrasing": ["invalidate", "void", "cancel"],
+      "collocations": ["nullify a contract", "nullify the results"],
+      "tip": "법적 효력을 없애거나 계약을 파기할 때 등장합니다."
+    },
+    {
+      "id": 270,
+      "word": "paltry",
+      "part": "adjective",
+      "meaning": "보잘것없는, (양/금액이) 아주 적은",
+      "paraphrasing": ["meager", "insignificant", "scanty"],
+      "collocations": ["paltry sum of money", "paltry amount"],
+      "tip": "제시된 금액이 기대에 훨씬 못 미칠 때 실망감을 나타내는 표현입니다."
+    },
+    {
+      "id": 271,
+      "word": "quota",
+      "part": "noun",
+      "meaning": "할당량, 한도",
+      "paraphrasing": ["allocation", "share", "ration"],
+      "collocations": ["sales quota", "meet the quota"],
+      "tip": "영업 실적 목표치나 수입 제한량을 말할 때 필수적입니다."
+    },
+    {
+      "id": 272,
+      "word": "rebuff",
+      "part": "verb",
+      "meaning": "거절하다, 퇴짜 놓다",
+      "paraphrasing": ["reject", "decline", "snub"],
+      "collocations": ["rebuff an offer", "rebuff a suggestion"],
+      "tip": "제안이나 호의를 단호하게 거절할 때 쓰는 다소 강한 표현입니다."
+    },
+    {
+      "id": 273,
+      "word": "stipend",
+      "part": "noun",
+      "meaning": "수당, 봉급, 장학금",
+      "paraphrasing": ["allowance", "grant", "stipendiary"],
+      "collocations": ["monthly stipend", "training stipend"],
+      "tip": "인턴이나 교육생에게 생활비 명목으로 주는 소정의 금액입니다."
+    },
+    {
+      "id": 274,
+      "word": "unilateral",
+      "part": "adjective",
+      "meaning": "일방적인, 한쪽만의",
+      "paraphrasing": ["one-sided", "independent"],
+      "collocations": ["unilateral decision", "unilateral action"],
+      "tip": "상대방과 합의 없이 독단적으로 내린 결정을 수식합니다."
+    },
+    {
+      "id": 275,
+      "word": "volatile",
+      "part": "adjective",
+      "meaning": "변덕스러운, 불안정한",
+      "paraphrasing": ["unstable", "unpredictable", "erratic"],
+      "collocations": ["volatile market", "volatile situation"],
+      "tip": "가격 변동이 심하거나 상황이 급변할 수 있는 상태를 의미합니다."
+    },
+    {
+      "id": 276,
+      "word": "wholesale",
+      "part": "adjective / adverb",
+      "meaning": "도매의, 대대적인",
+      "paraphrasing": ["mass", "extensive", "comprehensive"],
+      "collocations": ["wholesale price", "wholesale changes"],
+      "tip": "'도매'라는 뜻 외에 '전면적인/대대적인' 변화를 묘사할 때도 씁니다."
+    },
+    {
+      "id": 277,
+      "word": "usurp",
+      "part": "verb",
+      "meaning": "(권력/직위를) 찬탈하다, 가로채다",
+      "paraphrasing": ["seize", "take over", "supplant"],
+      "collocations": ["usurp authority", "usurp someone's role"],
+      "tip": "정당한 권한 없이 남의 자리를 빼앗는 상황에 쓰이는 고난도 단어입니다."
+    },
+    {
+      "id": 278,
+      "word": "tenure",
+      "part": "noun",
+      "meaning": "재임 기간, 종신 재직권",
+      "paraphrasing": ["term of office", "period"],
+      "collocations": ["during his tenure", "long tenure"],
+      "tip": "임기 기간 내내를 뜻하거나 교수의 정년 보장권을 말할 때 씁니다."
+    },
+    {
+      "id": 279,
+      "word": "ratify",
+      "part": "verb",
+      "meaning": "비준하다, 승인하다",
+      "paraphrasing": ["approve", "confirm", "validate"],
+      "collocations": ["ratify the treaty", "ratify an agreement"],
+      "tip": "공식적인 합의문에 최종 서명하여 효력을 발생시킬 때 사용합니다."
+    },
+    {
+      "id": 280,
+      "word": "preempt",
+      "part": "verb",
+      "meaning": "미리 막다, 선점하다",
+      "paraphrasing": ["forestall", "prevent", "anticipate"],
+      "collocations": ["preempt a crisis", "preempt the competition"],
+      "tip": "문제가 터지기 전에 미리 조치하거나 경쟁자보다 앞서나가는 행위입니다."
+    },
+    {
+      "id": 281,
+      "word": "onus",
+      "part": "noun",
+      "meaning": "책임, 의무",
+      "paraphrasing": ["responsibility", "burden", "obligation"],
+      "collocations": ["the onus is on someone to", "place the onus on"],
+      "tip": "responsibility보다 무거운 느낌으로, '누가 이 일을 책임져야 하는가'를 논할 때 씁니다."
+    },
+    {
+      "id": 282,
+      "word": "levy",
+      "part": "verb / noun",
+      "meaning": "부과하다 / 부과금",
+      "paraphrasing": ["impose", "charge", "tax"],
+      "collocations": ["levy a tax on", "import levy"],
+      "tip": "정부가 세금이나 벌금을 공식적으로 매길 때 사용하는 단어입니다."
+    },
+    {
+      "id": 283,
+      "word": "implicate",
+      "part": "verb",
+      "meaning": "연루시키다, 시사하다",
+      "paraphrasing": ["involve", "incriminate", "suggest"],
+      "collocations": ["be implicated in the scandal", "implicate a change"],
+      "tip": "주로 수동태로 쓰여 어떤 좋지 않은 사건에 연관되었음을 나타냅니다."
+    },
+    {
+      "id": 284,
+      "word": "forgo",
+      "part": "verb",
+      "meaning": "(좋은 것을) 포기하다, 없이 지내다",
+      "paraphrasing": ["waive", "give up", "do without"],
+      "collocations": ["forgo a pay raise", "forgo the opportunity"],
+      "tip": "자신의 권리나 이득을 스스로 양보할 때 쓰는 우아한 표현입니다."
+    },
+    {
+      "id": 285,
+      "word": "encumber",
+      "part": "verb",
+      "meaning": "지장을 주다, 거추장스럽게 하다",
+      "paraphrasing": ["hinder", "burden", "impede"],
+      "collocations": ["be encumbered by debt", "without being encumbered"],
+      "tip": "부채나 복잡한 규정 때문에 행동이 자유롭지 못한 상황을 묘사합니다."
+    },
+    {
+      "id": 286,
+      "word": "disburse",
+      "part": "verb",
+      "meaning": "(자금을) 지출하다, 지불하다",
+      "paraphrasing": ["pay out", "expend", "distribute"],
+      "collocations": ["disburse funds", "disburse a loan"],
+      "tip": "회사의 지갑(purse)에서 돈이 나가는(dis) 공식적인 지불 과정을 뜻합니다."
+    },
+    {
+      "id": 287,
+      "word": "demote",
+      "part": "verb",
+      "meaning": "강등시키다",
+      "paraphrasing": ["downgrade", "relegate"],
+      "collocations": ["be demoted to a lower position"],
+      "tip": "승진(promote)의 반대말로, 인사 고과 지문에서 주의해서 봐야 합니다."
+    },
+    {
+      "id": 288,
+      "word": "collateral",
+      "part": "noun / adjective",
+      "meaning": "담보 / 부수적인",
+      "paraphrasing": ["security", "guarantee", "secondary"],
+      "collocations": ["put up as collateral", "collateral damage"],
+      "tip": "은행 대출 시 맡기는 물건(담보)과, 예상치 못한 부수적 피해(damage) 둘 다 중요합니다."
+    },
+    {
+      "id": 289,
+      "word": "circumvent",
+      "part": "verb",
+      "meaning": "우회하다, (교묘하게) 피하다",
+      "paraphrasing": ["avoid", "bypass", "evade"],
+      "collocations": ["circumvent regulations", "circumvent the law"],
+      "tip": "규정의 허점을 찾아내어 법망을 피해가는 부정적인 뉘앙스로 자주 쓰입니다."
+    },
+    {
+      "id": 290,
+      "word": "breach",
+      "part": "noun / verb",
+      "meaning": "위반, 침해 / 위반하다",
+      "paraphrasing": ["violation", "infringement", "break"],
+      "collocations": ["breach of contract", "security breach"],
+      "tip": "계약 위반이나 보안 사고가 터졌을 때 가장 먼저 언급되는 단어입니다."
+    },
+    {
+      "id": 291,
+      "word": "allot",
+      "part": "verb",
+      "meaning": "할당하다, 배분하다",
+      "paraphrasing": ["allocate", "assign", "distribute"],
+      "collocations": ["allot funds for", "within the allotted time"],
+      "tip": "제한된 자원이나 시간을 골고루 나누어 줄 때 사용합니다."
+    },
+    {
+      "id": 292,
+      "word": "accrue",
+      "part": "verb",
+      "meaning": "누적되다, 쌓이다",
+      "paraphrasing": ["accumulate", "collect", "build up"],
+      "collocations": ["accrue interest", "accrued benefits"],
+      "tip": "시간이 지남에 따라 이자나 혜택이 점점 불어나는 상황을 설명합니다."
+    },
+    {
+      "id": 293,
+      "word": "stagnant",
+      "part": "adjective",
+      "meaning": "정체된, 활기 없는",
+      "paraphrasing": ["sluggish", "static", "still"],
+      "collocations": ["stagnant economy", "stagnant sales"],
+      "tip": "흐르지 않는 물처럼 경제나 시장이 성장을 멈춘 상태입니다."
+    },
+    {
+      "id": 294,
+      "word": "rebuff",
+      "part": "verb",
+      "meaning": "거절하다, 퇴짜 놓다",
+      "paraphrasing": ["reject", "decline", "snub"],
+      "collocations": ["rebuff an offer", "rebuff a suggestion"],
+      "tip": "상대방의 제안을 아주 단호하고 매정하게 거절할 때 씁니다."
+    },
+    {
+      "id": 295,
+      "word": "quota",
+      "part": "noun",
+      "meaning": "할당량, 한도",
+      "paraphrasing": ["allocation", "share", "allowance"],
+      "collocations": ["sales quota", "exceed the quota"],
+      "tip": "영업직의 판매 목표치나 이민/수입 등의 수량 제한을 뜻합니다."
+    },
+    {
+      "id": 296,
+      "word": "paltry",
+      "part": "adjective",
+      "meaning": "보잘것없는, 쥐꼬리만한",
+      "paraphrasing": ["meager", "insignificant", "scanty"],
+      "collocations": ["paltry sum", "paltry excuse"],
+      "tip": "양이나 가치가 너무 적어 언급할 가치조차 없을 때 사용합니다."
+    },
+    {
+      "id": 297,
+      "word": "obliterate",
+      "part": "verb",
+      "meaning": "제거하다, 흔적을 없애다",
+      "paraphrasing": ["erase", "wipe out", "eliminate"],
+      "collocations": ["obliterate the evidence", "obliterate a record"],
+      "tip": "완전히 지워버려서 아예 없었던 것처럼 만드는 강한 표현입니다."
+    },
+    {
+      "id": 298,
+      "word": "nullify",
+      "part": "verb",
+      "meaning": "무효화하다",
+      "paraphrasing": ["invalidate", "void", "cancel"],
+      "collocations": ["nullify the contract", "nullify the vote"],
+      "tip": "법적 절차를 통해 기왕에 있던 효력을 '빵(null)'으로 만드는 것입니다."
+    },
+    {
+      "id": 299,
+      "word": "mitigate",
+      "part": "verb",
+      "meaning": "완화하다, 경감하다",
+      "paraphrasing": ["alleviate", "reduce", "lessen"],
+      "collocations": ["mitigate the risk", "mitigate the impact"],
+      "tip": "나쁜 영향이나 고통의 강도를 약하게 만들 때 사용하는 핵심 비즈니스 단어입니다."
+    },
+    {
+      "id": 300,
+      "word": "kinship",
+      "part": "noun",
+      "meaning": "친족 관계, 유대감",
+      "paraphrasing": ["affinity", "family ties", "solidarity"],
+      "collocations": ["feel a kinship with", "kinship ties"],
+      "tip": "팀원들 사이의 끈끈한 동질감이나 가족 같은 유대감을 말할 때 씁니다."
+    },
+    {
+      "id": 301,
+      "word": "jeopardize",
+      "part": "verb",
+      "meaning": "위태롭게 하다, 위험에 빠뜨리다",
+      "paraphrasing": ["endanger", "threaten", "compromise"],
+      "collocations": ["jeopardize the deal", "jeopardize safety"],
+      "tip": "부주의한 행동이 비즈니스 계약이나 안전을 해칠 수 있다는 경고에 나옵니다."
+    },
+    {
+      "id": 302,
+      "word": "amnesty",
+      "part": "noun",
+      "meaning": "사면, 자진 신고 기간",
+      "paraphrasing": ["pardon", "immunity"],
+      "collocations": ["tax amnesty", "library book amnesty"],
+      "tip": "도서관 연체료를 면제해주는 '자진 반납 기간' 맥락으로 가끔 등장합니다."
+    },
+    {
+      "id": 303,
+      "word": "exemplify",
+      "part": "verb",
+      "meaning": "전형적인 예가 되다, 예증하다",
+      "paraphrasing": ["illustrate", "demonstrate", "embody"],
+      "collocations": ["exemplify the spirit", "exemplify success"],
+      "tip": "어떤 직원이 기업 정신을 가장 잘 보여주는 본보기일 때 사용됩니다."
+    },
+    {
+      "id": 304,
+      "word": "incidental",
+      "part": "adjective",
+      "meaning": "부수적인, 우발적인",
+      "paraphrasing": ["secondary", "minor", "accompanying"],
+      "collocations": ["incidental expenses", "incidental music"],
+      "tip": "여행 중 발생하는 '부대 비용(incidental expenses)'으로 가장 많이 나옵니다."
+    },
+    {
+      "id": 305,
+      "word": "obsolescence",
+      "part": "noun",
+      "meaning": "노후화, 구식화",
+      "paraphrasing": ["datedness", "antiquity"],
+      "collocations": ["planned obsolescence", "built-in obsolescence"],
+      "tip": "기술이 발전하며 기존 제품이 쓸모없어지는 상황을 묘사할 때 쓰입니다."
+    },
+    {
+      "id": 306,
+      "word": "peruse",
+      "part": "verb",
+      "meaning": "정독하다, 살피다",
+      "paraphrasing": ["examine", "scrutinize", "inspect"],
+      "collocations": ["peruse the contract", "peruse the document"],
+      "tip": "단순히 읽는 것보다 더 꼼꼼하게 훑어보는 뉘앙스입니다."
+    },
+    {
+      "id": 307,
+      "word": "remittance",
+      "part": "noun",
+      "meaning": "송금, 납부",
+      "paraphrasing": ["payment", "transfer"],
+      "collocations": ["overseas remittance", "electronic remittance"],
+      "tip": "해외로 돈을 보내거나 대금을 지불하는 행위를 뜻합니다."
+    },
+    {
+      "id": 308,
+      "word": "stipulate",
+      "part": "verb",
+      "meaning": "규정하다, 명시하다",
+      "paraphrasing": ["specify", "state", "require"],
+      "collocations": ["as stipulated in the terms", "stipulate that"],
+      "tip": "계약 조건에서 특정 사항을 명확하게 요구할 때 씁니다."
+    },
+    {
+      "id": 309,
+      "word": "unanimous",
+      "part": "adjective",
+      "meaning": "만장일치의",
+      "paraphrasing": ["consistent", "solid", "united"],
+      "collocations": ["unanimous vote", "unanimous approval"],
+      "tip": "위원회나 이사회의 의견이 하나로 모였을 때 필수 표현입니다."
+    },
+    {
+      "id": 310,
+      "word": "waive",
+      "part": "verb",
+      "meaning": "포기하다, 면제하다",
+      "paraphrasing": ["relinquish", "forgo", "cancel"],
+      "collocations": ["waive the late fee", "waive the requirement"],
+      "tip": "수수료를 받지 않거나 자격 요건을 면제해주는 혜택 지문 단골입니다."
+    },
+    {
+      "id": 311,
+      "word": "affiliate",
+      "part": "noun / verb",
+      "meaning": "계열사 / 제휴하다",
+      "paraphrasing": ["subsidiary", "branch / associate"],
+      "collocations": ["affiliated companies", "be affiliated with"],
+      "tip": "수동태로 쓰여 '~와 연계되어 있다'는 맥락으로 파트 5에서 잘 나옵니다."
+    },
+    {
+      "id": 312,
+      "word": "consecutive",
+      "part": "adjective",
+      "meaning": "연속적인",
+      "paraphrasing": ["successive", "sequential", "continuous"],
+      "collocations": ["three consecutive months", "consecutive days"],
+      "tip": "기간을 나타내는 명사 앞에서 '연속 몇 달/일'처럼 쓰입니다."
+    },
+    {
+      "id": 313,
+      "word": "deficit",
+      "part": "noun",
+      "meaning": "적자, 부족액",
+      "paraphrasing": ["shortfall", "shortage", "loss"],
+      "collocations": ["budget deficit", "trade deficit"],
+      "tip": "남는 것(surplus)과 반대로 부족한 상태를 나타내는 경제 용어입니다."
+    },
+    {
+      "id": 314,
+      "word": "endorse",
+      "part": "verb",
+      "meaning": "지지하다, (유명인이) 홍보하다",
+      "paraphrasing": ["support", "back", "promote"],
+      "collocations": ["endorse a product", "officially endorse"],
+      "tip": "연예인이 제품 광고에 나와 추천하거나 공식 승인할 때 씁니다."
+    },
+    {
+      "id": 315,
+      "word": "fluctuate",
+      "part": "verb",
+      "meaning": "변동하다, 오르내리다",
+      "paraphrasing": ["waver", "vary", "alter"],
+      "collocations": ["fluctuating exchange rates", "prices fluctuate wildly"],
+      "tip": "그래프가 불안정하게 움직이는 모습을 상상하면 쉽습니다."
+    },
+    {
+      "id": 316,
+      "word": "imperative",
+      "part": "adjective",
+      "meaning": "필수적인, 긴요한",
+      "paraphrasing": ["essential", "crucial", "vital"],
+      "collocations": ["it is imperative that", "an imperative task"],
+      "tip": "'It is imperative that + S + (should) V' 구문을 주의 깊게 보세요."
+    },
+    {
+      "id": 317,
+      "word": "lucrative",
+      "part": "adjective",
+      "meaning": "수익성이 좋은",
+      "paraphrasing": ["profitable", "rewarding"],
+      "collocations": ["lucrative business", "lucrative contract"],
+      "tip": "돈이 되는 알짜 사업을 설명할 때 쓰이는 형용사입니다."
+    },
+    {
+      "id": 318,
+      "word": "mandatory",
+      "part": "adjective",
+      "meaning": "의무적인, 강제적인",
+      "paraphrasing": ["compulsory", "required", "obligatory"],
+      "collocations": ["mandatory meeting", "mandatory training"],
+      "tip": "규정상 빠지면 안 되는 행사를 수식합니다."
+    },
+    {
+      "id": 319,
+      "word": "preliminary",
+      "part": "adjective",
+      "meaning": "예비의, 준비의",
+      "paraphrasing": ["initial", "introductory"],
+      "collocations": ["preliminary findings", "preliminary stage"],
+      "tip": "본격적인 시작 전 단계인 '예비 조사/결과' 등에 붙습니다."
+    },
+    {
+      "id": 320,
+      "word": "stagnant",
+      "part": "adjective",
+      "meaning": "정체된, 고여 있는",
+      "paraphrasing": ["static", "still", "sluggish"],
+      "collocations": ["stagnant economy", "stagnant water"],
+      "tip": "흐르지 않고 멈춰 있는 경제 상황이나 시장을 묘사합니다."
+    },
+    {
+      "id": 321,
+      "word": "amnesty",
+      "part": "noun",
+      "meaning": "사면, 자진 신고 기간",
+      "paraphrasing": ["pardon", "immunity"],
+      "collocations": ["tax amnesty", "library book amnesty"],
+      "tip": "도서관 연체료를 면제해주는 '자진 반납 기간' 맥락으로 가끔 등장합니다."
+    },
+    {
+      "id": 322,
+      "word": "unprecedented",
+      "part": "adjective",
+      "meaning": "전례 없는, 미증유의",
+      "paraphrasing": ["groundbreaking", "unparalleled"],
+      "collocations": ["unprecedented success", "at an unprecedented rate"],
+      "tip": "기록적인 매출 성장이나 파격적인 혜택을 강조할 때 파트 7 기사 지문 단골입니다."
+    },
+    {
+      "id": 323,
+      "word": "stringent",
+      "part": "adjective",
+      "meaning": "엄격한, 혹독한",
+      "paraphrasing": ["strict", "rigorous", "rigid"],
+      "collocations": ["stringent safety regulations", "stringent standards"],
+      "tip": "법규, 규칙, 표준 등이 매우 까다로울 때 사용하며 오답률이 높은 어휘입니다."
+    },
+    {
+      "id": 324,
+      "word": "reimburse",
+      "part": "verb",
+      "meaning": "배상하다, 변제하다",
+      "paraphrasing": ["repay", "refund", "compensate"],
+      "collocations": ["reimburse travel expenses", "be fully reimbursed"],
+      "tip": "출장 시 본인이 쓴 비용을 회사가 나중에 돌려줄 때 쓰는 필수 비즈니스 단어입니다."
+    },
+    {
+      "id": 325,
+      "word": "exemplary",
+      "part": "adjective",
+      "meaning": "모범적인, 칭찬할 만한",
+      "paraphrasing": ["commendable", "admirable", "model"],
+      "collocations": ["exemplary performance", "exemplary service"],
+      "tip": "실적이 매우 우수하여 상을 받거나 사례로 소개될 때 주로 쓰입니다."
+    },
+    {
+      "id": 326,
+      "word": "curtail",
+      "part": "verb",
+      "meaning": "줄이다, 삭감하다",
+      "paraphrasing": ["reduce", "shorten", "cut back"],
+      "collocations": ["curtail spending", "curtail the program"],
+      "tip": "예산 부족으로 지출을 줄이거나 운영 시간을 단축할 때 등장합니다."
+    },
+    {
+      "id": 327,
+      "word": "feasibility",
+      "part": "noun",
+      "meaning": "실행 가능성",
+      "paraphrasing": ["viability", "practicability"],
+      "collocations": ["feasibility study", "economic feasibility"],
+      "tip": "새로운 사업 아이템이 실제로 실현 가능한지 따질 때 필수적으로 나오는 명사입니다."
+    },
+    {
+      "id": 328,
+      "word": "stipulate",
+      "part": "verb",
+      "meaning": "규정하다, 명기하다",
+      "paraphrasing": ["specify", "state", "require"],
+      "collocations": ["as stipulated in the terms", "contract stipulations"],
+      "tip": "계약서상에서 '이러한 조건을 지켜야 한다'고 못 박을 때 사용합니다."
+    },
+    {
+      "id": 329,
+      "word": "mandatory",
+      "part": "adjective",
+      "meaning": "의무적인, 필수의",
+      "paraphrasing": ["compulsory", "required", "obligatory"],
+      "collocations": ["mandatory training", "mandatory attendance"],
+      "tip": "안 지키면 안 되는 강제 규정을 설명할 때 빠지지 않습니다."
+    },
+    {
+      "id": 330,
+      "word": "scrutinize",
+      "part": "verb",
+      "meaning": "세밀히 조사하다",
+      "paraphrasing": ["examine closely", "inspect", "analyze"],
+      "collocations": ["scrutinize the report", "carefully scrutinize"],
+      "tip": "대충 훑는 것이 아니라 오타 하나까지 찾아낼 듯 꼼꼼히 보는 상황입니다."
+    },
+    {
+      "id": 331,
+      "word": "lucrative",
+      "part": "adjective",
+      "meaning": "수익성이 좋은, 유리한",
+      "paraphrasing": ["profitable", "rewarding"],
+      "collocations": ["lucrative business", "lucrative contract"],
+      "tip": "돈이 많이 벌리는 알짜 사업을 묘사하는 고득점 형용사입니다."
+    },
+    {
+      "id": 332,
+      "word": "commensurate",
+      "part": "adjective",
+      "meaning": "어울리는, 비례하는",
+      "paraphrasing": ["proportionate", "corresponding"],
+      "collocations": ["salary commensurate with experience", "be commensurate with"],
+      "tip": "전치사 with와 짝을 이루어 '경력에 비례하는 급여' 맥락으로 단골 출제됩니다."
+    },
+    {
+      "id": 333,
+      "word": "inadvertently",
+      "part": "adverb",
+      "meaning": "무심코, 부주의하게",
+      "paraphrasing": ["unintentionally", "accidentally"],
+      "collocations": ["inadvertently omitted", "inadvertently deleted"],
+      "tip": "실수로 이메일을 지웠거나 정보를 빠뜨렸을 때 변명하는 지문에 자주 나옵니다."
+    },
+    {
+      "id": 334,
+      "word": "tentative",
+      "part": "adjective",
+      "meaning": "잠정적인, 머뭇거리는",
+      "paraphrasing": ["provisional", "unconfirmed"],
+      "collocations": ["tentative schedule", "tentative agreement"],
+      "tip": "확정되지 않은 일정(schedule)과 가장 많이 결합하는 단어입니다."
+    },
+    {
+      "id": 335,
+      "word": "alleviate",
+      "part": "verb",
+      "meaning": "완화하다, 경감하다",
+      "paraphrasing": ["ease", "relieve", "mitigate"],
+      "collocations": ["alleviate traffic congestion", "alleviate concerns"],
+      "tip": "교통 체증이나 고객의 불안감을 줄여줄 때 사용하는 긍정 동사입니다."
+    },
+    {
+      "id": 336,
+      "word": "waive",
+      "part": "verb",
+      "meaning": "(권리/수수료 등을) 포기하다, 면제하다",
+      "paraphrasing": ["forgo", "relinquish", "give up"],
+      "collocations": ["waive the late fee", "waive the right"],
+      "tip": "이벤트로 수수료를 면제해준다는 지문에서 정답 키워드로 빈출됩니다."
+    },
+    {
+      "id": 337,
+      "word": "redundant",
+      "part": "adjective",
+      "meaning": "불필요한, 정리 해고된",
+      "paraphrasing": ["superfluous", "unnecessary"],
+      "collocations": ["redundant features", "be made redundant"],
+      "tip": "중복되어 쓸모없어진 기능이나 인력 감축 상황을 설명할 때 쓰입니다."
+    },
+    {
+      "id": 338,
+      "word": "versatile",
+      "part": "adjective",
+      "meaning": "다재다능한, 다용도의",
+      "paraphrasing": ["adaptable", "all-purpose"],
+      "collocations": ["versatile tool", "versatile employee"],
+      "tip": "사람의 능력이 뛰어나거나 제품의 용도가 다양할 때 모두 사용 가능합니다."
+    },
+    {
+      "id": 339,
+      "word": "imperative",
+      "part": "adjective",
+      "meaning": "필수적인, 긴요한",
+      "paraphrasing": ["essential", "crucial", "vital"],
+      "collocations": ["it is imperative that", "an imperative task"],
+      "tip": "가주어 It과 함께 'It is imperative that + S + V(원형)' 구조로 잘 나옵니다."
+    },
+    {
+      "id": 340,
+      "word": "meticulously",
+      "part": "adverb",
+      "meaning": "꼼꼼하게, 세심하게",
+      "paraphrasing": ["painstakingly", "thoroughly"],
+      "collocations": ["meticulously planned", "meticulously maintained"],
+      "tip": "빈틈없이 완벽하게 준비되거나 관리된 상태를 묘사하는 부사입니다."
+    },
+    {
+      "id": 341,
+      "word": "aggregate",
+      "part": "adjective / noun",
+      "meaning": "합계의, 총액의 / 합계",
+      "paraphrasing": ["total", "cumulative", "combined"],
+      "collocations": ["aggregate demand", "in the aggregate"],
+      "tip": "개별 수치를 모두 합친 '총계'를 나타낼 때 통계 지문에서 자주 등장합니다."
+    },
+    {
+      "id": 342,
+      "word": "contingency",
+      "part": "noun",
+      "meaning": "만일의 사태, 돌발 사태",
+      "paraphrasing": ["eventuality", "possibility", "emergency"],
+      "collocations": ["contingency plan", "contingency fund"],
+      "tip": "예상치 못한 상황에 대비한 '비상 계획'이나 '비상금'으로 잘 나옵니다."
+    },
+    {
+      "id": 343,
+      "word": "discrepancy",
+      "part": "noun",
+      "meaning": "불일치, 차이",
+      "paraphrasing": ["inconsistency", "variation", "gap"],
+      "collocations": ["discrepancy between A and B", "financial discrepancy"],
+      "tip": "장부상의 금액과 실제 현금이 맞지 않는 '차이'를 설명할 때 필수 단어입니다."
+    },
+    {
+      "id": 344,
+      "word": "formidable",
+      "part": "adjective",
+      "meaning": "가공할, 어마어마한",
+      "paraphrasing": ["daunting", "intimidating", "impressive"],
+      "collocations": ["formidable opponent", "formidable task"],
+      "tip": "상대 경쟁사가 매우 강력하거나 해결해야 할 과제가 엄청날 때 씁니다."
+    },
+    {
+      "id": 345,
+      "word": "interim",
+      "part": "adjective",
+      "meaning": "임시의, 중간의",
+      "paraphrasing": ["temporary", "provisional", "acting"],
+      "collocations": ["interim report", "interim CEO"],
+      "tip": "정식 결정이 나기 전까지의 '중간 결과'나 '대행' 직책에 붙습니다."
+    },
+    {
+      "id": 346,
+      "word": "negligible",
+      "part": "adjective",
+      "meaning": "무시해도 될 정도의, 하찮은",
+      "paraphrasing": ["insignificant", "minor", "trifling"],
+      "collocations": ["negligible impact", "negligible cost"],
+      "tip": "영향력이 거의 없어서 신경 쓰지 않아도 되는 수치를 묘사합니다."
+    },
+    {
+      "id": 347,
+      "word": "precedence",
+      "part": "noun",
+      "meaning": "우선순위, 우선함",
+      "paraphrasing": ["priority", "superiority"],
+      "collocations": ["take precedence over", "in order of precedence"],
+      "tip": "어떤 업무가 다른 것보다 먼저 처리되어야 할 때 사용하는 고급 명사입니다."
+    },
+    {
+      "id": 348,
+      "word": "recapitulate",
+      "part": "verb",
+      "meaning": "요약하다, 개요를 말하다",
+      "paraphrasing": ["summarize", "recap", "outline"],
+      "collocations": ["recapitulate the main points"],
+      "tip": "회의 마지막에 핵심 내용을 다시 한번 정리할 때 쓰는 격식 있는 단어입니다."
+    },
+    {
+      "id": 349,
+      "word": "stringency",
+      "part": "noun",
+      "meaning": "엄격함, (자금의) 긴박",
+      "paraphrasing": ["rigidity", "strictness"],
+      "collocations": ["financial stringency", "stringency of regulations"],
+      "tip": "예산이 넉넉하지 않거나 규칙이 매우 까다로운 상태를 의미합니다."
+    },
+    {
+      "id": 350,
+      "word": "unilateral",
+      "part": "adjective",
+      "meaning": "일방적인, 한쪽만의",
+      "paraphrasing": ["one-sided", "independent"],
+      "collocations": ["unilateral decision", "unilateral contract"],
+      "tip": "상대방과 상의 없이 혼자 내린 결정을 뜻하며 비즈니스 분쟁 지문에 나옵니다."
+    },
+    {
+      "id": 351,
+      "word": "volatile",
+      "part": "adjective",
+      "meaning": "변덕스러운, 불안정한",
+      "paraphrasing": ["unstable", "unpredictable", "erratic"],
+      "collocations": ["volatile market", "volatile stock prices"],
+      "tip": "상황이 수시로 변해서 예측하기 어려운 상태를 설명할 때 씁니다."
+    },
+    {
+      "id": 352,
+      "word": "affidavit",
+      "part": "noun",
+      "meaning": "선서 진술서",
+      "paraphrasing": ["sworn statement", "testimony"],
+      "collocations": ["sign an affidavit", "sworn affidavit"],
+      "tip": "법적 효력이 있는 서면 진술서로, 계약 위반이나 법적 분쟁 지문에서 보입니다."
+    },
+    {
+      "id": 353,
+      "word": "bolster",
+      "part": "verb",
+      "meaning": "강화하다, 지지하다",
+      "paraphrasing": ["strengthen", "boost", "reinforce"],
+      "collocations": ["bolster confidence", "bolster the economy"],
+      "tip": "자신감을 북돋우거나 경제/이미지를 더 튼튼하게 만들 때 자주 쓰입니다."
+    },
+    {
+      "id": 354,
+      "word": "curtail",
+      "part": "verb",
+      "meaning": "줄이다, 삭감하다",
+      "paraphrasing": ["reduce", "shorten", "cut back"],
+      "collocations": ["curtail spending", "curtail production"],
+      "tip": "지출을 줄이거나 운영 시간을 단축하는 등 규모를 축소할 때 사용합니다."
+    },
+    {
+      "id": 355,
+      "word": "default",
+      "part": "verb / noun",
+      "meaning": "채무를 불이행하다 / 불이행, 기본 설정",
+      "paraphrasing": ["fail to pay", "nonpayment"],
+      "collocations": ["default on a loan", "by default"],
+      "tip": "대출금을 갚지 못하는 상황과 컴퓨터의 '기본값'이라는 두 가지 뜻 모두 중요합니다."
+    },
+    {
+      "id": 356,
+      "word": "eminent",
+      "part": "adjective",
+      "meaning": "저명한, 탁월한",
+      "paraphrasing": ["distinguished", "renowned", "prominent"],
+      "collocations": ["eminent scholar", "eminent physician"],
+      "tip": "특정 분야에서 아주 유명하고 존경받는 전문가를 수식합니다."
+    },
+    {
+      "id": 357,
+      "word": "feasible",
+      "part": "adjective",
+      "meaning": "실행 가능한",
+      "paraphrasing": ["viable", "practicable", "workable"],
+      "collocations": ["economically feasible", "feasible solution"],
+      "tip": "아이디어가 단순히 좋은 게 아니라 실제로 '구현 가능함'을 강조할 때 씁니다."
+    },
+    {
+      "id": 358,
+      "word": "grievance",
+      "part": "noun",
+      "meaning": "불만, 고충",
+      "paraphrasing": ["complaint", "resentment"],
+      "collocations": ["file a grievance", "address grievances"],
+      "tip": "직원들이 회사에 공식적으로 제기하는 불만 사항을 뜻합니다."
+    },
+    {
+      "id": 359,
+      "word": "hygiene",
+      "part": "noun",
+      "meaning": "위생, 청결",
+      "paraphrasing": ["sanitation", "cleanliness"],
+      "collocations": ["personal hygiene", "food hygiene standards"],
+      "tip": "식당 위생이나 작업장 안전 수칙 관련 지문에서 자주 등장합니다."
+    },
+    {
+      "id": 360,
+      "word": "incumbent",
+      "part": "adjective / noun",
+      "meaning": "재직 중인 / 현직자",
+      "paraphrasing": ["current", "existing"],
+      "collocations": ["incumbent president", "it is incumbent upon us"],
+      "tip": "현재 자리를 지키고 있는 사람을 뜻하거나, '의무로서 지워진'이라는 뜻도 있습니다."
+    },
+    {
+      "id": 361,
+      "word": "infringement",
+      "part": "noun",
+      "meaning": "위반, 침해",
+      "paraphrasing": ["violation", "breach", "transgression"],
+      "collocations": ["copyright infringement", "patent infringement"],
+      "tip": "저작권이나 특허권을 무단으로 사용했을 때 주로 등장하는 법률 용어입니다."
+    },
+    {
+      "id": 362,
+      "word": "jeopardy",
+      "part": "noun",
+      "meaning": "위험, 위난",
+      "paraphrasing": ["danger", "peril", "risk"],
+      "collocations": ["be in jeopardy", "double jeopardy"],
+      "tip": "상황이 매우 위태로워져서 존립이 위태로울 때 사용합니다."
+    },
+    {
+      "id": 363,
+      "word": "litigation",
+      "part": "noun",
+      "meaning": "소송, 기소",
+      "paraphrasing": ["lawsuit", "legal action", "proceedings"],
+      "collocations": ["pending litigation", "civil litigation"],
+      "tip": "법정에서 시시비비를 가리는 정식 재판 과정을 의미합니다."
+    },
+    {
+      "id": 364,
+      "word": "mitigation",
+      "part": "noun",
+      "meaning": "완화, 경감",
+      "paraphrasing": ["alleviation", "reduction", "relief"],
+      "collocations": ["mitigation of damages", "risk mitigation"],
+      "tip": "피해를 최소화하거나 리스크를 줄이는 조치를 말할 때 씁니다."
+    },
+    {
+      "id": 365,
+      "word": "noncompliance",
+      "part": "noun",
+      "meaning": "불이행, 미준수",
+      "paraphrasing": ["failure to comply", "disobedience"],
+      "collocations": ["penalty for noncompliance", "regulatory noncompliance"],
+      "tip": "규정이나 법규를 따르지 않았을 때 발생하는 결과와 함께 나옵니다."
+    },
+    {
+      "id": 366,
+      "word": "obligatory",
+      "part": "adjective",
+      "meaning": "의무적인, 필수의",
+      "paraphrasing": ["mandatory", "compulsory", "required"],
+      "collocations": ["obligatory attendance", "legally obligatory"],
+      "tip": "선택권 없이 반드시 행해야 하는 규칙을 설명합니다."
+    },
+    {
+      "id": 367,
+      "word": "perjury",
+      "part": "noun",
+      "meaning": "위증죄",
+      "paraphrasing": ["false testimony", "lying under oath"],
+      "collocations": ["commit perjury", "charge of perjury"],
+      "tip": "법정에서 선서하고 거짓말을 했을 때 적용되는 고난도 단어입니다."
+    },
+    {
+      "id": 368,
+      "word": "precedence",
+      "part": "noun",
+      "meaning": "우선순위, 선행",
+      "paraphrasing": ["priority", "antecedence"],
+      "collocations": ["take precedence over", "historical precedence"],
+      "tip": "다른 것보다 먼저 고려되거나 실행되어야 할 권리를 뜻합니다."
+    },
+    {
+      "id": 369,
+      "word": "ratification",
+      "part": "noun",
+      "meaning": "비준, 재가, 승인",
+      "paraphrasing": ["approval", "confirmation", "validation"],
+      "collocations": ["treaty ratification", "formal ratification"],
+      "tip": "합의된 내용을 공식적으로 확정 짓는 최종 단계를 의미합니다."
+    },
+    {
+      "id": 370,
+      "word": "stipulation",
+      "part": "noun",
+      "meaning": "조항, 조건",
+      "paraphrasing": ["condition", "provision", "requirement"],
+      "collocations": ["contractual stipulation", "key stipulation"],
+      "tip": "계약서상에 명시된 구체적인 요구 사항을 말합니다."
+    },
+    {
+      "id": 371,
+      "word": "testimonial",
+      "part": "noun",
+      "meaning": "추천 글, 감사패, 증명서",
+      "paraphrasing": ["endorsement", "recommendation", "tribute"],
+      "collocations": ["customer testimonials", "testimonial dinner"],
+      "tip": "사용 후기나 누군가의 업적을 기리는 공식적인 찬사를 뜻합니다."
+    },
+    {
+      "id": 372,
+      "word": "unanimous",
+      "part": "adjective",
+      "meaning": "만장일치의",
+      "paraphrasing": ["solid", "consistent", "unified"],
+      "collocations": ["unanimous vote", "unanimous support"],
+      "tip": "이견 없이 전원의 동의를 얻었음을 나타냅니다."
+    },
+    {
+      "id": 373,
+      "word": "verdict",
+      "part": "noun",
+      "meaning": "평결, 판단",
+      "paraphrasing": ["judgment", "decision", "ruling"],
+      "collocations": ["reach a verdict", "deliver a verdict"],
+      "tip": "배심원이나 법원이 내리는 최종 결론을 의미합니다."
+    },
+    {
+      "id": 374,
+      "word": "waiver",
+      "part": "noun",
+      "meaning": "권리 포기서, 면제",
+      "paraphrasing": ["relinquishment", "disclaimer", "exemption"],
+      "collocations": ["sign a waiver", "fee waiver"],
+      "tip": "책임을 묻지 않겠다는 각서나 비용 면제 혜택 지문에 자주 나옵니다."
+    },
+    {
+      "id": 375,
+      "word": "adversary",
+      "part": "noun",
+      "meaning": "상대방, 적수",
+      "paraphrasing": ["opponent", "rival", "foe"],
+      "collocations": ["formidable adversary", "political adversary"],
+      "tip": "경쟁사나 반대 측 협상가를 격식 있게 부르는 말입니다."
+    },
+    {
+      "id": 376,
+      "word": "breach",
+      "part": "noun / verb",
+      "meaning": "위반, 파기 / 어기다",
+      "paraphrasing": ["violation", "infringement", "break"],
+      "collocations": ["breach of contract", "breach of security"],
+      "tip": "약속이나 보안 시스템이 뚫렸을 때 사용하는 강력한 단어입니다."
+    },
+    {
+      "id": 377,
+      "word": "concession",
+      "part": "noun",
+      "meaning": "양보, 혜택; 영업권",
+      "paraphrasing": ["compromise", "allowance", "grant"],
+      "collocations": ["make concessions", "concession stand"],
+      "tip": "협상에서 한 발 물러나는 것과 매점(영업권)이라는 두 뜻을 다 외우세요."
+    },
+    {
+      "id": 378,
+      "word": "delegation",
+      "part": "noun",
+      "meaning": "대표단; 위임",
+      "paraphrasing": ["deputation", "commission", "assignment"],
+      "collocations": ["trade delegation", "delegation of authority"],
+      "tip": "회의에 파견된 집단이나 권한을 넘겨주는 행위 모두를 뜻합니다."
+    },
+    {
+      "id": 379,
+      "word": "enactment",
+      "part": "noun",
+      "meaning": "입법, 제정",
+      "paraphrasing": ["legislation", "passing", "ratification"],
+      "collocations": ["enactment of a law", "new enactment"],
+      "tip": "법안이 통과되어 실제 법으로 만들어지는 과정을 의미합니다."
+    },
+    {
+      "id": 380,
+      "word": "forfeiture",
+      "part": "noun",
+      "meaning": "몰수, 박탈",
+      "paraphrasing": ["loss", "seizure", "confiscation"],
+      "collocations": ["forfeiture of assets", "penalty of forfeiture"],
+      "tip": "계약 위반으로 보증금이나 권리를 잃게 되는 무서운 상황입니다."
     }
-    
   ]
 }
