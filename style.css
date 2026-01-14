@@ -2,35 +2,36 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* 사용자님 설정 배경색 유지 */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
-    overflow-x: hidden; /* 가로 스크롤 방지 */
+    /* 추가: 브라우저 기본 새로고침 및 오버스크롤 방지 */
+    overscroll-behavior-y: contain; 
 }
 
-/* 1. 컨테이너: 카드가 배치되는 전체 영역 */
+/* 1. 컨테이너: 상단 고정 및 여백 최소화 */
 #card-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* 모바일에서 위가 잘리지 않도록 상단 고정 */
-    padding-top: 15px;       /* 상단 여백 최소화 */
+    align-items: flex-start;
+    padding-top: 15px;
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
 }
 
-/* 2. 카드 본체: 크기와 원근감 설정 */
+/* 2. 카드 본체 */
 .card {
     width: 90vw;
     max-width: 400px;
-    height: 70vh;            /* 화면 높이의 70% (하단 잘림 방지) */
-    max-height: 550px;       /* 너무 길어지지 않게 제한 */
+    height: 70vh;
+    max-height: 550px;
     perspective: 1000px;
-    margin-bottom: 20px;     /* 바닥 여유 공간 */
+    margin-bottom: 20px;
 }
 
-/* 3. 카드 내부 (앞/뒤 회전) */
+/* 3. 카드 내부 회전 */
 .inner-card {
     position: relative;
     width: 100%;
@@ -45,7 +46,7 @@ body {
     transform: rotateY(180deg);
 }
 
-/* 4. 앞면/뒷면 공통 스타일 */
+/* 4. 앞면/뒷면 공통 */
 .front, .back {
     position: absolute;
     width: 100%;
@@ -61,22 +62,20 @@ body {
     box-sizing: border-box;
 }
 
-/* 앞면 색상 */
 .front {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
 }
 
-/* 뒷면 색상 */
 .back {
     background-color: #ffffff;
     color: #333;
     transform: rotateY(180deg);
-    justify-content: flex-start; /* 내용이 많으므로 위에서부터 정렬 */
-    overflow-y: auto;           /* 내용이 넘치면 카드 안에서 스크롤 */
+    justify-content: flex-start;
+    overflow-y: auto;
 }
 
-/* 5. 단어 텍스트 스타일 (JS에서 폰트 크기 동적 조절) */
+/* 5. 단어 텍스트 */
 .word-text {
     font-weight: bold;
     text-align: center;
@@ -88,7 +87,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* 6. 하단 아이콘 컨트롤러 */
+/* 6. 하단 컨트롤러 레이아웃 */
 .controls {
     position: absolute;
     bottom: 20px;
@@ -97,6 +96,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* 7. 중앙 인덱스 표시 스타일 */
+.index-display {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    pointer-events: none;
+}
+
+/* 뒷면일 때는 글자색을 보라색 계열로 변경 */
+.inner-card.flipped .index-display {
+    color: #764ba2;
 }
 
 .icon {
@@ -111,7 +123,7 @@ input[type="checkbox"].icon {
     cursor: pointer;
 }
 
-/* 7. 뒷면 상세 항목 스타일 */
+/* 8. 뒷면 상세 항목 */
 .detail-item {
     width: 100%;
     text-align: left;

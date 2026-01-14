@@ -2,7 +2,7 @@ let words = [];
 let currentIndex = 0;
 let startY = 0;
 let isDragging = false;
-let isThrottled = false; // 휠 연속 동작 방지
+let isThrottled = false;
 
 const container = document.getElementById('card-container');
 
@@ -21,7 +21,9 @@ function renderCard(index) {
     const word = words[index];
     if (!word) return;
 
-    // 글자 길이에 따른 폰트 및 자간 세밀 조절
+    const total = words.length;
+    const currentDisplay = index + 1;
+
     let fontSize = "2.5rem";
     let letterSpacing = "normal";
     const len = word.word.length;
@@ -30,12 +32,10 @@ function renderCard(index) {
         fontSize = "1.2rem";
         letterSpacing = "-1px";
     } else if (len > 15) {
-        fontSize = "1.5rem";
+        fontSize = "1.4rem";
         letterSpacing = "-0.5px";
-    } else if (len > 12) {
-        fontSize = "1.9rem";
     } else if (len > 10) {
-        fontSize = "2.2rem";
+        fontSize = "1.8rem";
     }
 
     container.innerHTML = `
@@ -47,6 +47,7 @@ function renderCard(index) {
                     </span>
                     <div class="controls">
                         <span class="icon" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
+                        <div class="index-display">${currentDisplay} / ${total}</div>
                         <input type="checkbox" class="icon" title="암기 완료" onclick="event.stopPropagation()">
                     </div>
                 </div>
@@ -56,6 +57,11 @@ function renderCard(index) {
                     <div class="detail-item"><span class="label">PARAPHRASING</span>${word.paraphrasing.join(', ')}</div>
                     <div class="detail-item"><span class="label">COLLOCATIONS</span>${word.collocations.join('<br>')}</div>
                     <div class="detail-item"><span class="label">TIP</span>${word.tip}</div>
+                    <div class="controls">
+                         <span style="visibility:hidden" class="icon">🔊</span>
+                         <div class="index-display">${currentDisplay} / ${total}</div>
+                         <span style="visibility:hidden" class="icon">✔️</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,13 +91,23 @@ function changeCard(direction) {
     renderCard(currentIndex);
 }
 
-// [입력 제어 통합]
-// 1. 모바일 터치
-window.addEventListener('touchstart', e => { startY = e.touches[0].pageY; }, { passive: true });
+// [입력 제어]
+// 1. 모바일 터치 (새로고침 방지 포함)
+window.addEventListener('touchstart', e => { 
+    startY = e.touches[0].pageY; 
+}, { passive: false });
+
+window.addEventListener('touchmove', e => {
+    // 터치 이동 시 브라우저 기본 동작(새로고침 등) 방지
+    if (e.cancelable) e.preventDefault();
+}, { passive: false });
+
 window.addEventListener('touchend', e => {
     const diff = startY - e.changedTouches[0].pageY;
-    if (Math.abs(diff) > 50) changeCard(diff > 0 ? 'next' : 'prev');
-}, { passive: true });
+    if (Math.abs(diff) > 50) {
+        changeCard(diff > 0 ? 'next' : 'prev');
+    }
+}, { passive: false });
 
 // 2. 마우스 클릭 드래그
 window.addEventListener('mousedown', e => { startY = e.pageY; isDragging = true; });
@@ -102,7 +118,7 @@ window.addEventListener('mouseup', e => {
     isDragging = false;
 });
 
-// 3. 키보드 (스페이스, 방향키)
+// 3. 키보드 (스페이스, 방향키, 엔터)
 window.addEventListener('keydown', e => {
     if (e.code === 'Space' || e.key === 'ArrowDown') {
         e.preventDefault();
@@ -116,14 +132,13 @@ window.addEventListener('keydown', e => {
     }
 });
 
-// 4. 마우스 휠 (복구 및 최적화)
+// 4. 마우스 휠
 window.addEventListener('wheel', e => {
     if (isThrottled) return;
-    
-    if (Math.abs(e.deltaY) > 20) { // 미세 움직임 무시
+    if (Math.abs(e.deltaY) > 20) {
         changeCard(e.deltaY > 0 ? 'next' : 'prev');
         isThrottled = true;
-        setTimeout(() => { isThrottled = false; }, 400); // 연속 넘김 방지 0.4초
+        setTimeout(() => { isThrottled = false; }, 400);
     }
 }, { passive: true });
 

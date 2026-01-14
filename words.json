@@ -5037,6 +5037,366 @@
       "paraphrasing": ["patented", "exclusive", "owned"],
       "collocations": ["proprietary software", "proprietary information"],
       "tip": "특정 회사만 권리를 가지고 있는 기술이나 정보를 말합니다."
+    },
+    {
+      "id": 561,
+      "word": "prospectus",
+      "part": "noun",
+      "meaning": "안내서, 설명서, 투자 설명서",
+      "paraphrasing": ["brochure", "syllabus", "pamphlet"],
+      "collocations": ["company prospectus", "college prospectus"],
+      "tip": "회사의 사업 내용이나 학교의 교육 과정을 상세히 적어둔 공식 책자입니다."
+    },
+    {
+      "id": 562,
+      "word": "prosperity",
+      "part": "noun",
+      "meaning": "번영, 번창, 성공",
+      "paraphrasing": ["affluence", "wealth", "success"],
+      "collocations": ["economic prosperity", "period of prosperity"],
+      "tip": "나라나 기업이 아주 잘 나가고 돈이 넘쳐나는 상태를 뜻합니다."
+    },
+    {
+      "id": 563,
+      "word": "provision",
+      "part": "noun",
+      "meaning": "공급, 준비; (조항) 규정",
+      "paraphrasing": ["supply; stipulation", "clause"],
+      "collocations": ["make provision for", "under the provisions of"],
+      "tip": "물건을 공급하는 것 외에, 계약서 상의 구체적인 '조항'을 뜻할 때 자주 나옵니다."
+    },
+    {
+      "id": 564,
+      "word": "provisional",
+      "part": "adjective",
+      "meaning": "임시의, 잠정적인",
+      "paraphrasing": ["temporary", "tentative", "interim"],
+      "collocations": ["provisional government", "provisional schedule"],
+      "tip": "확정된 것은 아니며, 나중에 바뀔 수도 있는 임시 단계를 뜻합니다."
+    },
+    {
+      "id": 565,
+      "word": "proximity",
+      "part": "noun",
+      "meaning": "가까움, 근접함",
+      "paraphrasing": ["closeness", "adjacency", "vicinity"],
+      "collocations": ["in close proximity to", "proximity of the airport"],
+      "tip": "거리나 시간상으로 아주 가까운 곳에 위치할 때 사용하는 격식 있는 단어입니다."
+    },
+    {
+      "id": 566,
+      "word": "proxy",
+      "part": "noun",
+      "meaning": "대리, 대리인",
+      "paraphrasing": ["representative", "substitute", "agent"],
+      "collocations": ["vote by proxy", "proxy server"],
+      "tip": "본인 대신 행동하는 사람이나 대리 투표권을 행사할 때 씁니다."
+    },
+    {
+      "id": 567,
+      "word": "prudent",
+      "part": "adjective",
+      "meaning": "신중한, 빈틈없는",
+      "paraphrasing": ["cautious", "wise", "discreet"],
+      "collocations": ["prudent investment", "prudent decision"],
+      "tip": "조심스럽고 현명하게 판단하여 실수를 방지하는 태도를 칭찬할 때 씁니다."
+    },
+    {
+      "id": 568,
+      "word": "punctual",
+      "part": "adjective",
+      "meaning": "시간을 엄수하는",
+      "paraphrasing": ["on time", "prompt", "timely"],
+      "collocations": ["be punctual", "punctual arrival"],
+      "tip": "약속 시간을 딱 지키는 정직한 태도를 나타내는 필수 비즈니스 단어입니다."
+    },
+    {
+      "id": 569,
+      "word": "purchase",
+      "part": "verb / noun",
+      "meaning": "구매하다 / 구매, 구입품",
+      "paraphrasing": ["buy", "acquire; acquisition"],
+      "collocations": ["proof of purchase", "make a purchase"],
+      "tip": "일상적인 'buy'보다 격식 있는 표현으로 영수증 등에서 자주 보입니다."
+    },
+    {
+      "id": 570,
+      "word": "qualification",
+      "part": "noun",
+      "meaning": "자격, 면허; 조건",
+      "paraphrasing": ["credential", "certificate", "eligibility"],
+      "collocations": ["minimum qualifications", "academic qualifications"],
+      "tip": "특정 업무를 수행하기 위해 필요한 학위나 경력 등을 의미합니다."
+    },
+    {
+      "id": 571,
+      "word": "qualitative",
+      "part": "adjective",
+      "meaning": "질적인, 성질상의",
+      "paraphrasing": ["subjective", "essential"],
+      "collocations": ["qualitative analysis", "qualitative research"],
+      "tip": "숫자로 된 데이터가 아닌 내용이나 질적인 측면을 분석할 때 씁니다."
+    },
+    {
+      "id": 572,
+      "word": "quantitative",
+      "part": "adjective",
+      "meaning": "양적인, 수량상의",
+      "paraphrasing": ["measurable", "numerical"],
+      "collocations": ["quantitative data", "quantitative analysis"],
+      "tip": "통계나 숫자처럼 측정 가능한 '양'에 집중할 때 사용하는 단어입니다."
+    },
+    {
+      "id": 573,
+      "word": "quarantine",
+      "part": "noun / verb",
+      "meaning": "격리 / 격리하다",
+      "paraphrasing": ["isolation", "separation", "segregation"],
+      "collocations": ["in quarantine", "quarantine period"],
+      "tip": "전염병 확산을 막기 위해 사람이나 동물을 일정 기간 떼어놓는 것을 뜻합니다."
+    },
+    {
+      "id": 574,
+      "word": "quarterly",
+      "part": "adjective / adverb",
+      "meaning": "분기별의 / 분기마다",
+      "paraphrasing": ["every three months"],
+      "collocations": ["quarterly report", "meet quarterly"],
+      "tip": "1년을 4등분한 3개월 단위의 실적 발표나 회의 지문에서 단골입니다."
+    },
+    {
+      "id": 575,
+      "word": "query",
+      "part": "noun / verb",
+      "meaning": "문의, 의문 / 질문하다",
+      "paraphrasing": ["question", "inquiry", "doubt"],
+      "collocations": ["customer query", "any queries?"],
+      "tip": "고객 지원 센터 등에서 들어오는 구체적인 질문 사항을 뜻합니다."
+    },
+    {
+      "id": 576,
+      "word": "questionnaire",
+      "part": "noun",
+      "meaning": "설문지",
+      "paraphrasing": ["survey", "poll", "opinion sheet"],
+      "collocations": ["fill out a questionnaire", "complete a questionnaire"],
+      "tip": "조사를 위해 여러 질문을 적어놓은 종이나 온라인 양식입니다."
+    },
+    {
+      "id": 577,
+      "word": "quota",
+      "part": "noun",
+      "meaning": "할당량, 쿼터",
+      "paraphrasing": ["allocation", "ration", "share"],
+      "collocations": ["sales quota", "import quota"],
+      "tip": "영업 사원에게 주어진 목표치나 수입 제한량 등을 의미합니다."
+    },
+    {
+      "id": 578,
+      "word": "quote",
+      "part": "verb / noun",
+      "meaning": "인용하다; 견적을 내다 / 견적액",
+      "paraphrasing": ["cite; estimate", "price"],
+      "collocations": ["get a quote", "price quote"],
+      "tip": "유명한 말을 따오는 것뿐 아니라 '공사 비용 견적'을 낼 때도 아주 많이 씁니다."
+    },
+    {
+      "id": 579,
+      "word": "radiate",
+      "part": "verb",
+      "meaning": "내뿜다, 방사하다",
+      "paraphrasing": ["emit", "beam", "exude"],
+      "collocations": ["radiate heat", "radiate confidence"],
+      "tip": "열이나 빛이 퍼져나가는 것뿐 아니라, 자신감이 뿜어져 나올 때도 씁니다."
+    },
+    {
+      "id": 580,
+      "word": "radical",
+      "part": "adjective",
+      "meaning": "근본적인, 급진적인",
+      "paraphrasing": ["fundamental", "extreme", "revolutionary"],
+      "collocations": ["radical change", "radical idea"],
+      "tip": "조금 바꾸는 게 아니라 뿌리부터 완전히 뜯어고치는 과감한 변화를 뜻합니다."
+    },
+    {
+      "id": 581,
+      "word": "random",
+      "part": "adjective",
+      "meaning": "무작위의, 임의의",
+      "paraphrasing": ["arbitrary", "haphazard", "accidental"],
+      "collocations": ["random sample", "at random"],
+      "tip": "어떤 규칙이나 의도 없이 무골라잡기로 선택하는 상황을 뜻합니다."
+    },
+    {
+      "id": 582,
+      "word": "ratify",
+      "part": "verb",
+      "meaning": "비준하다, 재가하다, 승인하다",
+      "paraphrasing": ["approve", "confirm", "sanction"],
+      "collocations": ["ratify a treaty", "ratify an agreement"],
+      "tip": "조약이나 계약을 공식적으로 확정 짓고 승인할 때 쓰는 격식 있는 단어입니다."
+    },
+    {
+      "id": 583,
+      "word": "rational",
+      "part": "adjective",
+      "meaning": "합리적인, 이성적인",
+      "paraphrasing": ["logical", "sensible", "reasonable"],
+      "collocations": ["rational decision", "rational explanation"],
+      "tip": "감정에 휘둘리지 않고 논리적 근거에 따라 판단하는 상태를 말합니다."
+    },
+    {
+      "id": 584,
+      "word": "readily",
+      "part": "adverb",
+      "meaning": "손쉽게, 선뜻, 기꺼이",
+      "paraphrasing": ["easily", "willingly", "promptly"],
+      "collocations": ["readily available", "readily accept"],
+      "tip": "어떤 물건을 구하기 매우 쉽거나, 요청을 흔쾌히 수락할 때 씁니다."
+    },
+    {
+      "id": 585,
+      "word": "realignment",
+      "part": "noun",
+      "meaning": "재편성, 재조정",
+      "paraphrasing": ["reorganization", "adjustment", "rearrangement"],
+      "collocations": ["strategic realignment", "political realignment"],
+      "tip": "조직의 구조나 전략 방향을 새롭게 다시 맞추는 것을 의미합니다."
+    },
+    {
+      "id": 586,
+      "word": "reasonable",
+      "part": "adjective",
+      "meaning": "합리적인; (가격이) 적당한",
+      "paraphrasing": ["fair", "affordable", "moderate"],
+      "collocations": ["reasonable price", "reasonable doubt"],
+      "tip": "타당한 이유가 있거나, 가격이 비싸지 않고 딱 적당할 때 자주 쓰입니다."
+    },
+    {
+      "id": 587,
+      "word": "rebate",
+      "part": "noun / verb",
+      "meaning": "리베이트, 환급 / 환불하다",
+      "paraphrasing": ["refund", "discount", "repayment"],
+      "collocations": ["tax rebate", "mail-in rebate"],
+      "tip": "지불한 금액의 일부를 나중에 돌려받는 혜택을 말합니다."
+    },
+    {
+      "id": 588,
+      "word": "recapitulate",
+      "part": "verb",
+      "meaning": "요점을 되풀이하다, 요약하다",
+      "paraphrasing": ["summarize", "restate", "outline"],
+      "collocations": ["recapitulate the main points", "to recapitulate"],
+      "tip": "말이 너무 길어질 때 줄여서 'recap'한다고도 표현하는 그 단어의 본래 형태입니다."
+    },
+    {
+      "id": 589,
+      "word": "recede",
+      "part": "verb",
+      "meaning": "물러나다, 약해지다",
+      "paraphrasing": ["withdraw", "retreat", "diminish"],
+      "collocations": ["floodwaters recede", "receding hairline"],
+      "tip": "물러가는 파도나 희미해지는 기억처럼 뒤로 빠지는 모양새를 뜻합니다."
+    },
+    {
+      "id": 590,
+      "word": "recipient",
+      "part": "noun",
+      "meaning": "수령인, 수혜자",
+      "paraphrasing": ["receiver", "beneficiary", "addressee"],
+      "collocations": ["award recipient", "intended recipient"],
+      "tip": "이메일을 받는 사람이나 상을 받는 당사자를 가리키는 필수 명사입니다."
+    },
+    {
+      "id": 591,
+      "word": "reciprocal",
+      "part": "adjective",
+      "meaning": "상호 간의, 호혜적인",
+      "paraphrasing": ["mutual", "complementary", "shared"],
+      "collocations": ["reciprocal relationship", "reciprocal agreement"],
+      "tip": "일방통행이 아니라 주고받는 관계가 성립될 때 사용합니다."
+    },
+    {
+      "id": 592,
+      "word": "reclaim",
+      "part": "verb",
+      "meaning": "되찾다, 환수하다; 간척하다",
+      "paraphrasing": ["recover", "retrieve", "redeem"],
+      "collocations": ["baggage reclaim", "reclaim land"],
+      "tip": "내 소유였던 것을 다시 찾거나, 버려진 땅을 쓸모 있게 만드는 것을 말합니다."
+    },
+    {
+      "id": 593,
+      "word": "recommendation",
+      "part": "noun",
+      "meaning": "추천, 권고",
+      "paraphrasing": ["suggestion", "advice", "endorsement"],
+      "collocations": ["letter of recommendation", "strong recommendation"],
+      "tip": "좋은 사람을 추천하거나 전문가가 어떤 조치를 권할 때 씁니다."
+    },
+    {
+      "id": 594,
+      "word": "reconcile",
+      "part": "verb",
+      "meaning": "화해시키다; (계정 등을) 맞추다",
+      "paraphrasing": ["resolve", "settle", "harmonize"],
+      "collocations": ["reconcile differences", "reconcile accounts"],
+      "tip": "다툼을 해결하는 것뿐 아니라 회계 장부의 수치를 대조하여 일치시킬 때도 씁니다."
+    },
+    {
+      "id": 595,
+      "word": "rectify",
+      "part": "verb",
+      "meaning": "수정하다, 바로잡다",
+      "paraphrasing": ["correct", "remedy", "fix"],
+      "collocations": ["rectify a situation", "rectify an error"],
+      "tip": "잘못된 상황이나 오류를 올바른 상태로 고쳐놓는 행위입니다."
+    },
+    {
+      "id": 596,
+      "word": "recurring",
+      "part": "adjective",
+      "meaning": "되풀이되는, 반복되는",
+      "paraphrasing": ["repetitive", "recurrent", "persistent"],
+      "collocations": ["recurring problem", "recurring cost"],
+      "tip": "한 번으로 끝나지 않고 자꾸만 발생하는 문제나 비용을 뜻합니다."
+    },
+    {
+      "id": 597,
+      "word": "redundant",
+      "part": "adjective",
+      "meaning": "불필요한, 중복된; 해고된",
+      "paraphrasing": ["superfluous", "unnecessary; laid off"],
+      "collocations": ["become redundant", "redundant information"],
+      "tip": "정보가 너무 많아 넘쳐나거나, 인력 감축으로 직장을 잃게 된 상황에 씁니다."
+    },
+    {
+      "id": 598,
+      "word": "refinery",
+      "part": "noun",
+      "meaning": "정제소, 제련소",
+      "paraphrasing": ["purification plant", "processing plant"],
+      "collocations": ["oil refinery", "sugar refinery"],
+      "tip": "원유나 설탕 같은 원자재를 깨끗하게 가공하는 공장을 의미합니다."
+    },
+    {
+      "id": 599,
+      "word": "refrain",
+      "part": "verb",
+      "meaning": "삼가다, 그만두다",
+      "paraphrasing": ["abstain", "desist", "avoid"],
+      "collocations": ["please refrain from smoking", "refrain from comment"],
+      "tip": "공공장소 안내문에서 '~하지 말아 주십시오'라고 할 때 단골로 등장합니다."
+    },
+    {
+      "id": 600,
+      "word": "refurbish",
+      "part": "verb",
+      "meaning": "새로 꾸미다, 재단장하다",
+      "paraphrasing": ["renovate", "revamp", "remodel"],
+      "collocations": ["refurbish an office", "refurbished laptop"],
+      "tip": "오래된 시설을 수리하여 깨끗하게 만들거나 중고 제품을 수리해 다시 팔 때 씁니다."
     }
   ]
 }
