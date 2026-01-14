@@ -3419,6 +3419,186 @@
       "paraphrasing": ["loss", "seizure", "confiscation"],
       "collocations": ["forfeiture of assets", "penalty of forfeiture"],
       "tip": "계약 위반으로 보증금이나 권리를 잃게 되는 무서운 상황입니다."
+    },
+    {
+      "id": 381,
+      "word": "commensurate",
+      "part": "adjective",
+      "meaning": "어울리는, 비례하는",
+      "paraphrasing": ["proportionate", "corresponding", "equivalent"],
+      "collocations": ["salary commensurate with experience", "be commensurate with"],
+      "tip": "전치사 with와 함께 쓰여 경력에 '상응하는' 대우를 말할 때 씁니다."
+    },
+    {
+      "id": 382,
+      "word": "discretionary",
+      "part": "adjective",
+      "meaning": "자유 재량권이 있는",
+      "paraphrasing": ["optional", "elective", "arbitrary"],
+      "collocations": ["discretionary income", "discretionary bonus"],
+      "tip": "정해진 규칙 외에 관리자가 '알아서' 결정할 수 있는 항목을 뜻합니다."
+    },
+    {
+      "id": 383,
+      "word": "exemplary",
+      "part": "adjective",
+      "meaning": "모범적인, 훌륭한",
+      "paraphrasing": ["commendable", "model", "admirable"],
+      "collocations": ["exemplary performance", "exemplary conduct"],
+      "tip": "실적이 매우 뛰어나 상을 받을 만한 직원에게 쓰는 찬사입니다."
+    },
+    {
+      "id": 384,
+      "word": "incentive",
+      "part": "noun",
+      "meaning": "장려책, 우대 조치",
+      "paraphrasing": ["stimulus", "inducement", "motivation"],
+      "collocations": ["financial incentives", "tax incentives"],
+      "tip": "직원들의 사기를 높이거나 투자를 끌어내기 위한 '당근'을 의미합니다."
+    },
+    {
+      "id": 385,
+      "word": "mandatory",
+      "part": "adjective",
+      "meaning": "의무적인, 필수의",
+      "paraphrasing": ["compulsory", "required", "obligatory"],
+      "collocations": ["mandatory training session", "mandatory retirement age"],
+      "tip": "빠지면 안 되는 필수적인 규정이나 교육을 수식합니다."
+    },
+    {
+      "id": 386,
+      "word": "perquisite",
+      "part": "noun",
+      "meaning": "특전, 부수입",
+      "paraphrasing": ["perk", "benefit", "privilege"],
+      "collocations": ["job perquisites", "corporate perquisites"],
+      "tip": "급여 외에 제공되는 차량 지원, 휴가비 등의 '복지(perk)'의 격식 있는 표현입니다."
+    },
+    {
+      "id": 387,
+      "word": "remuneration",
+      "part": "noun",
+      "meaning": "보수, 급료",
+      "paraphrasing": ["compensation", "earnings", "pay"],
+      "collocations": ["competitive remuneration", "remuneration package"],
+      "tip": "급여뿐 아니라 각종 수당을 포함한 '총 보상'을 뜻하는 고급 단어입니다."
+    },
+    {
+      "id": 388,
+      "word": "stipulate",
+      "part": "verb",
+      "meaning": "규정하다, 명기하다",
+      "paraphrasing": ["specify", "state", "require"],
+      "collocations": ["as stipulated in the agreement", "stipulate that"],
+      "tip": "계약서나 지침에서 특정 조건을 명확히 못 박을 때 사용합니다."
+    },
+    {
+      "id": 389,
+      "word": "tenure",
+      "part": "noun",
+      "meaning": "재임 기간, 종신 재직권",
+      "paraphrasing": ["term", "occupancy", "incumbency"],
+      "collocations": ["during his tenure", "faculty tenure"],
+      "tip": "어떤 직위나 자리에 머무는 기간 전체를 의미합니다."
+    },
+    {
+      "id": 390,
+      "word": "unprecedented",
+      "part": "adjective",
+      "meaning": "전례 없는, 미증유의",
+      "paraphrasing": ["groundbreaking", "unparalleled", "novel"],
+      "collocations": ["unprecedented growth", "at an unprecedented rate"],
+      "tip": "역대급 실적이나 처음 시도되는 파격적인 일을 강조할 때 씁니다."
+    },
+    {
+      "id": 391,
+      "word": "versatile",
+      "part": "adjective",
+      "meaning": "다재다능한, 다용도의",
+      "paraphrasing": ["adaptable", "all-purpose", "flexible"],
+      "collocations": ["versatile player", "versatile software"],
+      "tip": "사람이 여러 일을 잘하거나 기계가 여러 기능을 할 때 모두 사용합니다."
+    },
+    {
+      "id": 392,
+      "word": "waive",
+      "part": "verb",
+      "meaning": "포기하다, 적용하지 않다",
+      "paraphrasing": ["forgo", "relinquish", "abandon"],
+      "collocations": ["waive the registration fee", "waive the right"],
+      "tip": "수수료를 안 받거나 규칙 적용을 면제해 줄 때 정답 근거로 빈출됩니다."
+    },
+    {
+      "id": 393,
+      "word": "alleviate",
+      "part": "verb",
+      "meaning": "완화하다, 경감하다",
+      "paraphrasing": ["ease", "mitigate", "relieve"],
+      "collocations": ["alleviate workload", "alleviate traffic"],
+      "tip": "과도한 업무량이나 교통 체증 같은 부정적인 상황을 줄여줄 때 씁니다."
+    },
+    {
+      "id": 394,
+      "word": "bolster",
+      "part": "verb",
+      "meaning": "강화하다, 북돋우다",
+      "paraphrasing": ["strengthen", "boost", "reinforce"],
+      "collocations": ["bolster sales", "bolster staff morale"],
+      "tip": "매출을 올리거나 사기를 진작시키는 긍정적인 맥락에서 사용됩니다."
+    },
+    {
+      "id": 395,
+      "word": "curtail",
+      "part": "verb",
+      "meaning": "삭감하다, 단축하다",
+      "paraphrasing": ["reduce", "shorten", "diminish"],
+      "collocations": ["curtail expenditures", "curtail the meeting"],
+      "tip": "예산 부족으로 지출을 줄이거나 시간을 줄여야 할 때 등장합니다."
+    },
+    {
+      "id": 396,
+      "word": "deteriorate",
+      "part": "verb",
+      "meaning": "악화되다, 퇴보하다",
+      "paraphrasing": ["worsen", "decline", "degenerate"],
+      "collocations": ["deteriorating market conditions", "deteriorate rapidly"],
+      "tip": "상황이나 제품의 상태가 점점 나빠지는 것을 묘사합니다."
+    },
+    {
+      "id": 397,
+      "word": "expedite",
+      "part": "verb",
+      "meaning": "신속히 처리하다, 촉진하다",
+      "paraphrasing": ["accelerate", "speed up", "hasten"],
+      "collocations": ["expedite delivery", "expedite the process"],
+      "tip": "고객의 요청으로 배송을 앞당기거나 절차를 빠르게 할 때 필수 단어입니다."
+    },
+    {
+      "id": 398,
+      "word": "fluctuate",
+      "part": "verb",
+      "meaning": "오르내리다, 변동하다",
+      "paraphrasing": ["waver", "oscillate", "vary"],
+      "collocations": ["fluctuating prices", "fluctuate between"],
+      "tip": "고정되지 않고 위아래로 움직이는 수치(환율, 유가 등)를 설명합니다."
+    },
+    {
+      "id": 399,
+      "word": "gratuitous",
+      "part": "adjective",
+      "meaning": "무료의, 불필요한",
+      "paraphrasing": ["free", "complimentary", "unwarranted"],
+      "collocations": ["gratuitous advice", "gratuitous service"],
+      "tip": "'무료'라는 뜻도 있지만, 상황에 맞지 않게 '과한/불필요한'이라는 뜻도 있습니다."
+    },
+    {
+      "id": 400,
+      "word": "haphazard",
+      "part": "adjective",
+      "meaning": "무계획적인, 되는 대로의",
+      "paraphrasing": ["random", "disorganized", "unplanned"],
+      "collocations": ["in a haphazard manner", "haphazard approach"],
+      "tip": "체계 없이 마구잡이로 진행되어 결과가 엉망인 상황을 묘사합니다."
     }
   ]
 }
