@@ -25,14 +25,20 @@ function renderCard(index) {
     const total = words.length;
     const currentDisplay = index + 1;
 
-    let fontSize = "2.5rem";
+    // [폰트 크기 자동 조절 로직 - 강화형]
+    let fontSize = "2.8rem"; // 기본 크기
     let letterSpacing = "normal";
-    if (word.word.length > 20) {
-        fontSize = "1.2rem";
+    const wordLength = word.word.length;
+
+    if (wordLength > 18) {
+        fontSize = "1.3rem"; // 매우 긴 단어
         letterSpacing = "-1px";
-    } else if (word.word.length > 15) {
-        fontSize = "1.4rem";
+    } else if (wordLength > 13) {
+        fontSize = "1.6rem"; // 긴 단어
         letterSpacing = "-0.5px";
+    } else if (wordLength >= 10) {
+        fontSize = "2.0rem"; // 10자 이상일 때부터 폰트 줄임 시작
+        letterSpacing = "-0.2px";
     }
 
     container.innerHTML = `
@@ -105,7 +111,7 @@ window.addEventListener('touchmove', e => {
 window.addEventListener('touchend', e => {
     const diff = touchStartY - e.changedTouches[0].pageY;
     if (Math.abs(diff) > 50) {
-        changeCard(diff > 0 ? 'next' : 'prev');
+        changeCard(diff > 0 ? 'prev' : 'next');
     }
 }, { passive: true });
 
@@ -114,7 +120,7 @@ window.addEventListener('mousedown', e => { startY = e.pageY; isDragging = true;
 window.addEventListener('mouseup', e => {
     if (!isDragging) return;
     const diff = startY - e.pageY;
-    if (Math.abs(diff) > 50) changeCard(diff > 0 ? 'next' : 'prev');
+    if (Math.abs(diff) > 50) changeCard(diff > 0 ? 'prev' : 'next');
     isDragging = false;
 });
 

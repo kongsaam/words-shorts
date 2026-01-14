@@ -7197,6 +7197,366 @@
       "paraphrasing": ["enthusiasm", "passion", "eagerness"],
       "collocations": ["missionary zeal", "show great zeal"],
       "tip": "어떤 일에 대해 아주 뜨거운 관심과 에너지를 쏟는 마음 상태입니다."
+    },
+    {
+      "id": 801,
+      "word": "abandon",
+      "part": "verb",
+      "meaning": "버리다, 포기하다, 떠나다",
+      "paraphrasing": ["desert", "discard", "renounce"],
+      "collocations": ["abandon a project", "abandon hope"],
+      "tip": "하던 일을 중도에 그만두거나, 살던 곳을 완전히 떠날 때 씁니다."
+    },
+    {
+      "id": 802,
+      "word": "abbreviate",
+      "part": "verb",
+      "meaning": "축약하다, 줄여 쓰다",
+      "paraphrasing": ["shorten", "condense", "truncate"],
+      "collocations": ["abbreviated form", "abbreviate a name"],
+      "tip": "긴 단어나 문장을 짧은 기호나 약어로 줄이는 것을 말합니다."
+    },
+    {
+      "id": 803,
+      "word": "abide by",
+      "part": "phrasal verb",
+      "meaning": "(규칙·결정 등을) 지키다, 준수하다",
+      "paraphrasing": ["comply with", "follow", "obey"],
+      "collocations": ["abide by the rules", "abide by the contract"],
+      "tip": "토익에서 'comply with'와 함께 가장 자주 나오는 '준수하다' 표현입니다."
+    },
+    {
+      "id": 804,
+      "word": "abolish",
+      "part": "verb",
+      "meaning": "(법률·제도 등을) 폐지하다",
+      "paraphrasing": ["eliminate", "nullify", "annul"],
+      "collocations": ["abolish taxes", "abolish a system"],
+      "tip": "오래된 법이나 불합리한 제도를 공식적으로 없애는 것을 뜻합니다."
+    },
+    {
+      "id": 805,
+      "word": "abrupt",
+      "part": "adjective",
+      "meaning": "갑작스러운, 퉁명스러운",
+      "paraphrasing": ["sudden", "unexpected", "curt"],
+      "collocations": ["abrupt change", "abrupt departure"],
+      "tip": "예고 없이 갑자기 일이 터지거나 사람 태도가 쌀쌀맞을 때 씁니다."
+    },
+    {
+      "id": 806,
+      "word": "absentee",
+      "part": "noun",
+      "meaning": "결석자, 결근자",
+      "paraphrasing": ["non-attender", "missing person"],
+      "collocations": ["absentee ballot", "high absentee rate"],
+      "tip": "회의나 직장에 나오지 않은 사람을 뜻하며, 부재자 투표(absentee ballot)로도 쓰입니다."
+    },
+    {
+      "id": 807,
+      "word": "absorb",
+      "part": "verb",
+      "meaning": "흡수하다; (비용 등을) 부담하다",
+      "paraphrasing": ["soak up", "incorporate", "take in"],
+      "collocations": ["absorb the cost", "absorb information"],
+      "tip": "액체를 빨아들이는 것 외에, 기업이 추가 비용을 스스로 떠안을 때도 씁니다."
+    },
+    {
+      "id": 808,
+      "word": "abstain",
+      "part": "verb",
+      "meaning": "자제하다, 기권하다",
+      "paraphrasing": ["refrain", "desist", "forgo"],
+      "collocations": ["abstain from voting", "abstain from smoking"],
+      "tip": "투표에서 표를 던지지 않거나, 건강을 위해 나쁜 습관을 멀리할 때 씁니다."
+    },
+    {
+      "id": 809,
+      "word": "abstract",
+      "part": "adjective / noun",
+      "meaning": "추상적인 / 개요, 초록",
+      "paraphrasing": ["theoretical; summary", "synopsis"],
+      "collocations": ["abstract concept", "submit an abstract"],
+      "tip": "논문 앞부분에 내용을 짧게 요약한 '초록'을 뜻할 때 토익에 자주 나옵니다."
+    },
+    {
+      "id": 810,
+      "word": "abundant",
+      "part": "adjective",
+      "meaning": "풍부한, 많은",
+      "paraphrasing": ["plentiful", "ample", "copious"],
+      "collocations": ["abundant resources", "abundant evidence"],
+      "tip": "차고 넘칠 정도로 아주 넉넉한 상태를 묘사합니다."
+    },
+    {
+      "id": 811,
+      "word": "accelerate",
+      "part": "verb",
+      "meaning": "가속화하다, 속도를 높이다",
+      "paraphrasing": ["speed up", "hasten", "expedite"],
+      "collocations": ["accelerate growth", "accelerate the process"],
+      "tip": "속도를 높이는 것뿐 아니라 진행 과정을 앞당길 때도 사용합니다."
+    },
+    {
+      "id": 812,
+      "word": "accessible",
+      "part": "adjective",
+      "meaning": "접근 가능한, 이용 가능한",
+      "paraphrasing": ["available", "reachable", "obtainable"],
+      "collocations": ["easily accessible", "accessible by bus"],
+      "tip": "장소에 가기 쉽거나 정보를 얻기 용이한 상태를 뜻합니다."
+    },
+    {
+      "id": 813,
+      "word": "accessory",
+      "part": "noun",
+      "meaning": "부속물, 액세서리",
+      "paraphrasing": ["attachment", "addition", "supplement"],
+      "collocations": ["computer accessories", "fashion accessory"],
+      "tip": "주된 물건을 보조하거나 꾸며주는 추가 부품을 의미합니다."
+    },
+    {
+      "id": 814,
+      "word": "acclaim",
+      "part": "noun / verb",
+      "meaning": "찬사, 호평 / 환호하다",
+      "paraphrasing": ["praise", "applause", "commendation"],
+      "collocations": ["critical acclaim", "highly acclaimed"],
+      "tip": "전문가나 대중으로부터 아주 큰 칭찬을 받을 때 사용하는 단어입니다."
+    },
+    {
+      "id": 815,
+      "word": "accommodate",
+      "part": "verb",
+      "meaning": "수용하다; (요구에) 부응하다",
+      "paraphrasing": ["house", "contain; oblige", "fit"],
+      "collocations": ["accommodate guests", "accommodate a request"],
+      "tip": "건물이 사람을 들일 수 있는 용량이나, 타인의 부탁을 들어줄 때 씁니다."
+    },
+    {
+      "id": 816,
+      "word": "accompany",
+      "part": "verb",
+      "meaning": "동행하다; 동반되다",
+      "paraphrasing": ["escort", "go with", "attend"],
+      "collocations": ["be accompanied by", "accompany a visitor"],
+      "tip": "누구와 같이 가거나, 어떤 현상이 다른 현상과 함께 나타날 때 씁니다."
+    },
+    {
+      "id": 817,
+      "word": "accomplish",
+      "part": "verb",
+      "meaning": "성취하다, 완수하다",
+      "paraphrasing": ["achieve", "fulfill", "attain"],
+      "collocations": ["accomplish a goal", "successfully accomplish"],
+      "tip": "목표로 했던 것을 끝까지 해내서 결과를 만들어내는 것입니다."
+    },
+    {
+      "id": 818,
+      "word": "accordance",
+      "part": "noun",
+      "meaning": "일치, 합치",
+      "paraphrasing": ["agreement", "conformity", "compliance"],
+      "collocations": ["in accordance with", "strict accordance"],
+      "tip": "주로 'in accordance with'(~에 따라) 구문으로 규칙 준수를 말할 때 씁니다."
+    },
+    {
+      "id": 819,
+      "word": "accordingly",
+      "part": "adverb",
+      "meaning": "그에 따라; 따라서",
+      "paraphrasing": ["consequently", "appropriately", "hence"],
+      "collocations": ["act accordingly", "please notify us accordingly"],
+      "tip": "앞서 언급된 상황이나 조건에 맞춰서 적절하게 행동하라는 뜻입니다."
+    },
+    {
+      "id": 820,
+      "word": "accountability",
+      "part": "noun",
+      "meaning": "책임(소재), 의무",
+      "paraphrasing": ["responsibility", "liability", "answerability"],
+      "collocations": ["ensure accountability", "financial accountability"],
+      "tip": "단순한 책임감을 넘어, 결과에 대해 해명하고 책임져야 하는 법적/공식적 의무입니다."
+    },
+    {
+      "id": 821,
+      "word": "accumulate",
+      "part": "verb",
+      "meaning": "축적하다, 모으다",
+      "paraphrasing": ["amass", "collect", "gather"],
+      "collocations": ["accumulate wealth", "accumulate points"],
+      "tip": "시간이 지남에 따라 돈, 경험, 데이터 등이 서서히 쌓이는 것을 의미합니다."
+    },
+    {
+      "id": 822,
+      "word": "accurate",
+      "part": "adjective",
+      "meaning": "정확한, 정밀한",
+      "paraphrasing": ["precise", "exact", "correct"],
+      "collocations": ["accurate measurement", "accurate description"],
+      "tip": "오류 없이 사실과 딱 맞아떨어지는 상태를 뜻합니다."
+    },
+    {
+      "id": 823,
+      "word": "accustomed",
+      "part": "adjective",
+      "meaning": "익숙한, 평소의",
+      "paraphrasing": ["used to", "familiar", "habituated"],
+      "collocations": ["be accustomed to", "accustomed place"],
+      "tip": "어떤 환경이나 방식에 익숙해져서 자연스럽게 느끼는 상태입니다."
+    },
+    {
+      "id": 824,
+      "word": "acknowledge",
+      "part": "verb",
+      "meaning": "인정하다; (수령을) 알리다",
+      "paraphrasing": ["admit", "recognize; confirm receipt"],
+      "collocations": ["acknowledge a mistake", "acknowledge receipt of"],
+      "tip": "사실을 인정하는 것뿐 아니라, 이메일 등을 잘 받았다고 회신할 때도 씁니다."
+    },
+    {
+      "id": 825,
+      "word": "acquaintance",
+      "part": "noun",
+      "meaning": "지인, 아는 사람",
+      "paraphrasing": ["contact", "associate"],
+      "collocations": ["business acquaintance", "make one's acquaintance"],
+      "tip": "아주 친한 친구는 아니지만 얼굴과 이름을 아는 정도의 관계를 말합니다."
+    },
+    {
+      "id": 826,
+      "word": "acquire",
+      "part": "verb",
+      "meaning": "습득하다, 획득하다; 인수하다",
+      "paraphrasing": ["obtain", "gain; purchase", "take over"],
+      "collocations": ["acquire skills", "acquire a company"],
+      "tip": "기술을 배우거나 기업이 다른 회사를 사들여 인수할 때 자주 씁니다."
+    },
+    {
+      "id": 827,
+      "word": "acquisition",
+      "part": "noun",
+      "meaning": "습득, 획득; 인수",
+      "paraphrasing": ["attainment", "procurement; merger"],
+      "collocations": ["language acquisition", "mergers and acquisitions"],
+      "tip": "M&A(기업 인수 합병)에서 A가 바로 이 단어입니다."
+    },
+    {
+      "id": 828,
+      "word": "activate",
+      "part": "verb",
+      "meaning": "활성화하다, 작동시키다",
+      "paraphrasing": ["trigger", "enable", "start"],
+      "collocations": ["activate a card", "activate a system"],
+      "tip": "정지 상태에 있던 카드나 장치를 사용할 수 있게 만드는 행위입니다."
+    },
+    {
+      "id": 829,
+      "word": "acute",
+      "part": "adjective",
+      "meaning": "심각한, 격심한; (통증이) 급성의",
+      "paraphrasing": ["severe", "intense", "critical"],
+      "collocations": ["acute shortage", "acute pain"],
+      "tip": "문제가 매우 예리하고 급박하게 돌아가는 상황을 묘사합니다."
+    },
+    {
+      "id": 830,
+      "word": "adapt",
+      "part": "verb",
+      "meaning": "적응하다; 맞추다, 조정하다",
+      "paraphrasing": ["adjust", "accommodate", "modify"],
+      "collocations": ["adapt to change", "adapt for a purpose"],
+      "tip": "새로운 환경에 스스로를 맞추거나, 용도에 맞게 물건을 개조할 때 씁니다."
+    },
+    {
+      "id": 831,
+      "word": "adhere",
+      "part": "verb",
+      "meaning": "들러붙다; (규칙을) 고수하다",
+      "paraphrasing": ["stick", "cling; follow", "obey"],
+      "collocations": ["adhere to the policy", "adhere to the surface"],
+      "tip": "물리적으로 붙어있는 것과, 원칙을 엄격히 지키는 것 두 가지 뜻이 있습니다."
+    },
+    {
+      "id": 832,
+      "word": "adjacent",
+      "part": "adjective",
+      "meaning": "인접한, 가까운",
+      "paraphrasing": ["neighboring", "adjoining", "next to"],
+      "collocations": ["adjacent building", "adjacent area"],
+      "tip": "벽 하나를 사이에 두거나 바로 옆에 붙어 있는 위치 관계를 말합니다."
+    },
+    {
+      "id": 833,
+      "word": "adjourn",
+      "part": "verb",
+      "meaning": "중단하다, 휴정하다",
+      "paraphrasing": ["suspend", "postpone", "defer"],
+      "collocations": ["adjourn the meeting", "adjourn the trial"],
+      "tip": "회의나 재판 등을 잠시 멈추고 나중으로 미룰 때 쓰는 공식적인 단어입니다."
+    },
+    {
+      "id": 834,
+      "word": "administrative",
+      "part": "adjective",
+      "meaning": "관리의, 행정상의",
+      "paraphrasing": ["managerial", "executive", "governmental"],
+      "collocations": ["administrative assistant", "administrative error"],
+      "tip": "실제 현장 업무보다는 사무실에서의 운영 및 관리 업무를 뜻합니다."
+    },
+    {
+      "id": 835,
+      "word": "admission",
+      "part": "noun",
+      "meaning": "입장, 입학; 인정",
+      "paraphrasing": ["entry", "entrance; confession"],
+      "collocations": ["admission fee", "admission of guilt"],
+      "tip": "전시장 등에 들어가는 행위와, 잘못을 시인하는 행위 모두를 뜻합니다."
+    },
+    {
+      "id": 836,
+      "word": "adolescent",
+      "part": "noun / adjective",
+      "meaning": "청소년 / 청춘기의",
+      "paraphrasing": ["teenager", "youth", "juvenile"],
+      "collocations": ["adolescent behavior", "troubled adolescent"],
+      "tip": "어린이와 성인 사이의 성장기 단계에 있는 사람을 가리킵니다."
+    },
+    {
+      "id": 837,
+      "word": "adopt",
+      "part": "verb",
+      "meaning": "채택하다, 도입하다; 입양하다",
+      "paraphrasing": ["approve", "embrace; take in"],
+      "collocations": ["adopt a policy", "adopt a child"],
+      "tip": "새로운 방식이나 제도를 선택해서 사용하기 시작할 때 자주 씁니다."
+    },
+    {
+      "id": 838,
+      "word": "adverse",
+      "part": "adjective",
+      "meaning": "부정적인, 불리한",
+      "paraphrasing": ["unfavorable", "negative", "hostile"],
+      "collocations": ["adverse effects", "adverse weather"],
+      "tip": "상황이 나쁘게 돌아가서 결과에 해를 끼치는 상태를 묘사합니다."
+    },
+    {
+      "id": 839,
+      "word": "advocate",
+      "part": "verb / noun",
+      "meaning": "지지하다, 옹호하다 / 지지자",
+      "paraphrasing": ["support", "champion; proponent"],
+      "collocations": ["advocate for change", "consumer advocate"],
+      "tip": "어떤 생각이나 정책이 옳다고 믿고 공개적으로 힘을 실어주는 것입니다."
+    },
+    {
+      "id": 840,
+      "word": "aesthetic",
+      "part": "adjective",
+      "meaning": "미적인, 심미적인",
+      "paraphrasing": ["artistic", "visual", "beautiful"],
+      "collocations": ["aesthetic value", "aesthetic appeal"],
+      "tip": "실용적인 면보다는 디자인이나 아름다움의 관점에서 볼 때 씁니다."
     }
   ]
 }
