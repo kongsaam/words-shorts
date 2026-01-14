@@ -8637,6 +8637,186 @@
       "paraphrasing": ["quality", "ability", "standard"],
       "collocations": ["high caliber staff", "high caliber of work"],
       "tip": "사람의 재능이나 물건의 수준이 어느 정도로 훌륭한지를 나타내는 격식 있는 단어입니다."
+    },
+    {
+      "id": 961,
+      "word": "campaign",
+      "part": "noun / verb",
+      "meaning": "캠페인, 운동 / 캠페인을 벌이다",
+      "paraphrasing": ["movement", "drive", "operation"],
+      "collocations": ["marketing campaign", "launch a campaign"],
+      "tip": "특정 목적(판매 증대, 투표 독려 등)을 위해 조직적으로 벌이는 일련의 활동입니다."
+    },
+    {
+      "id": 962,
+      "word": "candidate",
+      "part": "noun",
+      "meaning": "후보자, 지원자",
+      "paraphrasing": ["applicant", "nominee", "contender"],
+      "collocations": ["job candidate", "presidential candidate"],
+      "tip": "일자리에 지원한 사람이나 선거에 출마한 사람을 뜻합니다."
+    },
+    {
+      "id": 963,
+      "word": "capability",
+      "part": "noun",
+      "meaning": "능력, 역량",
+      "paraphrasing": ["ability", "capacity", "potential"],
+      "collocations": ["technical capability", "beyond one's capability"],
+      "tip": "어떤 일을 해낼 수 있는 물리적, 지적 힘이나 기계의 성능을 말합니다."
+    },
+    {
+      "id": 964,
+      "word": "capacity",
+      "part": "noun",
+      "meaning": "용량, 수용력; 역할",
+      "paraphrasing": ["volume", "size; position", "role"],
+      "collocations": ["seating capacity", "in a professional capacity"],
+      "tip": "공간에 들어갈 수 있는 최대량 혹은 특정 자격(역할)으로 일하는 것을 뜻합니다."
+    },
+    {
+      "id": 965,
+      "word": "capitalize",
+      "part": "verb",
+      "meaning": "대문자로 쓰다; 이용하다, 기회로 삼다",
+      "paraphrasing": ["upper case; exploit", "take advantage of"],
+      "collocations": ["capitalize on an opportunity", "capitalize the first letter"],
+      "tip": "비즈니스에서는 상황을 자신에게 유리하게 이용한다는 뜻으로 많이 쓰입니다."
+    },
+    {
+      "id": 966,
+      "word": "cargo",
+      "part": "noun",
+      "meaning": "화물, 짐",
+      "paraphrasing": ["freight", "shipment", "load"],
+      "collocations": ["cargo ship", "air cargo"],
+      "tip": "배나 비행기로 운송되는 커다란 짐을 의미합니다."
+    },
+    {
+      "id": 967,
+      "word": "catastrophic",
+      "part": "adjective",
+      "meaning": "비극적인, 파멸적인",
+      "paraphrasing": ["disastrous", "calamitous", "ruinous"],
+      "collocations": ["catastrophic failure", "catastrophic event"],
+      "tip": "결과가 너무나 참담해서 복구하기 힘들 정도의 큰 피해를 입은 상태입니다."
+    },
+    {
+      "id": 968,
+      "word": "caution",
+      "part": "noun / verb",
+      "meaning": "주의, 조심 / 경고하다",
+      "paraphrasing": ["care", "prudence; warn", "advise"],
+      "collocations": ["exercise caution", "with caution"],
+      "tip": "위험을 피하기 위해 조심하는 태도나, 상대방에게 미리 경고를 줄 때 씁니다."
+    },
+    {
+      "id": 969,
+      "word": "celebrity",
+      "part": "noun",
+      "meaning": "유명 인사, 명사",
+      "paraphrasing": ["famous person", "star", "public figure"],
+      "collocations": ["local celebrity", "celebrity endorsement"],
+      "tip": "대중에게 널리 알려진 인기 있는 사람을 뜻합니다."
+    },
+    {
+      "id": 970,
+      "word": "certificate",
+      "part": "noun",
+      "meaning": "증명서, 자격증",
+      "paraphrasing": ["document", "credential", "warrant"],
+      "collocations": ["gift certificate", "birth certificate"],
+      "tip": "어떤 사실을 공식적으로 증명해 주는 서류나 자격을 말합니다."
+    },
+    {
+      "id": 971,
+      "word": "certification",
+      "part": "noun",
+      "meaning": "증명, 인증",
+      "paraphrasing": ["authentication", "validation", "approval"],
+      "collocations": ["ISO certification", "professional certification"],
+      "tip": "공식적인 기관으로부터 기준을 통과했다는 인증을 받는 과정이나 상태입니다."
+    },
+    {
+      "id": 972,
+      "word": "challenge",
+      "part": "noun / verb",
+      "meaning": "도전, 난제 / 이의를 제기하다",
+      "paraphrasing": ["difficulty", "task; dispute", "question"],
+      "collocations": ["face a challenge", "challenge a decision"],
+      "tip": "어려운 과업을 뜻하기도 하지만, 누군가의 결정이 틀렸다고 따질 때도 씁니다."
+    },
+    {
+      "id": 973,
+      "word": "chamber",
+      "part": "noun",
+      "meaning": "(특정 목적의) 방, 회의실",
+      "paraphrasing": ["room", "hall", "compartment"],
+      "collocations": ["chamber of commerce", "council chamber"],
+      "tip": "주로 상공회의소(Chamber of Commerce)나 의회의 회의실 등을 부를 때 씁니다."
+    },
+    {
+      "id": 974,
+      "word": "charitable",
+      "part": "adjective",
+      "meaning": "자선(단체)의; 너그러운",
+      "paraphrasing": ["philanthropic", "benevolent", "kind"],
+      "collocations": ["charitable organization", "charitable donation"],
+      "tip": "가난한 사람을 돕는 일과 관련되거나, 타인의 실수에 관대한 태도를 뜻합니다."
+    },
+    {
+      "id": 975,
+      "word": "charter",
+      "part": "noun / verb",
+      "meaning": "헌장; 전세기 / 빌리다",
+      "paraphrasing": ["constitution; hire", "lease", "rent"],
+      "collocations": ["charter flight", "corporate charter"],
+      "tip": "배나 비행기 전체를 통째로 빌리는 것(전세)을 말할 때 자주 사용합니다."
+    },
+    {
+      "id": 976,
+      "word": "chronic",
+      "part": "adjective",
+      "meaning": "만성적인, 고질적인",
+      "paraphrasing": ["persistent", "long-standing", "habitual"],
+      "collocations": ["chronic disease", "chronic shortage"],
+      "tip": "병이나 나쁜 상황이 쉽게 낫지 않고 오랫동안 계속되는 상태를 묘사합니다."
+    },
+    {
+      "id": 977,
+      "word": "circuit",
+      "part": "noun",
+      "meaning": "회로, 순회",
+      "paraphrasing": ["route", "course", "track"],
+      "collocations": ["short circuit", "lecture circuit"],
+      "tip": "전기가 흐르는 길뿐 아니라, 여러 곳을 정기적으로 도는 경로를 뜻합니다."
+    },
+    {
+      "id": 978,
+      "word": "circumstance",
+      "part": "noun",
+      "meaning": "상황, 사정, 형편",
+      "paraphrasing": ["situation", "condition", "context"],
+      "collocations": ["under no circumstances", "due to unforeseen circumstances"],
+      "tip": "어떤 일이 일어난 배경이 되는 주변 조건들을 말합니다."
+    },
+    {
+      "id": 979,
+      "word": "citation",
+      "part": "noun",
+      "meaning": "인용; 표창; 소환장",
+      "paraphrasing": ["quotation; award; summons"],
+      "collocations": ["citation for bravery", "academic citation"],
+      "tip": "남의 글을 가져다 쓰는 인용과, 공로를 인정해 주는 표창의 뜻이 있습니다."
+    },
+    {
+      "id": 980,
+      "word": "civil",
+      "part": "adjective",
+      "meaning": "민간의, 시민의; 예의 바른",
+      "paraphrasing": ["public; polite", "courteous"],
+      "collocations": ["civil rights", "civil servant"],
+      "tip": "군대나 종교와 상관없는 일반 시민의 영역이나, 정중한 태도를 뜻합니다."
     }
   ]
 }

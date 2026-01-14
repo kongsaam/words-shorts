@@ -3,8 +3,9 @@ let currentIndex = 0;
 let touchStartY = 0;
 let isThrottled = false;
 
-// [저장 데이터 로드]
+// [데이터 관리] 별표 및 암기 완료 데이터 로드
 let starredIds = JSON.parse(localStorage.getItem('starredWords')) || [];
+let learnedIds = JSON.parse(localStorage.getItem('learnedWords')) || [];
 let showOnlyStarred = false;
 
 const container = document.getElementById('card-container');
@@ -30,24 +31,16 @@ function renderCard(index) {
     const visibleWords = getVisibleWords();
     const word = visibleWords[index];
 
-    // 필터링 시 단어가 없는 경우
     if (!word) {
-        container.innerHTML = `
-            <div class="card">
-                <div class="front">
-                    <p>별표된 단어가 없습니다.</p>
-                    <div class="bottom-filter" onclick="toggleFilter()">
-                        <input type="checkbox" checked> <label>별표만 보기 해제</label>
-                    </div>
-                </div>
-            </div>`;
+        container.innerHTML = `<div class="card"><div class="front"><p>해당되는 단어가 없습니다.</p><button onclick="toggleFilter()">필터 해제</button></div></div>`;
         return;
     }
 
     const isStarred = starredIds.includes(word.id);
+    const isLearned = learnedIds.includes(word.id); // 암기 여부 확인
     const total = visibleWords.length;
 
-    // 폰트 크기 조절 (10자 이상일 때 줄임)
+    // 폰트 크기 자동 조절 로직
     let fontSize = "2.8rem";
     if (word.word.length >= 10) fontSize = "2.0rem";
     if (word.word.length >= 15) fontSize = "1.5rem";
@@ -65,10 +58,17 @@ function renderCard(index) {
                     <span class="word-text" style="font-size: ${fontSize};">${word.word}</span>
                     
                     <div class="bottom-area">
-                        <div class="index-display">${index + 1} / ${total}</div>
                         <div class="bottom-filter" onclick="event.stopPropagation();">
                             <input type="checkbox" id="star-check" ${showOnlyStarred ? 'checked' : ''} onchange="toggleFilter()">
-                            <label for="star-check">별표만 보기</label>
+                            <label for="star-check">별표만</label>
+                        </div>
+                        
+                        <div class="index-display">${index + 1} / ${total}</div>
+
+                        <div class="memo-check" onclick="event.stopPropagation();">
+                            <input type="checkbox" id="learn-check" ${isLearned ? 'checked' : ''} 
+                                   onchange="toggleLearned(${word.id})">
+                            <label for="learn-check">외움</label>
                         </div>
                     </div>
                 </div>
@@ -104,6 +104,18 @@ function toggleStar(id, event) {
     }
     localStorage.setItem('starredWords', JSON.stringify(starredIds));
     renderCard(currentIndex);
+}
+
+// [기능: 암기 완료 토글] - 기존 기능 복구 및 저장 로직 추가
+function toggleLearned(id) {
+    const idx = learnedIds.indexOf(id);
+    if (idx > -1) {
+        learnedIds.splice(idx, 1);
+    } else {
+        learnedIds.push(id);
+    }
+    localStorage.setItem('learnedWords', JSON.stringify(learnedIds));
+    // UI 업데이트가 필요하면 renderCard를 다시 호출할 수 있으나, 체크박스 자체 상태는 유지됨
 }
 
 // [기능: 필터 토글]
