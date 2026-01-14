@@ -39,15 +39,17 @@ body, html {
 
 /* UI 요소 */
 .word-text {
-    font-size: 2.5rem; /* 기본 크기 */
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
-    word-break: break-word; /* 너무 길면 단어 중간에서도 줄바꿈 */
-    overflow-wrap: break-word;
-    width: 100%;
+    /* 추가/수정: 줄바꿈을 억제하고 한 줄에 표시되도록 노력함 */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; /* 혹시나 넘치면 ... 표시 (안전장치) */
+    width: 90%; /* 양옆 여유 공간 */
     line-height: 1.2;
-    transition: font-size 0.2s ease; /* 크기 변경 시 부드럽게 */
+    transition: font-size 0.2s ease;
 }
 .controls {
     position: absolute;

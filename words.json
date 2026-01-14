@@ -3959,6 +3959,364 @@
       "paraphrasing": ["luxurious", "extravagant", "generous"],
       "collocations": ["lavish banquet", "lavish praise"],
       "tip": "돈을 아끼지 않고 쓴 호화로운 행사나 아낌없는 칭찬을 묘사합니다."
+    },{
+      "id": 441,
+      "word": "lease",
+      "part": "noun / verb",
+      "meaning": "임대차 계약 / 임대하다",
+      "paraphrasing": ["rental agreement", "rent", "charter"],
+      "collocations": ["sign a lease", "lease agreement"],
+      "tip": "사무실이나 복사기 같은 장비를 빌릴 때 반드시 등장하는 단어입니다."
+    },
+    {
+      "id": 442,
+      "word": "legislation",
+      "part": "noun",
+      "meaning": "법률, 입법",
+      "paraphrasing": ["law", "statute", "enactment"],
+      "collocations": ["new legislation", "introduce legislation"],
+      "tip": "정부가 새로 제정하는 법규나 규정 관련 지문에서 자주 봅니다."
+    },
+    {
+      "id": 443,
+      "word": "legitimate",
+      "part": "adjective",
+      "meaning": "합법적인, 정당한",
+      "paraphrasing": ["legal", "valid", "authentic"],
+      "collocations": ["legitimate concern", "legitimate business"],
+      "tip": "타당한 이유가 있거나 법적으로 아무 문제가 없는 상태를 말합니다."
+    },
+    {
+      "id": 444,
+      "word": "lenient",
+      "part": "adjective",
+      "meaning": "관대한, 너그러운",
+      "paraphrasing": ["merciful", "tolerant", "indulgent"],
+      "collocations": ["lenient policy", "lenient judge"],
+      "tip": "규정 위반에 대해 처벌이 가볍거나 너그러울 때 사용합니다."
+    },
+    {
+      "id": 445,
+      "word": "leverage",
+      "part": "verb / noun",
+      "meaning": "활용하다 / 영향력, 지렛대",
+      "paraphrasing": ["utilize", "exploit", "influence"],
+      "collocations": ["leverage assets", "gain leverage"],
+      "tip": "이미 가진 자산이나 지식을 최대한 활용하여 이득을 얻을 때 쓰는 비즈니스 용어입니다."
+    },
+    {
+      "id": 446,
+      "word": "liability",
+      "part": "noun",
+      "meaning": "법적 책임; 부채",
+      "paraphrasing": ["responsibility", "obligation; debt"],
+      "collocations": ["product liability", "total liabilities"],
+      "tip": "사고 발생 시 지는 '책임'과 재무제표상의 '빚'이라는 두 뜻 모두 중요합니다."
+    },
+    {
+      "id": 447,
+      "word": "liquidation",
+      "part": "noun",
+      "meaning": "청산, 정리, 현금화",
+      "paraphrasing": ["closing down", "dissolution", "clearance"],
+      "collocations": ["go into liquidation", "liquidation sale"],
+      "tip": "회사가 문을 닫으며 자산을 정리하거나, 재고를 헐값에 파는 상황에 나옵니다."
+    },
+    {
+      "id": 448,
+      "word": "lobby",
+      "part": "verb / noun",
+      "meaning": "로비하다, 압력을 가하다 / 로비",
+      "paraphrasing": ["influence", "press", "campaign"],
+      "collocations": ["lobby for a change", "powerful lobby group"],
+      "tip": "특정 법안 통과를 위해 정치권이나 의사결정권자에게 영향력을 행사하는 행위입니다."
+    },
+    {
+      "id": 449,
+      "word": "logistics",
+      "part": "noun",
+      "meaning": "물류, 실행 계획",
+      "paraphrasing": ["distribution", "organization", "supply chain"],
+      "collocations": ["logistics manager", "shipping logistics"],
+      "tip": "물건의 운송뿐 아니라 복잡한 행사의 상세 준비 과정을 뜻하기도 합니다."
+    },
+    {
+      "id": 450,
+      "word": "lucrative",
+      "part": "adjective",
+      "meaning": "수익성이 좋은",
+      "paraphrasing": ["profitable", "rewarding", "gainful"],
+      "collocations": ["lucrative market", "lucrative deal"],
+      "tip": "투자 대비 많은 돈을 벌어다 주는 알짜배기 사업을 묘사합니다."
+    },
+    {
+      "id": 451,
+      "word": "luxury",
+      "part": "noun / adjective",
+      "meaning": "사치, 호사 / 고급의",
+      "paraphrasing": ["extravagance", "opulence", "premium"],
+      "collocations": ["luxury goods", "luxury hotel"],
+      "tip": "품질이 매우 높고 비싼 제품이나 서비스를 설명할 때 씁니다."
+    },
+    {
+      "id": 452,
+      "word": "maintenance",
+      "part": "noun",
+      "meaning": "유지, 보수, 관리",
+      "paraphrasing": ["upkeep", "preservation", "care"],
+      "collocations": ["routine maintenance", "maintenance fee"],
+      "tip": "건물이나 기계가 고장 나지 않게 정기적으로 관리하는 일입니다."
+    },
+    {
+      "id": 453,
+      "word": "malfunction",
+      "part": "noun / verb",
+      "meaning": "고장, 오작동 / 제대로 작동하지 않다",
+      "paraphrasing": ["fault", "glitch", "defect"],
+      "collocations": ["equipment malfunction", "technical malfunction"],
+      "tip": "기계적인 결함으로 인해 멈추거나 잘못 작동하는 상황에 씁니다."
+    },
+    {
+      "id": 454,
+      "word": "mandatory",
+      "part": "adjective",
+      "meaning": "의무적인, 강제적인",
+      "paraphrasing": ["compulsory", "required", "obligatory"],
+      "collocations": ["mandatory meeting", "mandatory training"],
+      "tip": "규정상 반드시 참석하거나 지켜야 하는 일을 수식합니다."
+    },
+    {
+      "id": 455,
+      "word": "marginal",
+      "part": "adjective",
+      "meaning": "미미한, 근소한; 가장자리의",
+      "paraphrasing": ["slight", "minimal", "insignificant"],
+      "collocations": ["marginal increase", "marginal cost"],
+      "tip": "양의 변화가 아주 작아서 별로 중요하지 않을 때 사용합니다."
+    },
+    {
+      "id": 456,
+      "word": "maximize",
+      "part": "verb",
+      "meaning": "최대화하다",
+      "paraphrasing": ["optimize", "magnify", "boost"],
+      "collocations": ["maximize profits", "maximize efficiency"],
+      "tip": "이익이나 효율을 끌어올릴 수 있는 한 끝까지 끌어올리는 것을 말합니다."
+    },
+    {
+      "id": 457,
+      "word": "measure",
+      "part": "noun / verb",
+      "meaning": "조치, 수단; 측정하다 / 재다",
+      "paraphrasing": ["step", "action; calculate"],
+      "collocations": ["safety measures", "take measures"],
+      "tip": "토익에서는 주로 문제를 해결하기 위한 '단계'나 '조치'라는 뜻으로 많이 나옵니다."
+    },
+    {
+      "id": 458,
+      "word": "mediate",
+      "part": "verb",
+      "meaning": "중재하다, 조정하다",
+      "paraphrasing": ["arbitrate", "intercede", "negotiate"],
+      "collocations": ["mediate a dispute", "mediate between"],
+      "tip": "싸우는 두 쪽 사이에서 합의를 이끌어내는 어려운 역할을 뜻합니다."
+    },
+    {
+      "id": 459,
+      "word": "merchandise",
+      "part": "noun",
+      "meaning": "상품, 제품",
+      "paraphrasing": ["goods", "products", "commodities"],
+      "collocations": ["official merchandise", "damaged merchandise"],
+      "tip": "판매용으로 내놓은 물건을 통칭하며, 불가산 명사(단수 취급)인 점에 주의하세요."
+    },
+    {
+      "id": 460,
+      "word": "merge",
+      "part": "verb",
+      "meaning": "합병하다, 병합하다",
+      "paraphrasing": ["combine", "unite", "amalgamate"],
+      "collocations": ["merge with another company", "mergers and acquisitions"],
+      "tip": "두 회사가 하나로 합쳐지는 M&A 지문에서 빼놓을 수 없는 단어입니다."
+    },{
+      "id": 461,
+      "word": "meticulous",
+      "part": "adjective",
+      "meaning": "꼼꼼한, 세심한",
+      "paraphrasing": ["thorough", "precise", "painstaking"],
+      "collocations": ["meticulous attention to detail", "meticulous planning"],
+      "tip": "업무 처리가 아주 완벽하고 작은 실수도 없는 직원을 칭찬할 때 사용합니다."
+    },
+    {
+      "id": 462,
+      "word": "minimize",
+      "part": "verb",
+      "meaning": "최소화하다, 축소하다",
+      "paraphrasing": ["curtail", "reduce", "diminish"],
+      "collocations": ["minimize costs", "minimize the risk"],
+      "tip": "부정적인 영향이나 비용을 최대한 낮추려고 노력할 때 씁니다."
+    },
+    {
+      "id": 463,
+      "word": "miscellaneous",
+      "part": "adjective",
+      "meaning": "여러 가지 종류의, 잡다한",
+      "paraphrasing": ["diverse", "various", "assorted"],
+      "collocations": ["miscellaneous expenses", "miscellaneous items"],
+      "tip": "회계 장부에서 특정 카테고리에 넣기 애매한 '기타 잡비'를 뜻합니다."
+    },
+    {
+      "id": 464,
+      "word": "mitigate",
+      "part": "verb",
+      "meaning": "완화하다, 경감하다",
+      "paraphrasing": ["alleviate", "lessen", "moderate"],
+      "collocations": ["mitigate negative effects", "mitigate global warming"],
+      "tip": "나쁜 상황의 강도를 약하게 만드는 비즈니스 핵심 동사입니다."
+    },
+    {
+      "id": 465,
+      "word": "monopolize",
+      "part": "verb",
+      "meaning": "독점하다",
+      "paraphrasing": ["dominate", "control", "corner"],
+      "collocations": ["monopolize the market", "monopolize the conversation"],
+      "tip": "시장을 혼자 장악하거나 혼자서만 계속 말하는 상황을 뜻합니다."
+    },
+    {
+      "id": 466,
+      "word": "multilateral",
+      "part": "adjective",
+      "meaning": "다자간의, 다국간의",
+      "paraphrasing": ["international", "many-sided"],
+      "collocations": ["multilateral trade agreement", "multilateral talks"],
+      "tip": "세 개 이상의 국가나 기관이 참여하는 협상을 설명할 때 씁니다."
+    },
+    {
+      "id": 467,
+      "word": "mutual",
+      "part": "adjective",
+      "meaning": "상호 간의, 공통의",
+      "paraphrasing": ["reciprocal", "shared", "joint"],
+      "collocations": ["mutual benefit", "mutual friend"],
+      "tip": "양쪽 모두에게 이득이 되거나 두 사람이 동시에 아는 대상을 가리킵니다."
+    },
+    {
+      "id": 468,
+      "word": "narrative",
+      "part": "noun / adjective",
+      "meaning": "이야기, 서술 / 서술적인",
+      "paraphrasing": ["story", "account", "chronicle"],
+      "collocations": ["personal narrative", "narrative report"],
+      "tip": "어떤 사건을 시간 순서대로 풀어서 설명하는 방식이나 보고서를 뜻합니다."
+    },
+    {
+      "id": 469,
+      "word": "negligent",
+      "part": "adjective",
+      "meaning": "부주의한, 태만한",
+      "paraphrasing": ["careless", "lax", "slack"],
+      "collocations": ["negligent in one's duties", "grossly negligent"],
+      "tip": "당연히 해야 할 일을 제대로 안 해서 문제가 생겼을 때 비난하는 말입니다."
+    },
+    {
+      "id": 470,
+      "word": "negotiable",
+      "part": "adjective",
+      "meaning": "협상 가능한",
+      "paraphrasing": ["flexible", "open to discussion"],
+      "collocations": ["salary is negotiable", "negotiable terms"],
+      "tip": "가격이나 조건이 딱 정해진 게 아니라 조절할 수 있을 때 쓰는 중요한 표현입니다."
+    },
+    {
+      "id": 471,
+      "word": "nomination",
+      "part": "noun",
+      "meaning": "임명, 지명, 후보 천거",
+      "paraphrasing": ["appointment", "selection", "designation"],
+      "collocations": ["accept a nomination", "nomination for an award"],
+      "tip": "어떤 직책이나 수상 후보로 이름을 올리는 것을 뜻합니다."
+    },
+    {
+      "id": 472,
+      "word": "notwithstanding",
+      "part": "preposition / adverb",
+      "meaning": "~에도 불구하고",
+      "paraphrasing": ["despite", "in spite of", "nevertheless"],
+      "collocations": ["notwithstanding the price", "his fame notwithstanding"],
+      "tip": "격식 있는 글에서 'despite' 대신 쓰이며 파트 5에서 전치사 문제로 잘 나옵니다."
+    },
+    {
+      "id": 473,
+      "word": "obligate",
+      "part": "verb",
+      "meaning": "의무를 지우다, 강요하다",
+      "paraphrasing": ["compel", "force", "bind"],
+      "collocations": ["be obligated to pay", "feel obligated"],
+      "tip": "주로 수동태로 쓰여 법적/도덕적으로 반드시 무언가를 해야 하는 상태를 말합니다."
+    },
+    {
+      "id": 474,
+      "word": "obliterate",
+      "part": "verb",
+      "meaning": "지우다, 흔적을 없애다",
+      "paraphrasing": ["erase", "wipe out", "destroy"],
+      "collocations": ["obliterate the memory", "obliterate the record"],
+      "tip": "완전히 없애버려서 과거의 흔적조차 남기지 않을 때 쓰는 강한 단어입니다."
+    },
+    {
+      "id": 475,
+      "word": "obsolete",
+      "part": "adjective",
+      "meaning": "더 이상 쓸모없는, 구식의",
+      "paraphrasing": ["outdated", "archaic", "outmoded"],
+      "collocations": ["obsolete technology", "become obsolete"],
+      "tip": "새로운 기술이 나와서 옛날 것이 되어버린 상태를 뜻합니다."
+    },
+    {
+      "id": 476,
+      "word": "occupant",
+      "part": "noun",
+      "meaning": "거주자, 임차인",
+      "paraphrasing": ["resident", "tenant", "inhabitant"],
+      "collocations": ["previous occupant", "occupant of the building"],
+      "tip": "건물이나 차량 등을 현재 사용하고 있는 사람을 뜻합니다."
+    },
+    {
+      "id": 477,
+      "word": "occurrence",
+      "part": "noun",
+      "meaning": "발생, 일어난 일",
+      "paraphrasing": ["event", "incident", "happening"],
+      "collocations": ["common occurrence", "prevent the occurrence"],
+      "tip": "어떤 일이 실제로 일어나는 것 자체나 그 사건을 가리킵니다."
+    },
+    {
+      "id": 478,
+      "word": "offset",
+      "part": "verb",
+      "meaning": "상쇄하다, 벌충하다",
+      "paraphrasing": ["counterbalance", "compensate for", "make up for"],
+      "collocations": ["offset the loss", "offset carbon emissions"],
+      "tip": "손실을 이익으로 메꾸거나, 부정적인 영향을 긍정적인 것으로 비기는 것을 말합니다."
+    },
+    {
+      "id": 479,
+      "word": "on-site",
+      "part": "adjective / adverb",
+      "meaning": "현장의, 현지에서의",
+      "paraphrasing": ["on-the-spot", "local"],
+      "collocations": ["on-site inspection", "on-site parking"],
+      "tip": "다른 곳으로 갈 필요 없이 '그 장소 바로 그곳에서' 제공되는 것을 뜻합니다."
+    },
+    {
+      "id": 480,
+      "word": "opaque",
+      "part": "adjective",
+      "meaning": "불투명한; 이해하기 힘든",
+      "paraphrasing": ["cloudy", "obscure", "unclear"],
+      "collocations": ["opaque glass", "opaque language"],
+      "tip": "유리가 투명하지 않은 것과 설명이 복잡해서 알아듣기 힘든 것 둘 다 씁니다."
     }
   ]
 }

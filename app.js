@@ -2,8 +2,6 @@ let words = [];
 let currentIndex = 0;
 let startY = 0;
 let isDragging = false;
-let wheelAccumulator = 0;
-let isThrottled = false;
 
 const container = document.getElementById('card-container');
 
@@ -22,9 +20,14 @@ function renderCard(index) {
     const word = words[index];
     if (!word) return;
 
+    // 글자 길이에 따른 폰트 크기 세밀 조정 (한 줄 유지 목적)
     let fontSize = "2.5rem";
-    if (word.word.length > 15) fontSize = "1.5rem";
-    else if (word.word.length > 10) fontSize = "1.8rem";
+    const len = word.word.length;
+    
+    if (len > 18) fontSize = "1.3rem";
+    else if (len > 15) fontSize = "1.6rem";
+    else if (len > 12) fontSize = "1.9rem";
+    else if (len > 10) fontSize = "2.2rem";
 
     container.innerHTML = `
         <div class="card" id="current-card">
@@ -60,29 +63,28 @@ function speak(text) {
     window.speechSynthesis.speak(utterance);
 }
 
-function handleSwipe(diff) {
-    const threshold = 30;
-    if (Math.abs(diff) > threshold) {
-        if (diff > 0 && currentIndex < words.length - 1) {
-            currentIndex++;
-        } else if (diff < 0 && currentIndex > 0) {
-            currentIndex--;
-        }
-        renderCard(currentIndex);
+function changeCard(direction) {
+    if (direction === 'next' && currentIndex < words.length - 1) {
+        currentIndex++;
+    } else if (direction === 'prev' && currentIndex > 0) {
+        currentIndex--;
+    } else {
+        return;
     }
+    renderCard(currentIndex);
 }
 
-// [모바일 터치 수정] passive: false로 설정하여 스와이프 안정성 확보
 window.addEventListener('touchstart', e => {
     startY = e.touches[0].pageY;
 }, { passive: true });
 
 window.addEventListener('touchend', e => {
-    const endY = e.changedTouches[0].pageY;
-    handleSwipe(startY - endY);
+    const diff = startY - e.changedTouches[0].pageY;
+    if (Math.abs(diff) > 50) {
+        changeCard(diff > 0 ? 'next' : 'prev');
+    }
 }, { passive: true });
 
-// [PC 마우스]
 window.addEventListener('mousedown', e => {
     startY = e.pageY;
     isDragging = true;
@@ -90,23 +92,24 @@ window.addEventListener('mousedown', e => {
 
 window.addEventListener('mouseup', e => {
     if (!isDragging) return;
-    handleSwipe(startY - e.pageY);
+    const diff = startY - e.pageY;
+    if (Math.abs(diff) > 50) {
+        changeCard(diff > 0 ? 'next' : 'prev');
+    }
     isDragging = false;
 });
 
-// [휠/터치패드]
-window.addEventListener('wheel', e => {
-    if (Math.abs(e.deltaY) < 5) return; // 미세 진동 무시
-    
-    wheelAccumulator += e.deltaY;
-    if (!isThrottled) {
-        if (Math.abs(wheelAccumulator) > 50) {
-            handleSwipe(wheelAccumulator);
-            wheelAccumulator = 0;
-            isThrottled = true;
-            setTimeout(() => { isThrottled = false; }, 400); // 락 타임 살짝 단축
-        }
+window.addEventListener('keydown', e => {
+    if (e.keyCode === 32 || e.keyCode === 40) {
+        e.preventDefault();
+        changeCard('next');
+    } else if (e.keyCode === 38) {
+        e.preventDefault();
+        changeCard('prev');
+    } else if (e.keyCode === 13) {
+        const inner = document.getElementById('inner-card');
+        if (inner) inner.classList.toggle('flipped');
     }
-}, { passive: true });
+});
 
 loadWords();
