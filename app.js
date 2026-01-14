@@ -2,14 +2,11 @@ let words = [];
 let currentIndex = 0;
 let startY = 0;
 let isDragging = false;
-
-// 터치패드 및 휠 최적화를 위한 변수
 let wheelAccumulator = 0;
 let isThrottled = false;
 
 const container = document.getElementById('card-container');
 
-// 1. JSON 데이터 로드
 async function loadWords() {
     try {
         const response = await fetch('words.json');
@@ -17,23 +14,17 @@ async function loadWords() {
         words = data.vocabulary_list;
         renderCard(currentIndex);
     } catch (e) {
-        console.error("데이터 로드 실패!", e);
-        container.innerHTML = `<div style="color:white; padding:20px;">데이터를 불러오지 못했습니다. Live Server로 실행 중인지 확인하세요.</div>`;
+        console.error("로드 실패", e);
     }
 }
 
-// 2. 카드 렌더링 (글자 길이에 따른 자동 폰트 조절 포함)
 function renderCard(index) {
     const word = words[index];
     if (!word) return;
 
-    // 글자 길이에 따른 폰트 크기 계산
     let fontSize = "2.5rem";
-    if (word.word.length > 15) {
-        fontSize = "1.5rem";
-    } else if (word.word.length > 10) {
-        fontSize = "1.8rem";
-    }
+    if (word.word.length > 15) fontSize = "1.5rem";
+    else if (word.word.length > 10) fontSize = "1.8rem";
 
     container.innerHTML = `
         <div class="card" id="current-card">
@@ -41,8 +32,8 @@ function renderCard(index) {
                 <div class="front">
                     <span class="word-text" style="font-size: ${fontSize}">${word.word}</span>
                     <div class="controls">
-                        <input type="checkbox" class="icon" title="암기 완료" onclick="event.stopPropagation()">
                         <span class="icon" onclick="event.stopPropagation(); speak('${word.word}')">🔊</span>
+                        <input type="checkbox" class="icon" title="암기 완료" onclick="event.stopPropagation()">
                     </div>
                 </div>
                 <div class="back">
@@ -61,7 +52,6 @@ function renderCard(index) {
     });
 }
 
-// 3. 발음 기능
 function speak(text) {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
@@ -70,9 +60,8 @@ function speak(text) {
     window.speechSynthesis.speak(utterance);
 }
 
-// 4. 입력 제어 통합 처리 (스와이프, 드래그, 휠)
 function handleSwipe(diff) {
-    const threshold = 30; // 인식 문턱값
+    const threshold = 30;
     if (Math.abs(diff) > threshold) {
         if (diff > 0 && currentIndex < words.length - 1) {
             currentIndex++;
@@ -83,16 +72,17 @@ function handleSwipe(diff) {
     }
 }
 
-// [모바일 터치]
+// [모바일 터치 수정] passive: false로 설정하여 스와이프 안정성 확보
 window.addEventListener('touchstart', e => {
     startY = e.touches[0].pageY;
 }, { passive: true });
 
 window.addEventListener('touchend', e => {
-    handleSwipe(startY - e.changedTouches[0].pageY);
+    const endY = e.changedTouches[0].pageY;
+    handleSwipe(startY - endY);
 }, { passive: true });
 
-// [PC 마우스 드래그]
+// [PC 마우스]
 window.addEventListener('mousedown', e => {
     startY = e.pageY;
     isDragging = true;
@@ -104,27 +94,19 @@ window.addEventListener('mouseup', e => {
     isDragging = false;
 });
 
-// [PC 휠 & 터치패드 트랙패드]
+// [휠/터치패드]
 window.addEventListener('wheel', e => {
-    // 브라우저 기본 스크롤 방지 (앱처럼 작동하게 함)
-    e.preventDefault();
+    if (Math.abs(e.deltaY) < 5) return; // 미세 진동 무시
     
-    // 터치패드의 미세한 움직임을 누적
     wheelAccumulator += e.deltaY;
-
     if (!isThrottled) {
-        // 누적값이 일정 수준 이상일 때만 실행
         if (Math.abs(wheelAccumulator) > 50) {
             handleSwipe(wheelAccumulator);
-            wheelAccumulator = 0; // 누적값 초기화
-            
-            // 연속 실행 방지 (0.5초 동안 잠금)
+            wheelAccumulator = 0;
             isThrottled = true;
-            setTimeout(() => {
-                isThrottled = false;
-            }, 500);
+            setTimeout(() => { isThrottled = false; }, 400); // 락 타임 살짝 단축
         }
     }
-}, { passive: false });
+}, { passive: true });
 
 loadWords();

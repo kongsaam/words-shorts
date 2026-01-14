@@ -3599,6 +3599,366 @@
       "paraphrasing": ["random", "disorganized", "unplanned"],
       "collocations": ["in a haphazard manner", "haphazard approach"],
       "tip": "체계 없이 마구잡이로 진행되어 결과가 엉망인 상황을 묘사합니다."
+    },
+    {
+      "id": 401,
+      "word": "imperative",
+      "part": "adjective / noun",
+      "meaning": "필수적인, 긴요한 / 명령, 과제",
+      "paraphrasing": ["essential", "crucial", "vital"],
+      "collocations": ["it is imperative that", "business imperative"],
+      "tip": "비즈니스에서 '반드시 해야만 하는 시급한 일'을 말할 때 아주 자주 쓰입니다."
+    },
+    {
+      "id": 402,
+      "word": "incentive",
+      "part": "noun",
+      "meaning": "장려금, 보상, 동기부여",
+      "paraphrasing": ["motivation", "inducement", "stimulus"],
+      "collocations": ["performance incentive", "tax incentive"],
+      "tip": "직원들의 실적을 높이기 위해 주는 보너스나 혜택을 지칭합니다."
+    },
+    {
+      "id": 403,
+      "word": "incidental",
+      "part": "adjective",
+      "meaning": "부수적인, 우연한",
+      "paraphrasing": ["secondary", "minor", "accidental"],
+      "collocations": ["incidental expenses", "incidental music"],
+      "tip": "출장비 청구서에서 자잘한 '기타 잡비'를 뜻하는 단어로 단골 출제됩니다."
+    },
+    {
+      "id": 404,
+      "word": "inclusive",
+      "part": "adjective",
+      "meaning": "포괄적인, ~이 포함된",
+      "paraphrasing": ["comprehensive", "all-encompassing"],
+      "collocations": ["all-inclusive tour", "inclusive of tax"],
+      "tip": "세금이나 봉사료가 모두 포함되어 있다는 가격 안내 지문에서 자주 봅니다."
+    },
+    {
+      "id": 405,
+      "word": "incur",
+      "part": "verb",
+      "meaning": "(비용을) 발생시키다, (좋지 않은 일을) 당하다",
+      "paraphrasing": ["sustain", "experience", "bring upon oneself"],
+      "collocations": ["incur expenses", "incur a penalty"],
+      "tip": "자신의 행동 결과로 비용을 '물게 되거나' 손실을 '입게 될' 때 씁니다."
+    },
+    {
+      "id": 406,
+      "word": "indicative",
+      "part": "adjective",
+      "meaning": "나타내는, 암시하는",
+      "paraphrasing": ["suggestive", "representative", "symptomatic"],
+      "collocations": ["be indicative of", "indicative price"],
+      "tip": "주로 'be indicative of' 형태로 쓰여 '~의 징후다/표시다'라는 뜻으로 쓰입니다."
+    },
+    {
+      "id": 407,
+      "word": "indispensable",
+      "part": "adjective",
+      "meaning": "없어서는 안 될, 필수적인",
+      "paraphrasing": ["essential", "crucial", "vital"],
+      "collocations": ["indispensable asset", "indispensable part"],
+      "tip": "조직 내에서 대체 불가능한 핵심 인력이나 물건을 칭찬할 때 씁니다."
+    },
+    {
+      "id": 408,
+      "word": "induce",
+      "part": "verb",
+      "meaning": "유도하다, 설득하다",
+      "paraphrasing": ["persuade", "encourage", "prompt"],
+      "collocations": ["induce a change", "induce someone to do"],
+      "tip": "상대방이 어떤 행동을 하도록 마음을 움직이거나 상황을 만들 때 사용합니다."
+    },
+    {
+      "id": 409,
+      "word": "inevitable",
+      "part": "adjective",
+      "meaning": "피할 수 없는, 당연한",
+      "paraphrasing": ["unavoidable", "inescapable", "certain"],
+      "collocations": ["inevitable consequence", "inevitable result"],
+      "tip": "논리적으로 봤을 때 결과가 뻔하거나 피할 방도가 없을 때 씁니다."
+    },
+    {
+      "id": 410,
+      "word": "infer",
+      "part": "verb",
+      "meaning": "추론하다, 암시하다",
+      "paraphrasing": ["deduce", "conclude", "surmise"],
+      "collocations": ["infer from the context", "infer a meaning"],
+      "tip": "토익 파트 7 'What can be inferred...' 문제의 그 핵심 단어입니다."
+    },
+    {
+      "id": 411,
+      "word": "infrastructure",
+      "part": "noun",
+      "meaning": "사회 기반 시설, 인프라",
+      "paraphrasing": ["base", "framework", "foundation"],
+      "collocations": ["transport infrastructure", "digital infrastructure"],
+      "tip": "도로, 통신망 등 경제 활동의 기본이 되는 시설을 뜻합니다."
+    },
+    {
+      "id": 412,
+      "word": "infringement",
+      "part": "noun",
+      "meaning": "침해, 위반",
+      "paraphrasing": ["violation", "breach", "trespass"],
+      "collocations": ["copyright infringement", "patent infringement"],
+      "tip": "저작권이나 특허권을 몰래 썼을 때 나오는 무거운 단어입니다."
+    },
+    {
+      "id": 413,
+      "word": "ingenious",
+      "part": "adjective",
+      "meaning": "기발한, 독창적인",
+      "paraphrasing": ["creative", "innovative", "clever"],
+      "collocations": ["ingenious solution", "ingenious design"],
+      "tip": "아이디어가 아주 똑똑하고 무릎을 탁 칠 정도로 좋을 때 씁니다."
+    },
+    {
+      "id": 414,
+      "word": "inherent",
+      "part": "adjective",
+      "meaning": "내재된, 타고난",
+      "paraphrasing": ["intrinsic", "innate", "built-in"],
+      "collocations": ["inherent risk", "inherent value"],
+      "tip": "어떤 활동이나 물건이 원래부터 가지고 있는 성질을 뜻합니다."
+    },
+    {
+      "id": 415,
+      "word": "initiative",
+      "part": "noun",
+      "meaning": "계획, 주도권, 진취성",
+      "paraphrasing": ["plan", "project", "enterprise"],
+      "collocations": ["new marketing initiative", "take the initiative"],
+      "tip": "토익에서는 주로 '새로운 사업 계획'이라는 뜻으로 자주 나옵니다."
+    },
+    {
+      "id": 416,
+      "word": "injunction",
+      "part": "noun",
+      "meaning": "(법원의) 금지 명령",
+      "paraphrasing": ["order", "command", "prohibition"],
+      "collocations": ["court injunction", "seek an injunction"],
+      "tip": "법적으로 특정 행동을 하지 못하게 막는 명령입니다."
+    },
+    {
+      "id": 417,
+      "word": "innovative",
+      "part": "adjective",
+      "meaning": "혁신적인",
+      "paraphrasing": ["revolutionary", "novel", "cutting-edge"],
+      "collocations": ["innovative technology", "innovative approach"],
+      "tip": "기존과는 다른 새롭고 발전된 방식을 칭찬할 때 씁니다."
+    },
+    {
+      "id": 418,
+      "word": "insight",
+      "part": "noun",
+      "meaning": "통찰력, 식견",
+      "paraphrasing": ["understanding", "perception", "awareness"],
+      "collocations": ["valuable insight", "gain insight into"],
+      "tip": "전문가의 조언이나 분석을 통해 얻은 깊이 있는 지식을 뜻합니다."
+    },
+    {
+      "id": 419,
+      "word": "installation",
+      "part": "noun",
+      "meaning": "설치, 장착",
+      "paraphrasing": ["setup", "fitting"],
+      "collocations": ["software installation", "free installation"],
+      "tip": "기계나 소프트웨어를 사용할 수 있게 세팅하는 과정입니다."
+    },
+    {
+      "id": 420,
+      "word": "installment",
+      "part": "noun",
+      "meaning": "할부, (연재물의) 회차",
+      "paraphrasing": ["payment", "portion", "episode"],
+      "collocations": ["monthly installments", "pay in installments"],
+      "tip": "비싼 물건값을 여러 달에 나누어 내는 '할부'로 가장 많이 쓰입니다."
+    },
+    {
+      "id": 421,
+      "word": "insulate",
+      "part": "verb",
+      "meaning": "절연하다, 격리하다, 보호하다",
+      "paraphrasing": ["shield", "protect", "isolate"],
+      "collocations": ["insulate a house", "insulate from shock"],
+      "tip": "물리적으로 열을 차단하는 것 외에, 충격으로부터 '보호하다'는 뜻으로도 쓰입니다."
+    },
+    {
+      "id": 422,
+      "word": "intact",
+      "part": "adjective",
+      "meaning": "온전한, 손상되지 않은",
+      "paraphrasing": ["undamaged", "unbroken", "whole"],
+      "collocations": ["remain intact", "keep something intact"],
+      "tip": "배송된 물건이나 건물이 아무 손상 없이 그대로일 때 사용합니다."
+    },
+    {
+      "id": 423,
+      "word": "integral",
+      "part": "adjective",
+      "meaning": "필수적인, 내장된",
+      "paraphrasing": ["essential", "fundamental", "intrinsic"],
+      "collocations": ["an integral part of", "integral component"],
+      "tip": "없어서는 안 될 핵심적인 요소임을 강조할 때 씁니다."
+    },
+    {
+      "id": 424,
+      "word": "intensify",
+      "part": "verb",
+      "meaning": "강화하다, 심해지다",
+      "paraphrasing": ["escalate", "heighten", "strengthen"],
+      "collocations": ["intensify efforts", "intensify competition"],
+      "tip": "노력을 더 쏟거나 경쟁이 더 치열해지는 상황을 묘사합니다."
+    },
+    {
+      "id": 425,
+      "word": "interim",
+      "part": "adjective",
+      "meaning": "중간의, 임시의",
+      "paraphrasing": ["temporary", "provisional"],
+      "collocations": ["interim report", "interim manager"],
+      "tip": "최종 결정 전 단계의 '임시' 상태를 나타냅니다."
+    },
+    {
+      "id": 426,
+      "word": "intermittent",
+      "part": "adjective",
+      "meaning": "간헐적인, 때때로 끊기는",
+      "paraphrasing": ["sporadic", "occasional", "fitful"],
+      "collocations": ["intermittent rain", "intermittent service"],
+      "tip": "연속적이지 않고 중간중간 멈췄다 다시 시작되는 현상에 씁니다."
+    },
+    {
+      "id": 427,
+      "word": "inventory",
+      "part": "noun",
+      "meaning": "재고, 물품 목록",
+      "paraphrasing": ["stock", "supply", "list"],
+      "collocations": ["take inventory", "inventory turnover"],
+      "tip": "창고에 쌓인 물건이나 그 목록을 확인하는 상황에서 나옵니다."
+    },
+    {
+      "id": 428,
+      "word": "investigation",
+      "part": "noun",
+      "meaning": "조사, 수사",
+      "paraphrasing": ["inquiry", "examination", "scrutiny"],
+      "collocations": ["under investigation", "thorough investigation"],
+      "tip": "사고 원인이나 비리 등을 파헤치기 위한 공식적인 조사를 뜻합니다."
+    },
+    {
+      "id": 429,
+      "word": "invoice",
+      "part": "noun",
+      "meaning": "송장, 청구서",
+      "paraphrasing": ["bill", "statement of account"],
+      "collocations": ["issue an invoice", "outstanding invoice"],
+      "tip": "물품 대금을 청구할 때 보내는 공식 문서입니다."
+    },
+    {
+      "id": 430,
+      "word": "irrelevant",
+      "part": "adjective",
+      "meaning": "무관한, 상관없는",
+      "paraphrasing": ["unrelated", "extraneous", "beside the point"],
+      "collocations": ["completely irrelevant", "irrelevant information"],
+      "tip": "지금 논의 중인 주제와 동떨어진 내용을 비판할 때 씁니다."
+    },
+    {
+      "id": 431,
+      "word": "itinerary",
+      "part": "noun",
+      "meaning": "여행 일정표",
+      "paraphrasing": ["schedule", "travel plan"],
+      "collocations": ["detailed itinerary", "change the itinerary"],
+      "tip": "출장이나 여행의 시간대별 계획서를 뜻하는 파트 7 빈출 단어입니다."
+    },
+    {
+      "id": 432,
+      "word": "jeopardize",
+      "part": "verb",
+      "meaning": "위태롭게 하다",
+      "paraphrasing": ["endanger", "threaten", "compromise"],
+      "collocations": ["jeopardize a career", "jeopardize a project"],
+      "tip": "실수나 외부 요인으로 공든 탑이 무너질 상황에 처했을 때 씁니다."
+    },
+    {
+      "id": 433,
+      "word": "judicious",
+      "part": "adjective",
+      "meaning": "신중한, 판단력 있는",
+      "paraphrasing": ["wise", "prudent", "sensible"],
+      "collocations": ["judicious use of funds", "judicious decision"],
+      "tip": "예산을 아껴 쓰는 등 현명하고 조심스러운 태도를 칭찬할 때 사용합니다."
+    },
+    {
+      "id": 434,
+      "word": "junction",
+      "part": "noun",
+      "meaning": "교차로, 합류점",
+      "paraphrasing": ["intersection", "confluence", "connection"],
+      "collocations": ["railway junction", "at the junction of"],
+      "tip": "길이나 선로가 만나는 지점을 설명할 때 교통 지문에 등장합니다."
+    },
+    {
+      "id": 435,
+      "word": "justification",
+      "part": "noun",
+      "meaning": "정당화, 명분",
+      "paraphrasing": ["explanation", "rationale", "reason"],
+      "collocations": ["without justification", "moral justification"],
+      "tip": "어떤 행동이나 결정에 대한 타당한 이유를 설명할 때 씁니다."
+    },
+    {
+      "id": 436,
+      "word": "keen",
+      "part": "adjective",
+      "meaning": "열렬한, 예리한",
+      "paraphrasing": ["eager", "sharp", "enthusiastic"],
+      "collocations": ["keen interest", "keen competition"],
+      "tip": "관심이 매우 높거나 경쟁이 아주 치열한 상태를 묘사합니다."
+    },
+    {
+      "id": 437,
+      "word": "lapse",
+      "part": "noun",
+      "meaning": "실수, (시간의) 경과, 소멸",
+      "paraphrasing": ["error", "interval", "expiration"],
+      "collocations": ["lapse of memory", "time lapse"],
+      "tip": "깜빡하는 실수나 계약 기간이 지나 효력이 없어지는 상황을 뜻합니다."
+    },
+    {
+      "id": 438,
+      "word": "lateral",
+      "part": "adjective",
+      "meaning": "측면의, 옆으로의",
+      "paraphrasing": ["sideways", "flanking"],
+      "collocations": ["lateral movement", "lateral thinking"],
+      "tip": "수직(계급식)이 아닌 수평적 사고나 옆으로의 움직임을 뜻합니다."
+    },
+    {
+      "id": 439,
+      "word": "launch",
+      "part": "verb / noun",
+      "meaning": "출시하다, 시작하다 / 출시",
+      "paraphrasing": ["introduce", "release", "initiate"],
+      "collocations": ["product launch", "launch a campaign"],
+      "tip": "신제품이나 새로운 서비스를 시장에 처음 내놓을 때 씁니다."
+    },
+    {
+      "id": 440,
+      "word": "lavish",
+      "part": "adjective",
+      "meaning": "풍성한, 호화로운",
+      "paraphrasing": ["luxurious", "extravagant", "generous"],
+      "collocations": ["lavish banquet", "lavish praise"],
+      "tip": "돈을 아끼지 않고 쓴 호화로운 행사나 아낌없는 칭찬을 묘사합니다."
     }
   ]
 }
