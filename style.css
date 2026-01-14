@@ -1,73 +1,130 @@
-body, html {
-    margin: 0; padding: 0;
-    width: 100%; height: 100%;
-    overflow: hidden; background: #000;
-    font-family: 'Pretendard', sans-serif;
+/* 기본 리셋 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden; /* 가로 스크롤 방지 */
 }
 
-#app {
-    width: 100%; max-width: 320px; /* 요청하신 폭 */
-    height: 100vh; margin: 0 auto;
-    position: relative;
+/* 1. 컨테이너: 카드가 배치되는 전체 영역 */
+#card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* 모바일에서 위가 잘리지 않도록 상단 고정 */
+    padding-top: 15px;       /* 상단 여백 최소화 */
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
+/* 2. 카드 본체: 크기와 원근감 설정 */
 .card {
-    width: 100%; height: 100vh;
-    display: flex; justify-content: center; align-items: center;
-    position: absolute; transition: transform 0.4s ease-out;
-    perspective: 1000px; /* 카드 뒤집기용 */
+    width: 90vw;
+    max-width: 400px;
+    height: 70vh;            /* 화면 높이의 70% (하단 잘림 방지) */
+    max-height: 550px;       /* 너무 길어지지 않게 제한 */
+    perspective: 1000px;
+    margin-bottom: 20px;     /* 바닥 여유 공간 */
 }
 
+/* 3. 카드 내부 (앞/뒤 회전) */
 .inner-card {
-    width: 90%; height: 80%;
-    position: relative; transition: transform 0.6s;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
     transform-style: preserve-3d;
     cursor: pointer;
 }
 
-/* 터치 시 반전 효과 */
-.inner-card.flipped { transform: rotateY(180deg); }
+.inner-card.flipped {
+    transform: rotateY(180deg);
+}
 
+/* 4. 앞면/뒷면 공통 스타일 */
 .front, .back {
-    position: absolute; width: 100%; height: 100%;
-    backface-visibility: hidden; border-radius: 20px;
-    display: flex; flex-direction: column; padding: 20px; box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    padding: 25px;
+    box-sizing: border-box;
 }
 
-.front { background: #ffffff; color: #333; justify-content: center; align-items: center; }
-.back { background: #1a1a1a; color: #fff; transform: rotateY(180deg); overflow-y: auto; }
+/* 앞면 색상 */
+.front {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
 
-/* UI 요소 */
+/* 뒷면 색상 */
+.back {
+    background-color: #ffffff;
+    color: #333;
+    transform: rotateY(180deg);
+    justify-content: flex-start; /* 내용이 많으므로 위에서부터 정렬 */
+    overflow-y: auto;           /* 내용이 넘치면 카드 안에서 스크롤 */
+}
+
+/* 5. 단어 텍스트 스타일 (JS에서 폰트 크기 동적 조절) */
 .word-text {
-    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
     text-align: center;
-    /* 줄바꿈 방지 및 전체 보이기 설정 */
     display: block;
-    width: 95%; 
-    word-break: keep-all; /* 단어 중간 자르지 않음 */
-    white-space: normal;  /* 필요시 줄바꿈 허용하되 아래 JS로 폰트 조절 */
-    line-height: 1.1;
-    transition: all 0.2s ease;
+    width: 100%;
+    word-break: keep-all; 
+    white-space: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
 }
+
+/* 6. 하단 아이콘 컨트롤러 */
 .controls {
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
     display: flex;
-    justify-content: space-between; /* 양 끝으로 배치 */
+    justify-content: space-between;
     align-items: center;
 }
+
 .icon {
+    font-size: 1.8rem;
     cursor: pointer;
-    font-size: 1.5rem;
-    z-index: 10; /* 클릭 잘 되도록 우선순위 높임 */
+    z-index: 10;
 }
-.detail-item { margin-bottom: 15px; font-size: 0.9rem; }
-.label { color: #ffd700; font-weight: bold; display: block; margin-bottom: 4px; }
+
 input[type="checkbox"].icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* 7. 뒷면 상세 항목 스타일 */
+.detail-item {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #764ba2;
+    margin-bottom: 2px;
 }
