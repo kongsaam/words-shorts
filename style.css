@@ -43,13 +43,13 @@ body, html {
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
-    /* 추가/수정: 줄바꿈을 억제하고 한 줄에 표시되도록 노력함 */
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; /* 혹시나 넘치면 ... 표시 (안전장치) */
-    width: 90%; /* 양옆 여유 공간 */
-    line-height: 1.2;
-    transition: font-size 0.2s ease;
+    /* 줄바꿈 방지 및 전체 보이기 설정 */
+    display: block;
+    width: 95%; 
+    word-break: keep-all; /* 단어 중간 자르지 않음 */
+    white-space: normal;  /* 필요시 줄바꿈 허용하되 아래 JS로 폰트 조절 */
+    line-height: 1.1;
+    transition: all 0.2s ease;
 }
 .controls {
     position: absolute;

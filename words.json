@@ -4317,6 +4317,366 @@
       "paraphrasing": ["cloudy", "obscure", "unclear"],
       "collocations": ["opaque glass", "opaque language"],
       "tip": "유리가 투명하지 않은 것과 설명이 복잡해서 알아듣기 힘든 것 둘 다 씁니다."
+    },
+    {
+      "id": 481,
+      "word": "operational",
+      "part": "adjective",
+      "meaning": "운영상의, 가동 준비가 된",
+      "paraphrasing": ["functional", "working", "running"],
+      "collocations": ["become operational", "operational costs"],
+      "tip": "새 공장이나 시스템이 이제 막 가동을 시작할 수 있는 상태를 뜻합니다."
+    },
+    {
+      "id": 482,
+      "word": "opposition",
+      "part": "noun",
+      "meaning": "반대, 대항",
+      "paraphrasing": ["resistance", "hostility", "defiance"],
+      "collocations": ["face opposition", "in opposition to"],
+      "tip": "새로운 기획안이나 법안에 대해 누군가 강하게 반대할 때 쓰입니다."
+    },
+    {
+      "id": 483,
+      "word": "optimal",
+      "part": "adjective",
+      "meaning": "최선의, 최적의",
+      "paraphrasing": ["ideal", "best", "optimum"],
+      "collocations": ["optimal performance", "optimal conditions"],
+      "tip": "여러 선택지 중 가장 효율이 좋고 완벽한 상태를 말합니다."
+    },
+    {
+      "id": 484,
+      "word": "ordinance",
+      "part": "noun",
+      "meaning": "법령, 조례",
+      "paraphrasing": ["regulation", "decree", "statute"],
+      "collocations": ["local ordinance", "city ordinance"],
+      "tip": "시청이나 구청 같은 지방 자치 단체에서 정한 규칙을 뜻합니다."
+    },
+    {
+      "id": 485,
+      "word": "outbound",
+      "part": "adjective",
+      "meaning": "외지로 나가는, 외국행의",
+      "paraphrasing": ["outgoing", "departing"],
+      "collocations": ["outbound flight", "outbound logistics"],
+      "tip": "안에서 밖으로 나가는 흐름을 뜻하며, '수출 물류' 등의 맥락에서 쓰입니다."
+    },
+    {
+      "id": 486,
+      "word": "outgoings",
+      "part": "noun",
+      "meaning": "지출, 경비",
+      "paraphrasing": ["expenses", "expenditure", "spending"],
+      "collocations": ["monthly outgoings", "reduce outgoings"],
+      "tip": "매달 고정적으로 나가는 돈을 통칭하는 단어입니다."
+    },
+    {
+      "id": 487,
+      "word": "outlier",
+      "part": "noun",
+      "meaning": "이상치, 예외적인 인물/사물",
+      "paraphrasing": ["exception", "anomaly", "deviation"],
+      "collocations": ["statistical outlier", "extreme outlier"],
+      "tip": "데이터 통계 지문에서 평균치와 너무 동떨어진 특이한 값을 말합니다."
+    },
+    {
+      "id": 488,
+      "word": "outstanding",
+      "part": "adjective",
+      "meaning": "뛰어난; 미지불된",
+      "paraphrasing": ["exceptional; unpaid", "unresolved"],
+      "collocations": ["outstanding performance", "outstanding balance"],
+      "tip": "성적이 '우수하다'는 뜻과 돈을 '아직 안 냈다'는 뜻 두 가지 모두 토익 빈출입니다."
+    },
+    {
+      "id": 489,
+      "word": "overall",
+      "part": "adjective / adverb",
+      "meaning": "전반적인, 종합적인 / 전체적으로",
+      "paraphrasing": ["comprehensive", "general", "total"],
+      "collocations": ["overall strategy", "overall performance"],
+      "tip": "세부 사항이 아닌 전체를 아우르는 평가를 내릴 때 씁니다."
+    },
+    {
+      "id": 490,
+      "word": "overhaul",
+      "part": "verb / noun",
+      "meaning": "철저히 점검하다, 정비하다 / 정비",
+      "paraphrasing": ["renovate", "revamp", "reconstruct"],
+      "collocations": ["major overhaul", "overhaul the system"],
+      "tip": "오래된 기계나 시스템을 완전히 뜯어고치고 개선할 때 쓰는 단어입니다."
+    },
+    {
+      "id": 491,
+      "word": "overlap",
+      "part": "verb / noun",
+      "meaning": "중복되다, 겹치다 / 중복",
+      "paraphrasing": ["coincide", "intersect", "converge"],
+      "collocations": ["overlapping duties", "area of overlap"],
+      "tip": "업무 범위가 겹치거나 두 행사의 일정이 겹칠 때 사용합니다."
+    },
+    {
+      "id": 492,
+      "word": "overlook",
+      "part": "verb",
+      "meaning": "간과하다, 못 본 체하다; 내려다보다",
+      "paraphrasing": ["miss", "disregard; command a view of"],
+      "collocations": ["overlook a mistake", "overlooking the ocean"],
+      "tip": "실수를 '놓치다'는 뜻과 경치가 '좋다'는 뜻으로 파트 1, 5에서 골고루 나옵니다."
+    },
+    {
+      "id": 493,
+      "word": "overseas",
+      "part": "adjective / adverb",
+      "meaning": "해외의 / 해외로",
+      "paraphrasing": ["international", "abroad", "foreign"],
+      "collocations": ["overseas market", "travel overseas"],
+      "tip": "국내가 아닌 외국 관련 사업 지문에 빠지지 않는 기초이자 필수어입니다."
+    },
+    {
+      "id": 494,
+      "word": "oversight",
+      "part": "noun",
+      "meaning": "실수, 간과; 감독, 관리",
+      "paraphrasing": ["error, lapse; supervision"],
+      "collocations": ["due to an oversight", "regulatory oversight"],
+      "tip": "부주의로 인한 '실수'라는 뜻과 엄격한 '감시'라는 상반된 뜻을 다 가졌습니다."
+    },
+    {
+      "id": 495,
+      "word": "overview",
+      "part": "noun",
+      "meaning": "개요, 개관",
+      "paraphrasing": ["summary", "outline", "synopsis"],
+      "collocations": ["brief overview", "provide an overview"],
+      "tip": "본격적인 설명에 앞서 전체적인 내용을 요약해 보여주는 부분입니다."
+    },
+    {
+      "id": 496,
+      "word": "overwhelmed",
+      "part": "adjective",
+      "meaning": "압도된, 당황한",
+      "paraphrasing": ["overpowered", "devastated"],
+      "collocations": ["feel overwhelmed", "overwhelmed by work"],
+      "tip": "업무량이 너무 많아 감당하기 힘들거나 감격스러울 때 씁니다."
+    },
+    {
+      "id": 497,
+      "word": "ownership",
+      "part": "noun",
+      "meaning": "소유권, 소유",
+      "paraphrasing": ["possession", "proprietorship", "title"],
+      "collocations": ["private ownership", "change of ownership"],
+      "tip": "물건이나 회사의 주인이 누구인지를 나타내는 법적 권리입니다."
+    },
+    {
+      "id": 498,
+      "word": "pace",
+      "part": "noun / verb",
+      "meaning": "속도, 보폭 / 서성이다",
+      "paraphrasing": ["speed", "tempo", "rate"],
+      "collocations": ["at a fast pace", "keep pace with"],
+      "tip": "변화의 속도가 빠르거나 남의 속도에 맞춰야 할 때 자주 쓰입니다."
+    },
+    {
+      "id": 499,
+      "word": "package",
+      "part": "noun / verb",
+      "meaning": "꾸러미, 소포; 일괄 제안 / 포장하다",
+      "paraphrasing": ["parcel", "bundle; deal"],
+      "collocations": ["benefits package", "severance package"],
+      "tip": "토익에서는 택배 상자뿐 아니라 '보상/복지 세트'라는 뜻으로도 아주 잘 나옵니다."
+    },
+    {
+      "id": 500,
+      "word": "pamphlet",
+      "part": "noun",
+      "meaning": "소책자, 팸플릿",
+      "paraphrasing": ["brochure", "booklet", "leaflet"],
+      "collocations": ["informational pamphlet", "distribute pamphlets"],
+      "tip": "회사나 제품을 홍보하기 위해 나누어 주는 얇은 책자를 뜻합니다."
+    },
+    {
+      "id": 501,
+      "word": "paradigm",
+      "part": "noun",
+      "meaning": "전형적인 예, 패러다임, 인식의 틀",
+      "paraphrasing": ["model", "pattern", "prototype"],
+      "collocations": ["paradigm shift", "new paradigm"],
+      "tip": "사고방식이나 체계가 완전히 바뀌는 '패러다임 전환'이라는 표현으로 자주 등장합니다."
+    },
+    {
+      "id": 502,
+      "word": "paramount",
+      "part": "adjective",
+      "meaning": "가장 중요한, 최고의",
+      "paraphrasing": ["supreme", "principal", "foremost"],
+      "collocations": ["of paramount importance", "paramount concern"],
+      "tip": "어떤 것보다도 우선시되어야 할 핵심 가치를 수식할 때 씁니다."
+    },
+    {
+      "id": 503,
+      "word": "partial",
+      "part": "adjective",
+      "meaning": "부분적인; 편파적인",
+      "paraphrasing": ["incomplete; biased", "prejudiced"],
+      "collocations": ["partial refund", "be partial to"],
+      "tip": "환불이 전액이 아닌 '일부'만 될 때나, 누군가를 '편애할' 때 모두 씁니다."
+    },
+    {
+      "id": 504,
+      "word": "participant",
+      "part": "noun",
+      "meaning": "참가자",
+      "paraphrasing": ["attendee", "contributor", "member"],
+      "collocations": ["active participant", "seminar participant"],
+      "tip": "회의나 설문조사 등에 직접 참여하는 사람을 가리킵니다."
+    },
+    {
+      "id": 505,
+      "word": "patent",
+      "part": "noun / verb",
+      "meaning": "특허 / 특허를 얻다",
+      "paraphrasing": ["copyright", "license", "proprietary right"],
+      "collocations": ["apply for a patent", "patent infringement"],
+      "tip": "새로운 발명이나 기술의 법적 권리 관련 지문에서 단골로 나옵니다."
+    },
+    {
+      "id": 506,
+      "word": "peculiar",
+      "part": "adjective",
+      "meaning": "특유의, 이상한",
+      "paraphrasing": ["unique", "distinctive; odd"],
+      "collocations": ["peculiar to this region", "peculiar behavior"],
+      "tip": "그 지역이나 사람만이 가진 '독특한' 특성을 설명할 때 자주 쓰입니다."
+    },
+    {
+      "id": 507,
+      "word": "pending",
+      "part": "adjective / preposition",
+      "meaning": "미결정된, 현안의 / ~까지",
+      "paraphrasing": ["unresolved", "undecided; until"],
+      "collocations": ["pending lawsuit", "pending approval"],
+      "tip": "아직 승인이 나지 않았거나 처리 중인 상태를 나타낼 때 필수적인 단어입니다."
+    },
+    {
+      "id": 508,
+      "word": "pension",
+      "part": "noun",
+      "meaning": "연금",
+      "paraphrasing": ["retirement fund", "annuity", "superannuation"],
+      "collocations": ["pension plan", "receive a pension"],
+      "tip": "퇴직 후 매달 받는 돈이나 관련 복지 제도 지문에서 보입니다."
+    },
+    {
+      "id": 509,
+      "word": "perceive",
+      "part": "verb",
+      "meaning": "인지하다, 인식하다",
+      "paraphrasing": ["recognize", "discern", "observe"],
+      "collocations": ["perceive a difference", "perceived value"],
+      "tip": "오감을 통해 알아차리거나 어떤 상황을 특정 방식으로 이해할 때 씁니다."
+    },
+    {
+      "id": 510,
+      "word": "perforate",
+      "part": "verb",
+      "meaning": "구멍을 내다, 천공하다",
+      "paraphrasing": ["puncture", "pierce", "drill"],
+      "collocations": ["perforated line", "perforated paper"],
+      "tip": "영수증이나 티켓을 잘 뜯을 수 있게 구멍이 송송 나 있는 선을 떠올리세요."
+    },
+    {
+      "id": 511,
+      "word": "perimeter",
+      "part": "noun",
+      "meaning": "주변, 주위; 둘레",
+      "paraphrasing": ["boundary", "border", "circumference"],
+      "collocations": ["security perimeter", "fence around the perimeter"],
+      "tip": "보안을 위해 설정한 구역의 경계나 도형의 둘레를 뜻합니다."
+    },
+    {
+      "id": 512,
+      "word": "periodic",
+      "part": "adjective",
+      "meaning": "정기적인, 주기적인",
+      "paraphrasing": ["regular", "recurrent", "intermittent"],
+      "collocations": ["periodic review", "periodic inspection"],
+      "tip": "일정한 시간 간격을 두고 반복되는 검사나 업무에 쓰입니다."
+    },
+    {
+      "id": 513,
+      "word": "perish",
+      "part": "verb",
+      "meaning": "소멸되다, 죽다; (음식이) 상하다",
+      "paraphrasing": ["expire", "vanish", "decay"],
+      "collocations": ["perishable goods", "perish in a fire"],
+      "tip": "토익에서는 주로 '상하기 쉬운(perishable)' 식품 관련 지문으로 나옵니다."
+    },
+    {
+      "id": 514,
+      "word": "permeate",
+      "part": "verb",
+      "meaning": "스며들다, 침투하다, 퍼지다",
+      "paraphrasing": ["penetrate", "spread through", "pervade"],
+      "collocations": ["permeate the market", "smell permeates the air"],
+      "tip": "냄새나 소문, 또는 새로운 문화가 집단 내부에 깊숙이 퍼지는 것을 뜻합니다."
+    },
+    {
+      "id": 515,
+      "word": "perpendicular",
+      "part": "adjective",
+      "meaning": "수직의, 직각의",
+      "paraphrasing": ["vertical", "upright", "at right angles"],
+      "collocations": ["perpendicular to the floor", "perpendicular line"],
+      "tip": "기술 지문이나 위치 설명에서 '직각'을 나타내는 다소 전문적인 단어입니다."
+    },
+    {
+      "id": 516,
+      "word": "perpetuate",
+      "part": "verb",
+      "meaning": "영구화하다, 지속시키다",
+      "paraphrasing": ["sustain", "preserve", "prolong"],
+      "collocations": ["perpetuate a myth", "perpetuate inequality"],
+      "tip": "어떤 상태나 현상이 사라지지 않고 계속 이어지게 만들 때 씁니다."
+    },
+    {
+      "id": 517,
+      "word": "perspective",
+      "part": "noun",
+      "meaning": "관점, 시각; 원근법",
+      "paraphrasing": ["viewpoint", "outlook", "standpoint"],
+      "collocations": ["from a global perspective", "gain a new perspective"],
+      "tip": "문제를 바라보는 주관적인 입장이나 넓은 안목을 뜻합니다."
+    },
+    {
+      "id": 518,
+      "word": "pertinent",
+      "part": "adjective",
+      "meaning": "적절한, 관련 있는",
+      "paraphrasing": ["relevant", "applicable", "germane"],
+      "collocations": ["pertinent information", "pertinent questions"],
+      "tip": "논의 중인 주제에 딱 들어맞고 중요한 정보를 수식할 때 씁니다."
+    },
+    {
+      "id": 519,
+      "word": "pervasive",
+      "part": "adjective",
+      "meaning": "만연한, 스며드는",
+      "paraphrasing": ["prevalent", "widespread", "omnipresent"],
+      "collocations": ["pervasive influence", "pervasive smell"],
+      "tip": "어디에나 존재하고 널리 퍼져 있어 피하기 힘든 상태를 묘사합니다."
+    },
+    {
+      "id": 520,
+      "word": "petition",
+      "part": "noun / verb",
+      "meaning": "청원서, 탄원서 / 청원하다",
+      "paraphrasing": ["appeal", "application", "entreaty"],
+      "collocations": ["sign a petition", "file a petition"],
+      "tip": "많은 사람이 서명하여 공식적으로 무언가를 요구하는 문서입니다."
     }
   ]
 }
