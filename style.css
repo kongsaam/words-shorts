@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2c3e50; /* 사용자님 설정 배경색 유지 */
+    background-color: #2c3e50;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;

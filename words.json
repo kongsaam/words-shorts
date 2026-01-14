@@ -5397,6 +5397,546 @@
       "paraphrasing": ["renovate", "revamp", "remodel"],
       "collocations": ["refurbish an office", "refurbished laptop"],
       "tip": "오래된 시설을 수리하여 깨끗하게 만들거나 중고 제품을 수리해 다시 팔 때 씁니다."
+    },
+    {
+      "id": 601,
+      "word": "regardless",
+      "part": "adverb",
+      "meaning": "개의치 않고, 상관없이",
+      "paraphrasing": ["nevertheless", "anyway", "despite everything"],
+      "collocations": ["regardless of the cost", "proceed regardless"],
+      "tip": "어떤 장애물이나 조건이 있더라도 상관없이 일을 추진할 때 씁니다."
+    },
+    {
+      "id": 602,
+      "word": "registration",
+      "part": "noun",
+      "meaning": "등록, 기재",
+      "paraphrasing": ["enrollment", "listing", "recording"],
+      "collocations": ["registration fee", "early-bird registration"],
+      "tip": "세미나나 행사에 참여하기 위해 미리 이름을 올리는 절차입니다."
+    },
+    {
+      "id": 603,
+      "word": "reimburse",
+      "part": "verb",
+      "meaning": "배상하다, 변제하다, 상환하다",
+      "paraphrasing": ["repay", "compensate", "refund"],
+      "collocations": ["reimburse expenses", "be fully reimbursed"],
+      "tip": "업무상 먼저 쓴 돈을 회사로부터 돌려받을 때 쓰는 필수 비즈니스 단어입니다."
+    },
+    {
+      "id": 604,
+      "word": "reinforce",
+      "part": "verb",
+      "meaning": "강화하다, 보강하다",
+      "paraphrasing": ["strengthen", "fortify", "bolster"],
+      "collocations": ["reinforce the structure", "reinforce a belief"],
+      "tip": "물리적인 건물을 튼튼하게 하거나 주장/이미지를 더 확고히 할 때 씁니다."
+    },
+    {
+      "id": 605,
+      "word": "reiterate",
+      "part": "verb",
+      "meaning": "되풀이하다, 반복해서 말하다",
+      "paraphrasing": ["repeat", "restate", "recapitulate"],
+      "collocations": ["reiterate a point", "reiterate one's commitment"],
+      "tip": "중요한 내용을 강조하기 위해 한 번 더 언급할 때 쓰는 격식 있는 표현입니다."
+    },
+    {
+      "id": 606,
+      "word": "relinquish",
+      "part": "verb",
+      "meaning": "포기하다, 양도하다, 내주다",
+      "paraphrasing": ["give up", "surrender", "abandon"],
+      "collocations": ["relinquish control", "relinquish a claim"],
+      "tip": "가지고 있던 권리나 소유권을 자의 혹은 타의로 내려놓을 때 씁니다."
+    },
+    {
+      "id": 607,
+      "word": "remainder",
+      "part": "noun",
+      "meaning": "나머지, 잔여",
+      "paraphrasing": ["rest", "balance", "residue"],
+      "collocations": ["the remainder of the year", "for the remainder of"],
+      "tip": "전체 중에서 일부를 뺀 뒤 남은 부분이나 시간을 뜻합니다."
+    },
+    {
+      "id": 608,
+      "word": "reminisce",
+      "part": "verb",
+      "meaning": "추억하다, 회상하다",
+      "paraphrasing": ["recall", "recollect", "look back"],
+      "collocations": ["reminisce about the past", "reminiscent of"],
+      "tip": "즐거웠던 과거의 일들을 다시 떠올리며 이야기할 때 씁니다."
+    },
+    {
+      "id": 609,
+      "word": "remittance",
+      "part": "noun",
+      "meaning": "송금, 보낸 돈",
+      "paraphrasing": ["payment", "transfer", "wire"],
+      "collocations": ["foreign remittance", "send a remittance"],
+      "tip": "은행을 통해 돈을 보낼 때나 대금을 결제할 때 사용하는 공식 용어입니다."
+    },
+    {
+      "id": 610,
+      "word": "remuneration",
+      "part": "noun",
+      "meaning": "보수, 보상, 급료",
+      "paraphrasing": ["pay", "salary", "compensation"],
+      "collocations": ["annual remuneration", "financial remuneration"],
+      "tip": "일한 대가로 받는 돈을 뜻하는 매우 격식 있는 단어입니다."
+    },
+    {
+      "id": 611,
+      "word": "renovate",
+      "part": "verb",
+      "meaning": "개조하다, 보수하다",
+      "paraphrasing": ["remodel", "refurbish", "revamp"],
+      "collocations": ["renovate the kitchen", "newly renovated"],
+      "tip": "낡은 건물을 수리하거나 인테리어를 새로 하여 상태를 개선할 때 씁니다."
+    },
+    {
+      "id": 612,
+      "word": "repatriate",
+      "part": "verb",
+      "meaning": "본국으로 송환하다; (자금을) 본국으로 들여오다",
+      "paraphrasing": ["send back", "return"],
+      "collocations": ["repatriate profits", "repatriate citizens"],
+      "tip": "해외에서 번 수익을 다시 본사(한국)로 가져오는 지문에서 보입니다."
+    },
+    {
+      "id": 613,
+      "word": "repeal",
+      "part": "verb / noun",
+      "meaning": "폐지하다, 무효로 하다 / 폐지",
+      "paraphrasing": ["abolish", "cancel", "nullify"],
+      "collocations": ["repeal a law", "demand a repeal"],
+      "tip": "정부나 기관이 기존의 법률이나 법령을 공식적으로 없앨 때 사용합니다."
+    },
+    {
+      "id": 614,
+      "word": "repercussion",
+      "part": "noun",
+      "meaning": "영향, 반향, 파장",
+      "paraphrasing": ["consequence", "aftermath", "impact"],
+      "collocations": ["serious repercussions", "financial repercussions"],
+      "tip": "어떤 사건이 터진 후 뒤따르는 (보통은 부정적인) 연쇄적인 영향을 뜻합니다."
+    },
+    {
+      "id": 615,
+      "word": "replenish",
+      "part": "verb",
+      "meaning": "다시 채우다, 보충하다",
+      "paraphrasing": ["refill", "restock", "renew"],
+      "collocations": ["replenish supplies", "replenish stock"],
+      "tip": "비어있는 재고나 물품을 원래 수준으로 꽉 채워 넣을 때 씁니다."
+    },
+    {
+      "id": 616,
+      "word": "repository",
+      "part": "noun",
+      "meaning": "저장소, 보관소",
+      "paraphrasing": ["storage", "warehouse", "archive"],
+      "collocations": ["knowledge repository", "central repository"],
+      "tip": "물건이나 지식, 데이터 등을 한데 모아 안전하게 보관하는 장소입니다."
+    },
+    {
+      "id": 617,
+      "word": "reprehensible",
+      "part": "adjective",
+      "meaning": "비난받을 만한, 괘씸한",
+      "paraphrasing": ["shameful", "deplorable", "blameworthy"],
+      "collocations": ["reprehensible behavior", "morally reprehensible"],
+      "tip": "도덕적으로나 법적으로 아주 잘못되어 지탄받아야 할 행동을 묘사합니다."
+    },
+    {
+      "id": 618,
+      "word": "repudiate",
+      "part": "verb",
+      "meaning": "거부하다, 부인하다",
+      "paraphrasing": ["reject", "deny", "disown"],
+      "collocations": ["repudiate a debt", "repudiate a claim"],
+      "tip": "주장이나 계약, 혹은 빚의 존재를 공식적으로 인정하지 않고 거절할 때 씁니다."
+    },
+    {
+      "id": 619,
+      "word": "requisition",
+      "part": "noun / verb",
+      "meaning": "요청, 신청 / 요청하다",
+      "paraphrasing": ["request", "application", "demand"],
+      "collocations": ["purchase requisition", "file a requisition"],
+      "tip": "비품 등을 사달라고 회사에 공식적으로 제출하는 요청서를 의미합니다."
+    },
+    {
+      "id": 620,
+      "word": "rescind",
+      "part": "verb",
+      "meaning": "철회하다, 폐지하다",
+      "paraphrasing": ["cancel", "revoke", "annul"],
+      "collocations": ["rescind an offer", "rescind a decision"],
+      "tip": "이미 내린 결정이나 채용 제안 등을 없던 일로 되돌릴 때 씁니다."
+    },
+    {
+      "id": 621,
+      "word": "resentment",
+      "part": "noun",
+      "meaning": "분함, 억울함, 분개",
+      "paraphrasing": ["bitterness", "animosity", "indignation"],
+      "collocations": ["feel resentment", "deep resentment"],
+      "tip": "부당한 대우를 받았을 때 느끼는 화나 서운한 감정을 뜻합니다."
+    },
+    {
+      "id": 622,
+      "word": "residual",
+      "part": "adjective",
+      "meaning": "남겨진, 잔여의",
+      "paraphrasing": ["remaining", "lingering", "leftover"],
+      "collocations": ["residual value", "residual effects"],
+      "tip": "어떤 과정이 끝난 뒤에 여전히 남아있는 효과나 가치를 의미합니다."
+    },
+    {
+      "id": 623,
+      "word": "resilient",
+      "part": "adjective",
+      "meaning": "회복력 있는, 탄력 있는",
+      "paraphrasing": ["buoyant", "tough", "flexible"],
+      "collocations": ["resilient economy", "resilient material"],
+      "tip": "충격이나 불황을 겪어도 금방 다시 일어나는 끈기 있는 상태를 묘사합니다."
+    },
+    {
+      "id": 624,
+      "word": "resolution",
+      "part": "noun",
+      "meaning": "결심; 해결; 해상도",
+      "paraphrasing": ["determination; settlement; clarity"],
+      "collocations": ["New Year's resolution", "dispute resolution"],
+      "tip": "새해 결심, 문제 해결, 모니터 선명도 등 토익에서 여러 뜻으로 쓰이니 주의하세요."
+    },
+    {
+      "id": 625,
+      "word": "respective",
+      "part": "adjective",
+      "meaning": "각자의, 각각의",
+      "paraphrasing": ["individual", "particular", "specific"],
+      "collocations": ["their respective fields", "return to respective rooms"],
+      "tip": "여러 사람이 각자 자기의 위치로 돌아가거나 자기 분야를 말할 때 씁니다."
+    },
+    {
+      "id": 626,
+      "word": "restoration",
+      "part": "noun",
+      "meaning": "복구, 복원",
+      "paraphrasing": ["renewal", "reconstruction", "revival"],
+      "collocations": ["restoration project", "complete restoration"],
+      "tip": "파손된 건물이나 예술품을 원래의 아름다운 상태로 되돌리는 작업입니다."
+    },
+    {
+      "id": 627,
+      "word": "restraint",
+      "part": "noun",
+      "meaning": "자제, 억제, 규제",
+      "paraphrasing": ["control", "limitation", "moderation"],
+      "collocations": ["exercise restraint", "budgetary restraint"],
+      "tip": "감정을 억누르거나 예산을 아껴 쓰는 등 무언가를 제한하는 태도입니다."
+    },
+    {
+      "id": 628,
+      "word": "resume",
+      "part": "verb",
+      "meaning": "재개하다, 다시 시작하다",
+      "paraphrasing": ["restart", "reopen", "carry on"],
+      "collocations": ["resume negotiations", "service will resume"],
+      "tip": "중단되었던 회의나 서비스가 다시 시작될 때 씁니다. (이력서와 철자가 같으니 주의!)"
+    },
+    {
+      "id": 629,
+      "word": "retail",
+      "part": "noun / adverb",
+      "meaning": "소매 / 소매로",
+      "paraphrasing": ["selling to consumers"],
+      "collocations": ["retail price", "retail outlet"],
+      "tip": "도매(wholesale)가 아닌 일반 소비자에게 직접 파는 유통 단계를 말합니다."
+    },
+    {
+      "id": 630,
+      "word": "retention",
+      "part": "noun",
+      "meaning": "유지, 보유; 기억력",
+      "paraphrasing": ["maintenance", "preservation", "keeping"],
+      "collocations": ["customer retention", "employee retention"],
+      "tip": "기존 고객이나 우수 사원을 떠나지 않게 계속 붙잡아 두는 능력을 뜻합니다."
+    },
+    {
+      "id": 631,
+      "word": "retirement",
+      "part": "noun",
+      "meaning": "퇴직, 은퇴",
+      "paraphrasing": ["resignation", "withdrawal"],
+      "collocations": ["retirement party", "early retirement"],
+      "tip": "나이가 들어서 혹은 개인적인 사정으로 직장 생활을 마무리하는 일입니다."
+    },
+    {
+      "id": 632,
+      "word": "retractable",
+      "part": "adjective",
+      "meaning": "집어넣을 수 있는, 접어 넣을 수 있는",
+      "paraphrasing": ["pull-back", "foldable", "withdrawable"],
+      "collocations": ["retractable roof", "retractable pen"],
+      "tip": "필요할 때만 꺼내 쓰고 평소에는 쏙 집어넣을 수 있는 구조를 말합니다."
+    },
+    {
+      "id": 633,
+      "word": "retrieve",
+      "part": "verb",
+      "meaning": "되찾아오다; (정보를) 검색하다",
+      "paraphrasing": ["recover", "get back", "fetch"],
+      "collocations": ["retrieve data", "retrieve lost luggage"],
+      "tip": "어딘가에 있는 것을 가서 가져오거나, 컴퓨터에서 데이터를 불러올 때 씁니다."
+    },
+    {
+      "id": 634,
+      "word": "retroactive",
+      "part": "adjective",
+      "meaning": "소급 적용되는",
+      "paraphrasing": ["backdated", "ex post facto"],
+      "collocations": ["retroactive pay increase", "retroactive effect"],
+      "tip": "새로운 법이나 규정이 결정되기 이전의 일까지 거슬러 올라가 적용될 때 씁니다."
+    },
+    {
+      "id": 635,
+      "word": "revenue",
+      "part": "noun",
+      "meaning": "수입, 매출, 세입",
+      "paraphrasing": ["income", "earnings", "yield"],
+      "collocations": ["generate revenue", "annual revenue"],
+      "tip": "기업이 장사를 해서 벌어들인 전체 돈을 뜻하는 경제 용어입니다."
+    },
+    {
+      "id": 636,
+      "word": "reversal",
+      "part": "noun",
+      "meaning": "반전, 역전, 취소",
+      "paraphrasing": ["turnaround", "u-turn", "overturning"],
+      "collocations": ["policy reversal", "dramatic reversal"],
+      "tip": "기존의 결정이나 상황이 180도 완전히 뒤바뀌는 것을 말합니다."
+    },
+    {
+      "id": 637,
+      "word": "review",
+      "part": "verb / noun",
+      "meaning": "검토하다, 비평하다 / 검토, 후기",
+      "paraphrasing": ["examine", "scrutinize; evaluation"],
+      "collocations": ["performance review", "positive review"],
+      "tip": "업무 성과를 평가하거나 제품을 사용해본 소감을 적는 행위입니다."
+    },
+    {
+      "id": 638,
+      "word": "revise",
+      "part": "verb",
+      "meaning": "수정하다, 개정하다",
+      "paraphrasing": ["amend", "modify", "alter"],
+      "collocations": ["revise the plan", "revised edition"],
+      "tip": "기존의 계획, 원고, 법률 등을 더 낫게 고치는 작업을 뜻합니다."
+    },
+    {
+      "id": 639,
+      "word": "revitalize",
+      "part": "verb",
+      "meaning": "새로운 활력을 주다, 재활성화하다",
+      "paraphrasing": ["reinvigorate", "refresh", "restore"],
+      "collocations": ["revitalize the economy", "revitalize the neighborhood"],
+      "tip": "침체된 경제나 낙후된 지역에 생기를 불어넣어 다시 살아나게 할 때 씁니다."
+    },
+    {
+      "id": 640,
+      "word": "rigorous",
+      "part": "adjective",
+      "meaning": "엄격한, 철저한",
+      "paraphrasing": ["strict", "stringent", "thorough"],
+      "collocations": ["rigorous testing", "rigorous standards"],
+      "tip": "기준이 아주 높고 빈틈없이 꼼꼼한 과정을 묘사할 때 사용합니다."
+    },
+    {
+      "id": 621,
+      "word": "resentment",
+      "part": "noun",
+      "meaning": "분함, 억울함, 분개",
+      "paraphrasing": ["bitterness", "animosity", "indignation"],
+      "collocations": ["feel resentment", "deep resentment"],
+      "tip": "부당한 대우를 받았을 때 느끼는 화나 서운한 감정을 뜻합니다."
+    },
+    {
+      "id": 622,
+      "word": "residual",
+      "part": "adjective",
+      "meaning": "남겨진, 잔여의",
+      "paraphrasing": ["remaining", "lingering", "leftover"],
+      "collocations": ["residual value", "residual effects"],
+      "tip": "어떤 과정이 끝난 뒤에 여전히 남아있는 효과나 가치를 의미합니다."
+    },
+    {
+      "id": 623,
+      "word": "resilient",
+      "part": "adjective",
+      "meaning": "회복력 있는, 탄력 있는",
+      "paraphrasing": ["buoyant", "tough", "flexible"],
+      "collocations": ["resilient economy", "resilient material"],
+      "tip": "충격이나 불황을 겪어도 금방 다시 일어나는 끈기 있는 상태를 묘사합니다."
+    },
+    {
+      "id": 624,
+      "word": "resolution",
+      "part": "noun",
+      "meaning": "결심; 해결; 해상도",
+      "paraphrasing": ["determination; settlement; clarity"],
+      "collocations": ["New Year's resolution", "dispute resolution"],
+      "tip": "새해 결심, 문제 해결, 모니터 선명도 등 토익에서 여러 뜻으로 쓰이니 주의하세요."
+    },
+    {
+      "id": 625,
+      "word": "respective",
+      "part": "adjective",
+      "meaning": "각자의, 각각의",
+      "paraphrasing": ["individual", "particular", "specific"],
+      "collocations": ["their respective fields", "return to respective rooms"],
+      "tip": "여러 사람이 각자 자기의 위치로 돌아가거나 자기 분야를 말할 때 씁니다."
+    },
+    {
+      "id": 626,
+      "word": "restoration",
+      "part": "noun",
+      "meaning": "복구, 복원",
+      "paraphrasing": ["renewal", "reconstruction", "revival"],
+      "collocations": ["restoration project", "complete restoration"],
+      "tip": "파손된 건물이나 예술품을 원래의 아름다운 상태로 되돌리는 작업입니다."
+    },
+    {
+      "id": 627,
+      "word": "restraint",
+      "part": "noun",
+      "meaning": "자제, 억제, 규제",
+      "paraphrasing": ["control", "limitation", "moderation"],
+      "collocations": ["exercise restraint", "budgetary restraint"],
+      "tip": "감정을 억누르거나 예산을 아껴 쓰는 등 무언가를 제한하는 태도입니다."
+    },
+    {
+      "id": 628,
+      "word": "resume",
+      "part": "verb",
+      "meaning": "재개하다, 다시 시작하다",
+      "paraphrasing": ["restart", "reopen", "carry on"],
+      "collocations": ["resume negotiations", "service will resume"],
+      "tip": "중단되었던 회의나 서비스가 다시 시작될 때 씁니다. (이력서와 철자가 같으니 주의!)"
+    },
+    {
+      "id": 629,
+      "word": "retail",
+      "part": "noun / adverb",
+      "meaning": "소매 / 소매로",
+      "paraphrasing": ["selling to consumers"],
+      "collocations": ["retail price", "retail outlet"],
+      "tip": "도매(wholesale)가 아닌 일반 소비자에게 직접 파는 유통 단계를 말합니다."
+    },
+    {
+      "id": 630,
+      "word": "retention",
+      "part": "noun",
+      "meaning": "유지, 보유; 기억력",
+      "paraphrasing": ["maintenance", "preservation", "keeping"],
+      "collocations": ["customer retention", "employee retention"],
+      "tip": "기존 고객이나 우수 사원을 떠나지 않게 계속 붙잡아 두는 능력을 뜻합니다."
+    },
+    {
+      "id": 631,
+      "word": "retirement",
+      "part": "noun",
+      "meaning": "퇴직, 은퇴",
+      "paraphrasing": ["resignation", "withdrawal"],
+      "collocations": ["retirement party", "early retirement"],
+      "tip": "나이가 들어서 혹은 개인적인 사정으로 직장 생활을 마무리하는 일입니다."
+    },
+    {
+      "id": 632,
+      "word": "retractable",
+      "part": "adjective",
+      "meaning": "집어넣을 수 있는, 접어 넣을 수 있는",
+      "paraphrasing": ["pull-back", "foldable", "withdrawable"],
+      "collocations": ["retractable roof", "retractable pen"],
+      "tip": "필요할 때만 꺼내 쓰고 평소에는 쏙 집어넣을 수 있는 구조를 말합니다."
+    },
+    {
+      "id": 633,
+      "word": "retrieve",
+      "part": "verb",
+      "meaning": "되찾아오다; (정보를) 검색하다",
+      "paraphrasing": ["recover", "get back", "fetch"],
+      "collocations": ["retrieve data", "retrieve lost luggage"],
+      "tip": "어딘가에 있는 것을 가서 가져오거나, 컴퓨터에서 데이터를 불러올 때 씁니다."
+    },
+    {
+      "id": 634,
+      "word": "retroactive",
+      "part": "adjective",
+      "meaning": "소급 적용되는",
+      "paraphrasing": ["backdated", "ex post facto"],
+      "collocations": ["retroactive pay increase", "retroactive effect"],
+      "tip": "새로운 법이나 규정이 결정되기 이전의 일까지 거슬러 올라가 적용될 때 씁니다."
+    },
+    {
+      "id": 635,
+      "word": "revenue",
+      "part": "noun",
+      "meaning": "수입, 매출, 세입",
+      "paraphrasing": ["income", "earnings", "yield"],
+      "collocations": ["generate revenue", "annual revenue"],
+      "tip": "기업이 장사를 해서 벌어들인 전체 돈을 뜻하는 경제 용어입니다."
+    },
+    {
+      "id": 636,
+      "word": "reversal",
+      "part": "noun",
+      "meaning": "반전, 역전, 취소",
+      "paraphrasing": ["turnaround", "u-turn", "overturning"],
+      "collocations": ["policy reversal", "dramatic reversal"],
+      "tip": "기존의 결정이나 상황이 180도 완전히 뒤바뀌는 것을 말합니다."
+    },
+    {
+      "id": 637,
+      "word": "review",
+      "part": "verb / noun",
+      "meaning": "검토하다, 비평하다 / 검토, 후기",
+      "paraphrasing": ["examine", "scrutinize; evaluation"],
+      "collocations": ["performance review", "positive review"],
+      "tip": "업무 성과를 평가하거나 제품을 사용해본 소감을 적는 행위입니다."
+    },
+    {
+      "id": 638,
+      "word": "revise",
+      "part": "verb",
+      "meaning": "수정하다, 개정하다",
+      "paraphrasing": ["amend", "modify", "alter"],
+      "collocations": ["revise the plan", "revised edition"],
+      "tip": "기존의 계획, 원고, 법률 등을 더 낫게 고치는 작업을 뜻합니다."
+    },
+    {
+      "id": 639,
+      "word": "revitalize",
+      "part": "verb",
+      "meaning": "새로운 활력을 주다, 재활성화하다",
+      "paraphrasing": ["reinvigorate", "refresh", "restore"],
+      "collocations": ["revitalize the economy", "revitalize the neighborhood"],
+      "tip": "침체된 경제나 낙후된 지역에 생기를 불어넣어 다시 살아나게 할 때 씁니다."
+    },
+    {
+      "id": 640,
+      "word": "rigorous",
+      "part": "adjective",
+      "meaning": "엄격한, 철저한",
+      "paraphrasing": ["strict", "stringent", "thorough"],
+      "collocations": ["rigorous testing", "rigorous standards"],
+      "tip": "기준이 아주 높고 빈틈없이 꼼꼼한 과정을 묘사할 때 사용합니다."
     }
   ]
 }

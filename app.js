@@ -98,12 +98,19 @@ window.addEventListener('touchstart', e => {
 }, { passive: false });
 
 window.addEventListener('touchmove', e => {
-    // 터치 이동 시 브라우저 기본 동작(새로고침 등) 방지
-    if (e.cancelable) e.preventDefault();
+    const currentY = e.touches[0].pageY;
+    const diff = startY - currentY;
+
+    // 카드가 맨 위에 있을 때 아래로 당기는 동작(diff < 0)이 감지되면 
+    // 브라우저 새로고침만 딱 막고, 스와이프 계산은 계속 진행합니다.
+    if (diff < 0 && window.scrollY <= 0) {
+        if (e.cancelable) e.preventDefault();
+    }
 }, { passive: false });
 
 window.addEventListener('touchend', e => {
     const diff = startY - e.changedTouches[0].pageY;
+    // 이동 거리가 50px 이상일 때만 카드 변경 실행
     if (Math.abs(diff) > 50) {
         changeCard(diff > 0 ? 'next' : 'prev');
     }
