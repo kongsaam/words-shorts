@@ -6837,6 +6837,366 @@
       "paraphrasing": ["union", "merger", "integration"],
       "collocations": ["national unification", "unification of standards"],
       "tip": "나뉘어 있던 것들을 하나로 합치는 과정을 뜻합니다."
+    },
+    {
+      "id": 761,
+      "word": "unprecedented",
+      "part": "adjective",
+      "meaning": "전례 없는, 사상 초유의",
+      "paraphrasing": ["unmatched", "extraordinary", "unparalleled"],
+      "collocations": ["unprecedented growth", "unprecedented event"],
+      "tip": "과거에는 한 번도 일어난 적이 없을 정도로 놀라운 일을 묘사할 때 씁니다."
+    },
+    {
+      "id": 762,
+      "word": "unreliable",
+      "part": "adjective",
+      "meaning": "신뢰할 수 없는",
+      "paraphrasing": ["untrustworthy", "fickle", "undependable"],
+      "collocations": ["unreliable source", "unreliable service"],
+      "tip": "자주 고장 나거나 말을 자주 바꿔서 믿고 맡길 수 없는 대상에게 씁니다."
+    },
+    {
+      "id": 763,
+      "word": "unveil",
+      "part": "verb",
+      "meaning": "발표하다, 공개하다",
+      "paraphrasing": ["reveal", "disclose", "introduce"],
+      "collocations": ["unveil a plan", "unveil a new product"],
+      "tip": "새 제품이나 계획의 베일을 벗겨 세상에 처음으로 보여주는 행위입니다."
+    },
+    {
+      "id": 764,
+      "word": "upcoming",
+      "part": "adjective",
+      "meaning": "곧 다가오는, 이번의",
+      "paraphrasing": ["forthcoming", "imminent", "near"],
+      "collocations": ["upcoming election", "upcoming event"],
+      "tip": "가까운 미래에 곧 일어날 예정인 행사나 일정을 가리킵니다."
+    },
+    {
+      "id": 765,
+      "word": "update",
+      "part": "verb / noun",
+      "meaning": "갱신하다, 최신 정보를 주다 / 업데이트",
+      "paraphrasing": ["modernize", "refresh; latest news"],
+      "collocations": ["keep someone updated", "regular updates"],
+      "tip": "정보를 최신 상태로 바꾸거나, 진행 상황을 보고할 때 주로 씁니다."
+    },
+    {
+      "id": 766,
+      "word": "upgrade",
+      "part": "verb / noun",
+      "meaning": "개선하다, 승급시키다 / 업그레이드",
+      "paraphrasing": ["improve", "enhance; advancement"],
+      "collocations": ["upgrade a system", "get an upgrade"],
+      "tip": "기계의 성능을 높이거나 비행기 좌석 등급을 올릴 때 사용합니다."
+    },
+    {
+      "id": 767,
+      "word": "uphold",
+      "part": "verb",
+      "meaning": "유지하다, 옹호하다",
+      "paraphrasing": ["maintain", "support", "sustain"],
+      "collocations": ["uphold a tradition", "uphold the law"],
+      "tip": "법이나 전통, 결정 등을 바꾸지 않고 끝까지 지켜나가는 것입니다."
+    },
+    {
+      "id": 768,
+      "word": "urgent",
+      "part": "adjective",
+      "meaning": "긴급한, 재촉하는",
+      "paraphrasing": ["pressing", "immediate", "critical"],
+      "collocations": ["urgent matter", "urgent need"],
+      "tip": "지체하지 말고 즉시 처리해야 하는 아주 급한 상황을 뜻합니다."
+    },
+    {
+      "id": 769,
+      "word": "utilize",
+      "part": "verb",
+      "meaning": "이용하다, 활용하다",
+      "paraphrasing": ["use", "employ", "make use of"],
+      "collocations": ["fully utilize", "utilize resources"],
+      "tip": "그냥 쓰는 것보다 목적에 맞게 아주 효과적으로 잘 쓸 때 사용하는 단어입니다."
+    },
+    {
+      "id": 770,
+      "word": "vacancy",
+      "part": "noun",
+      "meaning": "결원, 빈방, 공석",
+      "paraphrasing": ["opening", "empty room", "gap"],
+      "collocations": ["job vacancy", "no vacancies"],
+      "tip": "호텔에 빈 방이 있거나 회사에 새로 뽑아야 할 자리가 생겼을 때 씁니다."
+    },
+    {
+      "id": 771,
+      "word": "vague",
+      "part": "adjective",
+      "meaning": "모호한, 희미한",
+      "paraphrasing": ["unclear", "ambiguous", "fuzzy"],
+      "collocations": ["vague idea", "vague answer"],
+      "tip": "기억이 잘 안 나거나 설명이 명확하지 않아 확실히 알기 어려운 상태입니다."
+    },
+    {
+      "id": 772,
+      "word": "valid",
+      "part": "adjective",
+      "meaning": "유효한, 타당한",
+      "paraphrasing": ["effective", "legit", "reasonable"],
+      "collocations": ["valid password", "valid reason"],
+      "tip": "티켓이나 여권의 기간이 남아있거나, 논리가 합당할 때 씁니다."
+    },
+    {
+      "id": 773,
+      "word": "validate",
+      "part": "verb",
+      "meaning": "입증하다, 승인하다",
+      "paraphrasing": ["verify", "confirm", "authenticate"],
+      "collocations": ["validate a theory", "validate parking"],
+      "tip": "그것이 진짜임을 증명하거나 공식적으로 확인해주는 행위입니다."
+    },
+    {
+      "id": 774,
+      "word": "valuation",
+      "part": "noun",
+      "meaning": "가치 평가, 견적",
+      "paraphrasing": ["appraisal", "estimation", "assessment"],
+      "collocations": ["property valuation", "market valuation"],
+      "tip": "부동산이나 기업의 가치가 얼마인지 전문가가 수치로 따져보는 것입니다."
+    },
+    {
+      "id": 775,
+      "word": "variable",
+      "part": "noun / adjective",
+      "meaning": "변수 / 변덕스러운, 가변적인",
+      "paraphrasing": ["factor; changeable", "shifting"],
+      "collocations": ["key variable", "variable costs"],
+      "tip": "상황에 따라 결과에 영향을 주는 요인이나, 자꾸 바뀌는 성질을 말합니다."
+    },
+    {
+      "id": 776,
+      "word": "variation",
+      "part": "noun",
+      "meaning": "차이, 변화, 변형",
+      "paraphrasing": ["difference", "alteration", "diversity"],
+      "collocations": ["wide variation", "slight variation"],
+      "tip": "비슷한 것들 사이에서 나타나는 미세한 차이나 변화된 형태를 뜻합니다."
+    },
+    {
+      "id": 777,
+      "word": "vast",
+      "part": "adjective",
+      "meaning": "방대한, 막대한",
+      "paraphrasing": ["huge", "immense", "enormous"],
+      "collocations": ["vast majority", "vast amount"],
+      "tip": "규모나 수량이 어마어마하게 클 때 사용하는 강조 형용사입니다."
+    },
+    {
+      "id": 778,
+      "word": "vendor",
+      "part": "noun",
+      "meaning": "판매업체, 행상인",
+      "paraphrasing": ["supplier", "seller", "merchant"],
+      "collocations": ["preferred vendor", "street vendor"],
+      "tip": "회사에 부품을 납품하는 업체나 길거리에서 물건을 파는 사람을 가리킵니다."
+    },
+    {
+      "id": 779,
+      "word": "venture",
+      "part": "noun / verb",
+      "meaning": "벤처 기업, 모험 / 위험을 무릅쓰고 가다",
+      "paraphrasing": ["enterprise", "endeavor; risk"],
+      "collocations": ["joint venture", "venture capital"],
+      "tip": "위험이 따르지만 성공하면 큰 이득이 있는 사업적 도전을 의미합니다."
+    },
+    {
+      "id": 780,
+      "word": "verdict",
+      "part": "noun",
+      "meaning": "평결, 판결; 의견",
+      "paraphrasing": ["judgment", "decision", "ruling"],
+      "collocations": ["reach a verdict", "final verdict"],
+      "tip": "법정에서 배심원이 내리는 최종 결론이나, 사람들의 공통된 의견을 말합니다."
+    },
+    {
+      "id": 781,
+      "word": "versatile",
+      "part": "adjective",
+      "meaning": "다재다능한, 다용도의",
+      "paraphrasing": ["adaptable", "all-purpose", "flexible"],
+      "collocations": ["versatile tool", "versatile performer"],
+      "tip": "사람이 여러 일을 다 잘하거나, 물건이 여러 용도로 쓰일 때 사용합니다."
+    },
+    {
+      "id": 782,
+      "word": "vessel",
+      "part": "noun",
+      "meaning": "선박, 배; 그릇, 혈관",
+      "paraphrasing": ["ship", "craft; container"],
+      "collocations": ["cargo vessel", "blood vessel"],
+      "tip": "토익에서는 주로 대형 화물선을 뜻하는 단어로 자주 등장합니다."
+    },
+    {
+      "id": 783,
+      "word": "viable",
+      "part": "adjective",
+      "meaning": "실행 가능한, 성공할 수 있는",
+      "paraphrasing": ["feasible", "workable", "practicable"],
+      "collocations": ["viable option", "economically viable"],
+      "tip": "계획이 그저 이론에 그치지 않고 실제로 구현되어 성공할 가능성이 있을 때 씁니다."
+    },
+    {
+      "id": 784,
+      "word": "vicinity",
+      "part": "noun",
+      "meaning": "인근, 주변",
+      "paraphrasing": ["proximity", "neighborhood", "locality"],
+      "collocations": ["in the vicinity of", "immediate vicinity"],
+      "tip": "특정 장소에서 아주 가까운 거리 내에 있는 지역을 의미합니다."
+    },
+    {
+      "id": 785,
+      "word": "visibility",
+      "part": "noun",
+      "meaning": "시정, 시야; 가시성",
+      "paraphrasing": ["sight", "clarity", "exposure"],
+      "collocations": ["poor visibility", "high visibility"],
+      "tip": "날씨 때문에 앞이 잘 보이는 정도나, 제품이 소비자 눈에 얼마나 띄는지를 말합니다."
+    },
+    {
+      "id": 786,
+      "word": "vulnerable",
+      "part": "adjective",
+      "meaning": "취약한, 상처받기 쉬운",
+      "paraphrasing": ["susceptible", "exposed", "defenseless"],
+      "collocations": ["vulnerable to attack", "economically vulnerable"],
+      "tip": "공격이나 변화, 질병 등에 대해 방어력이 약한 상태를 묘사합니다."
+    },
+    {
+      "id": 787,
+      "word": "waive",
+      "part": "verb",
+      "meaning": "(권리 등을) 포기하다, 적용하지 않다",
+      "paraphrasing": ["give up", "relinquish", "forgo"],
+      "collocations": ["waive the fee", "waive the right"],
+      "tip": "수수료를 면제해 주거나 정당한 권리를 행사하지 않기로 할 때 씁니다."
+    },
+    {
+      "id": 788,
+      "word": "warrant",
+      "part": "noun / verb",
+      "meaning": "영장; 근거 / 정당화하다",
+      "paraphrasing": ["authorization; justification; guarantee"],
+      "collocations": ["search warrant", "warrant a response"],
+      "tip": "법적 영장이라는 뜻 외에, 어떤 조치를 취할 충분한 '이유'가 된다는 뜻으로도 쓰입니다."
+    },
+    {
+      "id": 789,
+      "word": "wary",
+      "part": "adjective",
+      "meaning": "경계하는, 조심하는",
+      "paraphrasing": ["cautious", "careful", "alert"],
+      "collocations": ["be wary of", "wary eye"],
+      "tip": "위험이 있을지 모르니 의심을 가지고 조심스럽게 살피는 태도입니다."
+    },
+    {
+      "id": 790,
+      "word": "wholesale",
+      "part": "noun / adverb",
+      "meaning": "도매 / 도매로",
+      "paraphrasing": ["bulk selling"],
+      "collocations": ["wholesale price", "wholesale distributor"],
+      "tip": "소비자에게 직접 파는 소매(retail)의 반대인 대량 유통 단계를 말합니다."
+    },
+    {
+      "id": 791,
+      "word": "widespread",
+      "part": "adjective",
+      "meaning": "광범위한, 널리 퍼진",
+      "paraphrasing": ["extensive", "common", "prevalent"],
+      "collocations": ["widespread support", "widespread belief"],
+      "tip": "아주 넓은 지역이나 많은 사람들 사이에 널리 퍼져 있는 상태입니다."
+    },
+    {
+      "id": 792,
+      "word": "withdraw",
+      "part": "verb",
+      "meaning": "물러나다, 철수하다; (돈을) 인출하다",
+      "paraphrasing": ["retract", "pull out; extract"],
+      "collocations": ["withdraw money", "withdraw a candidate"],
+      "tip": "은행에서 돈을 찾는 것과, 제안이나 후보 등록을 거둬들이는 것 모두에 씁니다."
+    },
+    {
+      "id": 793,
+      "word": "withhold",
+      "part": "verb",
+      "meaning": "보류하다, 주지 않다",
+      "paraphrasing": ["reserve", "keep back", "detain"],
+      "collocations": ["withhold information", "withhold taxes"],
+      "tip": "정보를 공개하지 않거나, 세금 등을 미리 떼고 나머지만 줄 때 사용합니다."
+    },
+    {
+      "id": 794,
+      "word": "withstand",
+      "part": "verb",
+      "meaning": "견디다, 저항하다",
+      "paraphrasing": ["endure", "resist", "bear"],
+      "collocations": ["withstand pressure", "withstand high temperatures"],
+      "tip": "외부의 강한 힘이나 압력에도 굴하지 않고 버티어 내는 것을 말합니다."
+    },
+    {
+      "id": 795,
+      "word": "workplace",
+      "part": "noun",
+      "meaning": "작업장, 일터",
+      "paraphrasing": ["office", "workshop"],
+      "collocations": ["workplace safety", "modern workplace"],
+      "tip": "업무가 이루어지는 모든 물리적인 장소를 포괄하는 단어입니다."
+    },
+    {
+      "id": 796,
+      "word": "worldwide",
+      "part": "adjective / adverb",
+      "meaning": "전 세계적인 / 전 세계적으로",
+      "paraphrasing": ["global", "universal", "international"],
+      "collocations": ["worldwide fame", "available worldwide"],
+      "tip": "지구상의 모든 곳에 영향을 미치거나 퍼져 있는 상태를 뜻합니다."
+    },
+    {
+      "id": 797,
+      "word": "worthwhile",
+      "part": "adjective",
+      "meaning": "가치 있는, 보람 있는",
+      "paraphrasing": ["valuable", "rewarding", "useful"],
+      "collocations": ["worthwhile experience", "deem it worthwhile"],
+      "tip": "시간이나 노력을 들일 만한 가치가 충분히 있는 일을 묘사합니다."
+    },
+    {
+      "id": 798,
+      "word": "worthy",
+      "part": "adjective",
+      "meaning": "가치 있는, ~을 받을 만한",
+      "paraphrasing": ["deserving", "meritorious", "estimable"],
+      "collocations": ["worthy cause", "praiseworthy"],
+      "tip": "칭찬이나 도움을 받을 자격이 충분히 있는 대상을 뜻합니다."
+    },
+    {
+      "id": 799,
+      "word": "yield",
+      "part": "verb / noun",
+      "meaning": "산출하다, 양보하다 / 수확량, 수익률",
+      "paraphrasing": ["produce; surrender; profit", "harvest"],
+      "collocations": ["high yield", "yield to traffic"],
+      "tip": "농작물의 수확량이나 투자 대비 수익률을 뜻할 때 토익에 많이 나옵니다."
+    },
+    {
+      "id": 800,
+      "word": "zeal",
+      "part": "noun",
+      "meaning": "열의, 열성",
+      "paraphrasing": ["enthusiasm", "passion", "eagerness"],
+      "collocations": ["missionary zeal", "show great zeal"],
+      "tip": "어떤 일에 대해 아주 뜨거운 관심과 에너지를 쏟는 마음 상태입니다."
     }
   ]
 }

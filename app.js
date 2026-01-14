@@ -1,7 +1,8 @@
 let words = [];
 let currentIndex = 0;
-let startY = 0;
+let touchStartY = 0;
 let isDragging = false;
+let startY = 0;
 let isThrottled = false;
 
 const container = document.getElementById('card-container');
@@ -26,20 +27,16 @@ function renderCard(index) {
 
     let fontSize = "2.5rem";
     let letterSpacing = "normal";
-    const len = word.word.length;
-    
-    if (len > 20) {
+    if (word.word.length > 20) {
         fontSize = "1.2rem";
         letterSpacing = "-1px";
-    } else if (len > 15) {
+    } else if (word.word.length > 15) {
         fontSize = "1.4rem";
         letterSpacing = "-0.5px";
-    } else if (len > 10) {
-        fontSize = "1.8rem";
     }
 
     container.innerHTML = `
-        <div class="card" id="current-card">
+        <div class="card">
             <div class="inner-card" id="inner-card">
                 <div class="front">
                     <span class="word-text" style="font-size: ${fontSize}; letter-spacing: ${letterSpacing};">
@@ -91,34 +88,28 @@ function changeCard(direction) {
     renderCard(currentIndex);
 }
 
-// [입력 제어]
-// 1. 모바일 터치 (새로고침 방지 포함)
+// [모바일 터치 제어 - 클릭 방해 없는 새로고침 방지]
 window.addEventListener('touchstart', e => { 
-    startY = e.touches[0].pageY; 
-}, { passive: false });
+    touchStartY = e.touches[0].pageY; 
+}, { passive: true });
 
 window.addEventListener('touchmove', e => {
-    // 현재 터치된 요소가 카드 뒷면 내부의 내용인지 확인
-    const isScrollableBack = e.target.closest('.back');
-    
-    // 카드 뒷면 내부에서 스크롤 중일 때는 브라우저 차단을 하지 않음 (스크롤 허용)
-    if (isScrollableBack) {
-        return; 
+    const currentY = e.touches[0].pageY;
+    const diff = touchStartY - currentY;
+    if (e.target.closest('.back')) return;
+    if (diff < 0 && window.scrollY <= 0) {
+        if (e.cancelable) e.preventDefault();
     }
-    
-    // 그 외의 경우(앞면, 배경 등)는 새로고침/전체스크롤 방지
-    if (e.cancelable) e.preventDefault();
 }, { passive: false });
 
 window.addEventListener('touchend', e => {
-    const diff = startY - e.changedTouches[0].pageY;
-    // 이동 거리가 50px 이상일 때만 카드 변경 실행
+    const diff = touchStartY - e.changedTouches[0].pageY;
     if (Math.abs(diff) > 50) {
         changeCard(diff > 0 ? 'next' : 'prev');
     }
-}, { passive: false });
+}, { passive: true });
 
-// 2. 마우스 클릭 드래그
+// [기타 입력 제어]
 window.addEventListener('mousedown', e => { startY = e.pageY; isDragging = true; });
 window.addEventListener('mouseup', e => {
     if (!isDragging) return;
@@ -127,7 +118,6 @@ window.addEventListener('mouseup', e => {
     isDragging = false;
 });
 
-// 3. 키보드 (스페이스, 방향키, 엔터)
 window.addEventListener('keydown', e => {
     if (e.code === 'Space' || e.key === 'ArrowDown') {
         e.preventDefault();
@@ -141,7 +131,6 @@ window.addEventListener('keydown', e => {
     }
 });
 
-// 4. 마우스 휠
 window.addEventListener('wheel', e => {
     if (isThrottled) return;
     if (Math.abs(e.deltaY) > 20) {
